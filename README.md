@@ -5,4 +5,4 @@ Game Overview Dobby’s Night Out is a role-playing-game (RPG) where you play an
 
 Game Mechanics In third person, Dobby can move left, right, forwards and backwards using ‘WASD’ or arrow keys. Additionally, the character can jump, crouch, and it will utilize natural physics, regular collision handling, and interaction points. There are additional cat powers that can be purchased using spiders and controlled using additional keys such as other letters. Going through each level, there will be cut scenes, interactive puzzles, narrative dialogue, item pickup, and hazards. XP levels, quest-based progression. Quests include riddles and puzzles.
 
-By: Oneth, Hanjing, Ghanwa, Mark, Hadasse
+By: Oneth, Hanjing, Ghanwa, Mark, and Hadasse
