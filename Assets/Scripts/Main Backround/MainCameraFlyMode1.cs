@@ -16,6 +16,7 @@ namespace SkyBackgroundsPixelArt6
 
         private void Update()
         {
+            if (player == null) return;
             Camera.main.orthographicSize = 5.0f;
 
             float smoothSpeed = 5.0f;
