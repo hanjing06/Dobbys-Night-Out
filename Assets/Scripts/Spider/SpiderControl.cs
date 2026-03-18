@@ -13,4 +13,14 @@ public class SpiderControl : MonoBehaviour
     {
         
     }
+    
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("player"))
+        {
+            //numSpiders++;
+            //Debug.Log("Spider touched! Total: " + numSpiders);
+            Destroy(gameObject);
+        }
+    }
 }

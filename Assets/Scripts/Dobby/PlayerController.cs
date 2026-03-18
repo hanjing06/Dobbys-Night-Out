@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         move();
+        
     }
 
     void FixedUpdate()
@@ -83,13 +84,15 @@ public class PlayerController : MonoBehaviour
 	public void collectSpider(){
 		numSpiders++;
 }
-void OnCollisionEnter(Collision collision)
+void OnTriggerEnter2D(Collider2D other)
 {
-    if (collision.gameObject.CompareTag("spider"))
+    Debug.Log("Triggered with: " + other.gameObject.name);
+
+    if (other.CompareTag("spider"))
     {
         numSpiders++;
         Debug.Log("Spider touched! Total: " + numSpiders);
-		//Destroy(collision.gameObject.Tag("spider"));
+        Destroy(other.gameObject);
     }
 }
 }
