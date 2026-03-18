@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float runSpeed = 7f;
     [SerializeField] private bool canSprint = true;
      private float CurrentSpeed;
+     private int numSpiders;
      
     public Vector3 playerMoveDirection;
     // Update is called once per frame
@@ -74,4 +75,21 @@ public class PlayerController : MonoBehaviour
         }
         return false;
     }
+
+	public int getNumSpiders(){
+		return numSpiders;
+
+}
+	public void collectSpider(){
+		numSpiders++;
+}
+void OnCollisionEnter(Collision collision)
+{
+    if (collision.gameObject.CompareTag("Spider"))
+    {
+        numSpiders++;
+        Debug.Log("Spider touched! Total: " + numSpiders);
+		Destroy(other.gameObject);
+    }
+}
 }

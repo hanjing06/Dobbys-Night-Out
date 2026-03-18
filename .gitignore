@@ -120,3 +120,4 @@ InitTestScene*.unity*
 MemoryCaptures/
 Recordings/
 sysinfo.txt
+.DS_Store
