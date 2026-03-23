@@ -1,0 +1,7163 @@
+fileFormatVersion: 2
+guid: 4ee8d4f695f524d6fb1470f177a62bc4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7305641826919242612
+    second: HelpPanel_0
+  - first:
+      213: 2207446124889798803
+    second: HelpPanel_1
+  - first:
+      213: 1457758058225401775
+    second: HelpPanel_2
+  - first:
+      213: -8081543341201512936
+    second: HelpPanel_3
+  - first:
+      213: 4420045267749247618
+    second: HelpPanel_4
+  - first:
+      213: -6510327283507600232
+    second: HelpPanel_5
+  - first:
+      213: 5911089298794040964
+    second: HelpPanel_6
+  - first:
+      213: -8432545347029872992
+    second: HelpPanel_7
+  - first:
+      213: 5591953558068274780
+    second: HelpPanel_8
+  - first:
+      213: 5697569115078327012
+    second: HelpPanel_9
+  - first:
+      213: -196359834926420200
+    second: HelpPanel_10
+  - first:
+      213: -6611082514831262195
+    second: HelpPanel_11
+  - first:
+      213: -334263330782743186
+    second: HelpPanel_12
+  - first:
+      213: -6554546819643432553
+    second: HelpPanel_13
+  - first:
+      213: 7003708131397089346
+    second: HelpPanel_14
+  - first:
+      213: 1141941262780974717
+    second: HelpPanel_15
+  - first:
+      213: -7023120503933742632
+    second: HelpPanel_16
+  - first:
+      213: -465369989460165757
+    second: HelpPanel_17
+  - first:
+      213: -7013816736274575381
+    second: HelpPanel_18
+  - first:
+      213: 1750522550602321801
+    second: HelpPanel_19
+  - first:
+      213: -3503952522347680131
+    second: HelpPanel_20
+  - first:
+      213: -1743474158222509332
+    second: HelpPanel_21
+  - first:
+      213: 1442856835803991132
+    second: HelpPanel_22
+  - first:
+      213: -5466920411472547125
+    second: HelpPanel_23
+  - first:
+      213: -1458321068524161630
+    second: HelpPanel_24
+  - first:
+      213: 7909684179201849523
+    second: HelpPanel_25
+  - first:
+      213: -7511190255287171381
+    second: HelpPanel_26
+  - first:
+      213: 5808846709064895560
+    second: HelpPanel_27
+  - first:
+      213: 2075711349688392750
+    second: HelpPanel_28
+  - first:
+      213: 1153383803398868163
+    second: HelpPanel_29
+  - first:
+      213: 953723927433327014
+    second: HelpPanel_30
+  - first:
+      213: 6683592750275234459
+    second: HelpPanel_31
+  - first:
+      213: -2430258038169216518
+    second: HelpPanel_32
+  - first:
+      213: 7960323399889945290
+    second: HelpPanel_33
+  - first:
+      213: 7134012303002931651
+    second: HelpPanel_34
+  - first:
+      213: -5792352935478952417
+    second: HelpPanel_35
+  - first:
+      213: -7580511228523747635
+    second: HelpPanel_36
+  - first:
+      213: -169460616015866877
+    second: HelpPanel_37
+  - first:
+      213: 4060911012204452509
+    second: HelpPanel_38
+  - first:
+      213: 6913217208838064024
+    second: HelpPanel_39
+  - first:
+      213: 8964038695992431446
+    second: HelpPanel_40
+  - first:
+      213: 6079422073746457189
+    second: HelpPanel_41
+  - first:
+      213: -4555969310675351208
+    second: HelpPanel_42
+  - first:
+      213: 3714323191939564178
+    second: HelpPanel_43
+  - first:
+      213: 8198173645095972029
+    second: HelpPanel_44
+  - first:
+      213: 6820602880576487535
+    second: HelpPanel_45
+  - first:
+      213: -3537272880490202123
+    second: HelpPanel_46
+  - first:
+      213: 898661159681361052
+    second: HelpPanel_47
+  - first:
+      213: -8942228930823410148
+    second: HelpPanel_48
+  - first:
+      213: -2213124193833569270
+    second: HelpPanel_49
+  - first:
+      213: 8072189014378701810
+    second: HelpPanel_50
+  - first:
+      213: -5169207025299370709
+    second: HelpPanel_51
+  - first:
+      213: -8655555850023783970
+    second: HelpPanel_52
+  - first:
+      213: 1257011872922587583
+    second: HelpPanel_53
+  - first:
+      213: -8807860830461379625
+    second: HelpPanel_54
+  - first:
+      213: 1647517786463145653
+    second: HelpPanel_55
+  - first:
+      213: -1551603644120707173
+    second: HelpPanel_56
+  - first:
+      213: 1236551267398651550
+    second: HelpPanel_57
+  - first:
+      213: -1591523349551617484
+    second: HelpPanel_58
+  - first:
+      213: 6136188699733346958
+    second: HelpPanel_59
+  - first:
+      213: 983516978507729742
+    second: HelpPanel_60
+  - first:
+      213: 2673767477907548410
+    second: HelpPanel_61
+  - first:
+      213: -3797389247187366639
+    second: HelpPanel_62
+  - first:
+      213: 4240799964549365590
+    second: HelpPanel_63
+  - first:
+      213: 7357128492791717264
+    second: HelpPanel_64
+  - first:
+      213: -3557689594019032825
+    second: HelpPanel_65
+  - first:
+      213: -3255532518790036208
+    second: HelpPanel_66
+  - first:
+      213: 6311400410172925
+    second: HelpPanel_67
+  - first:
+      213: -2275396432186088962
+    second: HelpPanel_68
+  - first:
+      213: 579791133751503958
+    second: HelpPanel_69
+  - first:
+      213: -6395716854128033871
+    second: HelpPanel_70
+  - first:
+      213: -4132048204501969258
+    second: HelpPanel_71
+  - first:
+      213: -5367297986905280400
+    second: HelpPanel_72
+  - first:
+      213: -340818162795355383
+    second: HelpPanel_73
+  - first:
+      213: -8167779798715825132
+    second: HelpPanel_74
+  - first:
+      213: -3341517586837726576
+    second: HelpPanel_75
+  - first:
+      213: -3000239500846881193
+    second: HelpPanel_76
+  - first:
+      213: -1687923122903946370
+    second: HelpPanel_77
+  - first:
+      213: 999185760964205098
+    second: HelpPanel_78
+  - first:
+      213: 1393334644409345386
+    second: HelpPanel_79
+  - first:
+      213: 5981824083809682843
+    second: HelpPanel_80
+  - first:
+      213: 2553847396216075752
+    second: HelpPanel_81
+  - first:
+      213: 3290334248594605876
+    second: HelpPanel_82
+  - first:
+      213: -7283267358198431865
+    second: HelpPanel_83
+  - first:
+      213: -6481457845556614086
+    second: HelpPanel_84
+  - first:
+      213: -6078476297145353299
+    second: HelpPanel_85
+  - first:
+      213: -7463654488330451723
+    second: HelpPanel_86
+  - first:
+      213: 8321240088389476161
+    second: HelpPanel_87
+  - first:
+      213: -6418154666925095729
+    second: HelpPanel_88
+  - first:
+      213: 7155304275235483758
+    second: HelpPanel_89
+  - first:
+      213: -8698431688607269697
+    second: HelpPanel_90
+  - first:
+      213: 5381451143000524107
+    second: HelpPanel_91
+  - first:
+      213: 1888017841025775560
+    second: HelpPanel_92
+  - first:
+      213: -7317033804578086896
+    second: HelpPanel_93
+  - first:
+      213: -1604283012875403359
+    second: HelpPanel_94
+  - first:
+      213: -4348221125412235799
+    second: HelpPanel_95
+  - first:
+      213: -3146336156575081606
+    second: HelpPanel_96
+  - first:
+      213: 6342174901054220487
+    second: HelpPanel_97
+  - first:
+      213: -1356793884080068612
+    second: HelpPanel_98
+  - first:
+      213: 32843105841707910
+    second: HelpPanel_99
+  - first:
+      213: -916879375199336314
+    second: HelpPanel_100
+  - first:
+      213: 3065023412036855407
+    second: HelpPanel_101
+  - first:
+      213: -2958862362470869120
+    second: HelpPanel_102
+  - first:
+      213: 6248983275319495259
+    second: HelpPanel_103
+  - first:
+      213: 8021936791163959923
+    second: HelpPanel_104
+  - first:
+      213: -183090630674234944
+    second: HelpPanel_105
+  - first:
+      213: -167935723186471142
+    second: HelpPanel_106
+  - first:
+      213: -7836162237905194260
+    second: HelpPanel_107
+  - first:
+      213: 3417599022549430543
+    second: HelpPanel_108
+  - first:
+      213: -553410708743407985
+    second: HelpPanel_109
+  - first:
+      213: 7442662702682193762
+    second: HelpPanel_110
+  - first:
+      213: -2960823245669197866
+    second: HelpPanel_111
+  - first:
+      213: 7974023952685156129
+    second: HelpPanel_112
+  - first:
+      213: -3526882798382714151
+    second: HelpPanel_113
+  - first:
+      213: 408100900530624199
+    second: HelpPanel_114
+  - first:
+      213: 769550469136370850
+    second: HelpPanel_115
+  - first:
+      213: -9096264607510428650
+    second: HelpPanel_116
+  - first:
+      213: 4560906287630942918
+    second: HelpPanel_117
+  - first:
+      213: -1890416483298750117
+    second: HelpPanel_118
+  - first:
+      213: 3322434304506958854
+    second: HelpPanel_119
+  - first:
+      213: -665038666566120128
+    second: HelpPanel_120
+  - first:
+      213: 5386481075626047385
+    second: HelpPanel_121
+  - first:
+      213: 4084070627521218276
+    second: HelpPanel_122
+  - first:
+      213: 1239208666252951119
+    second: HelpPanel_123
+  - first:
+      213: -2804993105411125697
+    second: HelpPanel_124
+  - first:
+      213: -1820509992325035762
+    second: HelpPanel_125
+  - first:
+      213: -1827235157821770270
+    second: HelpPanel_126
+  - first:
+      213: -8415626221314865644
+    second: HelpPanel_127
+  - first:
+      213: -8783127904719480980
+    second: HelpPanel_128
+  - first:
+      213: 4844834924433752612
+    second: HelpPanel_129
+  - first:
+      213: -4840760419221603502
+    second: HelpPanel_130
+  - first:
+      213: -650230909287025903
+    second: HelpPanel_131
+  - first:
+      213: -5600068429731625702
+    second: HelpPanel_132
+  - first:
+      213: -5495759389838098916
+    second: HelpPanel_133
+  - first:
+      213: 4241864233976339852
+    second: HelpPanel_134
+  - first:
+      213: -2657489339613169238
+    second: HelpPanel_135
+  - first:
+      213: -7826718966378116332
+    second: HelpPanel_136
+  - first:
+      213: 4822521708890497312
+    second: HelpPanel_137
+  - first:
+      213: -2271689491153022483
+    second: HelpPanel_138
+  - first:
+      213: 3109790055450267359
+    second: HelpPanel_139
+  - first:
+      213: 2370401905853964359
+    second: HelpPanel_140
+  - first:
+      213: 6012601769875206224
+    second: HelpPanel_141
+  - first:
+      213: 3598104525479615477
+    second: HelpPanel_142
+  - first:
+      213: -2390647169855654471
+    second: HelpPanel_143
+  - first:
+      213: -8592516803800273119
+    second: HelpPanel_144
+  - first:
+      213: 4602842385479611772
+    second: HelpPanel_145
+  - first:
+      213: 2332361250681928635
+    second: HelpPanel_146
+  - first:
+      213: 5510410269534356332
+    second: HelpPanel_147
+  - first:
+      213: 8022558155919148282
+    second: HelpPanel_148
+  - first:
+      213: -4491213263858783557
+    second: HelpPanel_149
+  - first:
+      213: 630644968119081047
+    second: HelpPanel_150
+  - first:
+      213: -4062944193327702142
+    second: HelpPanel_151
+  - first:
+      213: -2908666125932136680
+    second: HelpPanel_152
+  - first:
+      213: 6651169398685746450
+    second: HelpPanel_153
+  - first:
+      213: 2808999708714213522
+    second: HelpPanel_154
+  - first:
+      213: 791891113737177885
+    second: HelpPanel_155
+  - first:
+      213: 2672730790164154995
+    second: HelpPanel_156
+  - first:
+      213: 1193372726758893865
+    second: HelpPanel_157
+  - first:
+      213: -1780475016793774631
+    second: HelpPanel_158
+  - first:
+      213: 2283345843429421653
+    second: HelpPanel_159
+  - first:
+      213: 8556754358307504518
+    second: HelpPanel_160
+  - first:
+      213: -1745545403396521079
+    second: HelpPanel_161
+  - first:
+      213: 7233611649922028901
+    second: HelpPanel_162
+  - first:
+      213: -3704784637811054447
+    second: HelpPanel_163
+  - first:
+      213: -8265396981309154136
+    second: HelpPanel_164
+  - first:
+      213: -4298410316174745827
+    second: HelpPanel_165
+  - first:
+      213: 3120713728157924641
+    second: HelpPanel_166
+  - first:
+      213: -8369838101211988924
+    second: HelpPanel_167
+  - first:
+      213: -3526139758742708971
+    second: HelpPanel_168
+  - first:
+      213: 2020204515903896098
+    second: HelpPanel_169
+  - first:
+      213: -8692057727423037615
+    second: HelpPanel_170
+  - first:
+      213: 5226336095019712290
+    second: HelpPanel_171
+  - first:
+      213: -8372763969453747715
+    second: HelpPanel_172
+  - first:
+      213: -4991113134553714410
+    second: HelpPanel_173
+  - first:
+      213: 8362085780907040996
+    second: HelpPanel_174
+  - first:
+      213: 7625025433499751882
+    second: HelpPanel_175
+  - first:
+      213: 2022283114450529917
+    second: HelpPanel_176
+  - first:
+      213: -4412628798124109153
+    second: HelpPanel_177
+  - first:
+      213: 4881358091647317195
+    second: HelpPanel_178
+  - first:
+      213: 7478311096437199220
+    second: HelpPanel_179
+  - first:
+      213: -4918492816680271734
+    second: HelpPanel_180
+  - first:
+      213: -6859507000042708386
+    second: HelpPanel_181
+  - first:
+      213: -2028775996363695784
+    second: HelpPanel_182
+  - first:
+      213: -1356842925278715236
+    second: HelpPanel_183
+  - first:
+      213: -6262434799078348003
+    second: HelpPanel_184
+  - first:
+      213: -7657571019218580371
+    second: HelpPanel_185
+  - first:
+      213: -5116791317836534872
+    second: HelpPanel_186
+  - first:
+      213: 8677999052855770952
+    second: HelpPanel_187
+  - first:
+      213: 7150018173592922453
+    second: HelpPanel_188
+  - first:
+      213: 1537711728700672243
+    second: HelpPanel_189
+  - first:
+      213: 4713117628611966868
+    second: HelpPanel_190
+  - first:
+      213: 5620497480380956312
+    second: HelpPanel_191
+  - first:
+      213: 7611970455271875370
+    second: HelpPanel_192
+  - first:
+      213: 8660883233232869698
+    second: HelpPanel_193
+  - first:
+      213: -310834728968668491
+    second: HelpPanel_194
+  - first:
+      213: 6246134026786652264
+    second: HelpPanel_195
+  - first:
+      213: -2739099044220880440
+    second: HelpPanel_196
+  - first:
+      213: 8015574694234649911
+    second: HelpPanel_197
+  - first:
+      213: -4557425145559330868
+    second: HelpPanel_198
+  - first:
+      213: 1254507487182454524
+    second: HelpPanel_199
+  - first:
+      213: 1301911865937970339
+    second: HelpPanel_200
+  - first:
+      213: 5447726601166145576
+    second: HelpPanel_201
+  - first:
+      213: -2991128630872797637
+    second: HelpPanel_202
+  - first:
+      213: -3808462893062999860
+    second: HelpPanel_203
+  - first:
+      213: -6369659839508177095
+    second: HelpPanel_204
+  - first:
+      213: 8507213920540194523
+    second: HelpPanel_205
+  - first:
+      213: 179736875931719954
+    second: HelpPanel_206
+  - first:
+      213: 4667084144835908444
+    second: HelpPanel_207
+  - first:
+      213: -90170886941724043
+    second: HelpPanel_208
+  - first:
+      213: 2405837994132052108
+    second: HelpPanel_209
+  - first:
+      213: -5504268072679822510
+    second: HelpPanel_210
+  - first:
+      213: 8231850568609579648
+    second: HelpPanel_211
+  - first:
+      213: -5548034200054797314
+    second: HelpPanel_212
+  - first:
+      213: -873419999155663193
+    second: HelpPanel_213
+  - first:
+      213: 4948845306782068337
+    second: HelpPanel_214
+  - first:
+      213: 6154924067752029539
+    second: HelpPanel_215
+  - first:
+      213: -2839062638390388856
+    second: HelpPanel_216
+  - first:
+      213: -5194584462948222103
+    second: HelpPanel_217
+  - first:
+      213: -2316779133147622863
+    second: HelpPanel_218
+  - first:
+      213: -1990418325154158475
+    second: HelpPanel_219
+  - first:
+      213: -3204834148523307930
+    second: HelpPanel_220
+  - first:
+      213: -5267941830391447515
+    second: HelpPanel_221
+  - first:
+      213: 3421679031717132677
+    second: HelpPanel_222
+  - first:
+      213: 7011699646505800297
+    second: HelpPanel_223
+  - first:
+      213: 7784340443904014472
+    second: HelpPanel_224
+  - first:
+      213: 803002912211495574
+    second: HelpPanel_225
+  - first:
+      213: 4960071851095190241
+    second: HelpPanel_226
+  - first:
+      213: -2267854590337658878
+    second: HelpPanel_227
+  - first:
+      213: -5382933274339866281
+    second: HelpPanel_228
+  - first:
+      213: 8108781546936191624
+    second: HelpPanel_229
+  - first:
+      213: 8961811328852486836
+    second: HelpPanel_230
+  - first:
+      213: -494645431041664100
+    second: HelpPanel_231
+  - first:
+      213: -1040497733625080909
+    second: HelpPanel_232
+  - first:
+      213: -3400767311051821344
+    second: HelpPanel_233
+  - first:
+      213: -3707564663623161600
+    second: HelpPanel_234
+  - first:
+      213: 5910634311278446995
+    second: HelpPanel_235
+  - first:
+      213: -6664522920357909150
+    second: HelpPanel_236
+  - first:
+      213: 1731755620534740802
+    second: HelpPanel_237
+  - first:
+      213: -6178660415522389684
+    second: HelpPanel_238
+  - first:
+      213: -7304891845646920767
+    second: HelpPanel_239
+  - first:
+      213: 3611575549530099666
+    second: HelpPanel_240
+  - first:
+      213: 1777012671383049862
+    second: HelpPanel_241
+  - first:
+      213: 2809474900470749310
+    second: HelpPanel_242
+  - first:
+      213: -4402360907569688759
+    second: HelpPanel_243
+  - first:
+      213: -6232840158139808791
+    second: HelpPanel_244
+  - first:
+      213: 2543956563463693327
+    second: HelpPanel_245
+  - first:
+      213: -3577814926534746739
+    second: HelpPanel_246
+  - first:
+      213: 5742839232329943620
+    second: HelpPanel_247
+  - first:
+      213: -8855339193548895127
+    second: HelpPanel_248
+  - first:
+      213: 5897906197760522474
+    second: HelpPanel_249
+  - first:
+      213: 5306153216466983578
+    second: HelpPanel_250
+  - first:
+      213: 3993180756892203490
+    second: HelpPanel_251
+  - first:
+      213: 6875495678991548271
+    second: HelpPanel_252
+  - first:
+      213: -7609101829612029416
+    second: HelpPanel_253
+  - first:
+      213: 6202247066690608509
+    second: HelpPanel_254
+  - first:
+      213: -5664142843860634738
+    second: HelpPanel_255
+  - first:
+      213: 2965082787700414481
+    second: HelpPanel_256
+  - first:
+      213: 3208260300720442397
+    second: HelpPanel_257
+  - first:
+      213: 7447966344043549121
+    second: HelpPanel_258
+  - first:
+      213: -3309860406557242804
+    second: HelpPanel_259
+  - first:
+      213: -814850230983236855
+    second: HelpPanel_260
+  - first:
+      213: 6990340876485560026
+    second: HelpPanel_261
+  - first:
+      213: -7192265767740485881
+    second: HelpPanel_262
+  - first:
+      213: 5729449825748634297
+    second: HelpPanel_263
+  - first:
+      213: 8764282369430961476
+    second: HelpPanel_264
+  - first:
+      213: -8371099394036818093
+    second: HelpPanel_265
+  - first:
+      213: -4528776925183166434
+    second: HelpPanel_266
+  - first:
+      213: 8123758228978289063
+    second: HelpPanel_267
+  - first:
+      213: -2466268935897615801
+    second: HelpPanel_268
+  - first:
+      213: -3671519548699706131
+    second: HelpPanel_269
+  - first:
+      213: 8887080140589140577
+    second: HelpPanel_270
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HelpPanel_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 837
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bd1cdd88ad26560800000000000000
+      internalID: 7305641826919242612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 837
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3987ed61e8c62ae10800000000000000
+      internalID: 2207446124889798803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 837
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faffcfcfa3ffa3410800000000000000
+      internalID: 1457758058225401775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_3
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 837
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816a2c6262798df80800000000000000
+      internalID: -8081543341201512936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_4
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 837
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a175ba0c7275d30800000000000000
+      internalID: 4420045267749247618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_5
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 837
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894eefe24dba6a5a0800000000000000
+      internalID: -6510327283507600232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_6
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 837
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e4b322668680250800000000000000
+      internalID: 5911089298794040964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_7
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 837
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae49e53fa499fa80800000000000000
+      internalID: -8432545347029872992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_8
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 837
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c562425322c9a9d40800000000000000
+      internalID: 5591953558068274780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_9
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 837
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eafa735ce4d11f40800000000000000
+      internalID: 5697569115078327012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_10
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 837
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f6e0f35c3664df0800000000000000
+      internalID: -196359834926420200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_11
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 837
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ebfa2da77b044a0800000000000000
+      internalID: -6611082514831262195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_12
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 883
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65714b85457c5bf0800000000000000
+      internalID: -334263330782743186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_13
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 837
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791ac7f15629905a0800000000000000
+      internalID: -6554546819643432553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 763
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2483072307b223160800000000000000
+      internalID: 7003708131397089346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_15
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 763
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76cb6a378df8df00800000000000000
+      internalID: 1141941262780974717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_16
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 763
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1544c9c1dd88e90800000000000000
+      internalID: -7023120503933742632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_17
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 763
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b7911d57caa89f0800000000000000
+      internalID: -465369989460165757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_18
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 763
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef0aa2d6dae9ae90800000000000000
+      internalID: -7013816736274575381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_19
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 763
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f46ff2cfa1b4810800000000000000
+      internalID: 1750522550602321801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_20
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 763
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ee1a3eeb57f5fc0800000000000000
+      internalID: -3503952522347680131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_21
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 763
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceaf21c8d7fedc7e0800000000000000
+      internalID: -1743474158222509332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_22
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 763
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c47d7c5ae060410800000000000000
+      internalID: 1442856835803991132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_23
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 763
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2b8dac9d89124b0800000000000000
+      internalID: -5466920411472547125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_24
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 763
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a53626f6b003cbe0800000000000000
+      internalID: -1458321068524161630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_25
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 763
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b87ada8ad7d4cd60800000000000000
+      internalID: 7909684179201849523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_26
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 683
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc68b314244e2c790800000000000000
+      internalID: -7511190255287171381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_27
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 684
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c82882e4b2d9050800000000000000
+      internalID: 5808846709064895560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_28
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 684
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c5c6699786ecc10800000000000000
+      internalID: 2075711349688392750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_29
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 684
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc47435574a10010800000000000000
+      internalID: 1153383803398868163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_30
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 683
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a13474ebde4c3d00800000000000000
+      internalID: 953723927433327014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_31
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 683
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a0887f134e0cc50800000000000000
+      internalID: 6683592750275234459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_32
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 683
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9d26ab03df54ed0800000000000000
+      internalID: -2430258038169216518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_33
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 683
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac28ba3e4ffb87e60800000000000000
+      internalID: 7960323399889945290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_34
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 684
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c191c7546a110360800000000000000
+      internalID: 7134012303002931651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_35
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 684
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ef513c1bd6d9fa0800000000000000
+      internalID: -5792352935478952417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_36
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 684
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc66bff633d9cc690800000000000000
+      internalID: -7580511228523747635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_37
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 683
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30494f2b774f5adf0800000000000000
+      internalID: -169460616015866877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_38
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 683
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a1beacc014b5830800000000000000
+      internalID: 4060911012204452509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_39
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 684
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89709e37c6ea0ff50800000000000000
+      internalID: 6913217208838064024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_40
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 683
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6531c7353b9a66c70800000000000000
+      internalID: 8964038695992431446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_41
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 684
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56283597a227e5450800000000000000
+      internalID: 6079422073746457189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_42
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 684
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8594d9dec02f5c0c0800000000000000
+      internalID: -4555969310675351208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_43
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 683
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2928d84834deb8330800000000000000
+      internalID: 3714323191939564178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_44
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 680
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc2ae29e73c5c170800000000000000
+      internalID: 8198173645095972029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_45
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 684
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6084cace26a7ae50800000000000000
+      internalID: 6820602880576487535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_46
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 683
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb32c47e0519eec0800000000000000
+      internalID: -3537272880490202123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_47
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 684
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c948f3c309fa87c00800000000000000
+      internalID: 898661159681361052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_48
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 683
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1eac065a22d6e380800000000000000
+      internalID: -8942228930823410148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_49
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 683
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a043ab675476941e0800000000000000
+      internalID: -2213124193833569270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_50
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 683
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f36ad9e32d260070800000000000000
+      internalID: 8072189014378701810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_51
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 683
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2dc39e19994348b0800000000000000
+      internalID: -5169207025299370709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_52
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 683
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed137c140d941e780800000000000000
+      internalID: -8655555850023783970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_53
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 642
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1dff373adc17110800000000000000
+      internalID: 1257011872922587583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_54
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 642
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbb541ad3134c580800000000000000
+      internalID: -8807860830461379625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_55
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 643
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be0647a2b82dd610800000000000000
+      internalID: 1647517786463145653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_56
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 642
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9fcbf7d4b8977ae0800000000000000
+      internalID: -1551603644120707173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_57
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 643
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e0bdf73dc192110800000000000000
+      internalID: 1236551267398651550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_58
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 642
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a6c3222f5c9e9e0800000000000000
+      internalID: -1591523349551617484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_59
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 642
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a4f5a8c1f182550800000000000000
+      internalID: 6136188699733346958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_60
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 643
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4bc4862b7726ad00800000000000000
+      internalID: 983516978507729742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_61
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 643
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8ebacda512b1520800000000000000
+      internalID: 2673767477907548410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_62
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 561
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d428f5996fc4bc0800000000000000
+      internalID: -3797389247187366639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_63
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 561
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f347a59195ada30800000000000000
+      internalID: 4240799964549365590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_64
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 560
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d51cb6265c91660800000000000000
+      internalID: 7357128492791717264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_65
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 560
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7015467e92c80aec0800000000000000
+      internalID: -3557689594019032825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_66
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 561
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01589c63c6602d2d0800000000000000
+      internalID: -3255532518790036208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_67
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 560
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfdcb7b6f2c661000800000000000000
+      internalID: 6311400410172925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_68
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 561
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef16b50200b2c60e0800000000000000
+      internalID: -2275396432186088962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_69
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 557
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ced2bd6f4db0800800000000000000
+      internalID: 579791133751503958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_70
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 560
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf38b93869dd37a0800000000000000
+      internalID: -6395716854128033871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_71
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 560
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6969edfec0408a6c0800000000000000
+      internalID: -4132048204501969258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_72
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 561
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07077d60be68385b0800000000000000
+      internalID: -5367297986905280400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_73
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 561
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903e499cfab254bf0800000000000000
+      internalID: -340818162795355383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_74
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 561
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4148eed3c8736ae80800000000000000
+      internalID: -8167779798715825132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_75
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 560
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a11d9757b80a1d0800000000000000
+      internalID: -3341517586837726576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_76
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 560
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7562de6e1120d56d0800000000000000
+      internalID: -3000239500846881193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_77
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 561
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b642bdcda4398e0800000000000000
+      internalID: -1687923122903946370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_78
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 561
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a56ead722dddd00800000000000000
+      internalID: 999185760964205098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_79
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 561
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a65a3451a7e165310800000000000000
+      internalID: 1393334644409345386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_80
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 560
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b954a58af45b30350800000000000000
+      internalID: 5981824083809682843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_81
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 561
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5f30e0da6117320800000000000000
+      internalID: 2553847396216075752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_82
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 561
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43788cfe09d99ad20800000000000000
+      internalID: 3290334248594605876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_83
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 560
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f72661de2acea90800000000000000
+      internalID: -7283267358198431865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_84
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 557
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cede00e6c3d06a0800000000000000
+      internalID: -6481457845556614086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_85
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 560
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabf40d430ae4aba0800000000000000
+      internalID: -6078476297145353299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_86
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 561
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f440d879c5cb6890800000000000000
+      internalID: -7463654488330451723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_87
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 560
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14fd137c5cbfa7370800000000000000
+      internalID: 8321240088389476161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_88
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 560
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc40a64d5522ee6a0800000000000000
+      internalID: -6418154666925095729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_89
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 520
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60be31f35fbc4360800000000000000
+      internalID: 7155304275235483758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_90
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 519
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcff892776f84780800000000000000
+      internalID: -8698431688607269697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_91
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 520
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b458aaa6d41ceaa40800000000000000
+      internalID: 5381451143000524107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_92
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 519
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7f0f72936933a10800000000000000
+      internalID: 1888017841025775560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_93
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 519
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0102994a58ca47a90800000000000000
+      internalID: -7317033804578086896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_94
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 519
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af3e5289117cb9e0800000000000000
+      internalID: -1604283012875403359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_95
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 519
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e554fe9ce308a3c0800000000000000
+      internalID: -4348221125412235799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_96
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 519
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7bdf538fe7f554d0800000000000000
+      internalID: -3146336156575081606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_97
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 519
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c82cb0687ee30850800000000000000
+      internalID: 6342174901054220487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_98
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 519
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf72cf9a623bb2de0800000000000000
+      internalID: -1356793884080068612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_99
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 520
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bf30971aea47000800000000000000
+      internalID: 32843105841707910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_100
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 516
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6888c5be0179643f0800000000000000
+      internalID: -916879375199336314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_101
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 519
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6666b6dd86298a20800000000000000
+      internalID: 3065023412036855407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_102
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 520
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08796a9ab5200f6d0800000000000000
+      internalID: -2958862362470869120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_103
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 520
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a86cc2e29d8b650800000000000000
+      internalID: 6248983275319495259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_104
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 519
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37af6ff6205a35f60800000000000000
+      internalID: 8021936791163959923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_105
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 519
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1c5fc9a08857df0800000000000000
+      internalID: -183090630674234944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_106
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 519
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f3f5a795f5badf0800000000000000
+      internalID: -167935723186471142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_107
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 519
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2b45f56fb504390800000000000000
+      internalID: -7836162237905194260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_108
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 520
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01f7cb2430cd6f20800000000000000
+      internalID: 3417599022549430543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_109
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 519
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86b37a74e3e158f0800000000000000
+      internalID: -553410708743407985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_110
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 519
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fbb609b46a94760800000000000000
+      internalID: 7442662702682193762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_111
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 519
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d71b27f1fa09e6d0800000000000000
+      internalID: -2960823245669197866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_112
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 519
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127414a698c69ae60800000000000000
+      internalID: 7974023952685156129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_113
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 519
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d276f5f7cefd0fc0800000000000000
+      internalID: -3526882798382714151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_114
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 519
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c615a85b9dd9a500800000000000000
+      internalID: 408100900530624199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_115
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 519
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2accb9d031efdaa00800000000000000
+      internalID: 769550469136370850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_116
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 478
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6140266988393c180800000000000000
+      internalID: -9096264607510428650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_117
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 478
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c286189a189b4f30800000000000000
+      internalID: 4560906287630942918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_118
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 478
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b515f6b6934e3c5e0800000000000000
+      internalID: -1890416483298750117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_119
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 479
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60495bd9568ab1e20800000000000000
+      internalID: 3322434304506958854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_120
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 478
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d4d653bde45c6f0800000000000000
+      internalID: -665038666566120128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_121
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 479
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997fd0edfff90ca40800000000000000
+      internalID: 5386481075626047385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_122
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 397
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6420fe8988da830800000000000000
+      internalID: 4084070627521218276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_123
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 397
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4eb79267bd823110800000000000000
+      internalID: 1239208666252951119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_124
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 396
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ecc82d1a9a219d0800000000000000
+      internalID: -2804993105411125697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_125
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 396
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09ca65becf3cb6e0800000000000000
+      internalID: -1820509992325035762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_126
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 396
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5bde81e4b54a6e0800000000000000
+      internalID: -1827235157821770270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_127
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 397
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41680142a80b53b80800000000000000
+      internalID: -8415626221314865644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_128
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 393
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67df56a4bf0c1680800000000000000
+      internalID: -8783127904719480980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_129
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 397
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422c74ad1bf4c3340800000000000000
+      internalID: 4844834924433752612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_130
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 396
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b7681db0a22dcb0800000000000000
+      internalID: -4840760419221603502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_131
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 396
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113b7fdde6ae9f6f0800000000000000
+      internalID: -650230909287025903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_132
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 397
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1587fffe6f8842b0800000000000000
+      internalID: -5600068429731625702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_133
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 396
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ebea5e3f32bb3b0800000000000000
+      internalID: -5495759389838098916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_134
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 397
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d1893eb012eda30800000000000000
+      internalID: 4241864233976339852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_135
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 396
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa938fd8683be1bd0800000000000000
+      internalID: -2657489339613169238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_136
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 396
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b483c5198e16390800000000000000
+      internalID: -7826718966378116332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_137
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 393
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021270481f90de240800000000000000
+      internalID: 4822521708890497312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_138
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 396
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de116d791765970e0800000000000000
+      internalID: -2271689491153022483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_139
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 397
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdec72d3491382b20800000000000000
+      internalID: 3109790055450267359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_140
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 397
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740a55579fb55e020800000000000000
+      internalID: 2370401905853964359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_141
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 396
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050fb4d147d017350800000000000000
+      internalID: 6012601769875206224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_142
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 396
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb10f990090fe130800000000000000
+      internalID: 3598104525479615477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_143
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 396
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5f571b017b2ded0800000000000000
+      internalID: -2390647169855654471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_144
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 397
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12fe8e6fd7f31c880800000000000000
+      internalID: -8592516803800273119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_145
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 397
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75bf9f33c490ef30800000000000000
+      internalID: 4602842385479611772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_146
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 356
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb38ca33363e5020800000000000000
+      internalID: 2332361250681928635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_147
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 355
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63824ad1f8e87c40800000000000000
+      internalID: 5510410269534356332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_148
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 355
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af44971332ad55f60800000000000000
+      internalID: 8022558155919148282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_149
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 355
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbaac2df4510ca1c0800000000000000
+      internalID: -4491213263858783557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_150
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 356
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7581028d14080c800800000000000000
+      internalID: 630644968119081047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_151
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 356
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f577658c58d97c0800000000000000
+      internalID: -4062944193327702142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_152
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 355
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8177a99b19752a7d0800000000000000
+      internalID: -2908666125932136680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_153
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 356
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215cc952453bd4c50800000000000000
+      internalID: 6651169398685746450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_154
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 356
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29026143a529bf620800000000000000
+      internalID: 2808999708714213522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_155
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 356
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bc717b5cc5dfa00800000000000000
+      internalID: 791891113737177885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_156
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 355
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37acbff2e72771520800000000000000
+      internalID: 2672730790164154995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_157
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 356
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9296a171c26bf8010800000000000000
+      internalID: 1193372726758893865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_158
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 355
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5ac84d76b7a47e0800000000000000
+      internalID: -1780475016793774631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_159
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 355
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552b9f862f210bf10800000000000000
+      internalID: 2283345843429421653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_160
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 356
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681c135d0c2bfb670800000000000000
+      internalID: 8556754358307504518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_161
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 356
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9830c3334b396c7e0800000000000000
+      internalID: -1745545403396521079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_162
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 356
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565dab46873f26460800000000000000
+      internalID: 7233611649922028901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_163
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 356
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198a2fd2006f59cc0800000000000000
+      internalID: -3704784637811054447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_164
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 355
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac5b79cc396b4d80800000000000000
+      internalID: -8265396981309154136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_165
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 355
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f9785679af854c0800000000000000
+      internalID: -4298410316174745827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_166
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 356
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12db98cf9900f4b20800000000000000
+      internalID: 3120713728157924641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_167
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 356
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44cbabd979c58db80800000000000000
+      internalID: -8369838101211988924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_168
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 355
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d52cb5292a01fc0800000000000000
+      internalID: -3526139758742708971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_169
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 355
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a7710cd45390c10800000000000000
+      internalID: 2020204515903896098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_170
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 356
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fb2c5ac8b9f5780800000000000000
+      internalID: -8692057727423037615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_171
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 274
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fb374fcfca78840800000000000000
+      internalID: 5226336095019712290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_172
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 274
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df11584d787fdcb80800000000000000
+      internalID: -8372763969453747715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_173
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 273
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611b3255c010cbab0800000000000000
+      internalID: -4991113134553714410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_174
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 258
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e02f48a6b81c0470800000000000000
+      internalID: 8362085780907040996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_175
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 273
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5521f8b3881d960800000000000000
+      internalID: 7625025433499751882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_176
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 273
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e281037c7901c10800000000000000
+      internalID: 2022283114450529917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_177
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 274
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92572abc7133c2c0800000000000000
+      internalID: -4412628798124109153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_178
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 273
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4fd1262511eb340800000000000000
+      internalID: 4881358091647317195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_179
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 274
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4715007025c48c760800000000000000
+      internalID: 7478311096437199220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_180
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 273
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80467fa7d00ebbb0800000000000000
+      internalID: -4918492816680271734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_181
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 274
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5226280ab22ec0a0800000000000000
+      internalID: -6859507000042708386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_182
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 273
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85917efeaf658d3e0800000000000000
+      internalID: -2028775996363695784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_183
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 274
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92a2ce5c868b2de0800000000000000
+      internalID: -1356842925278715236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_184
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 273
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1be3e3eabc5719a0800000000000000
+      internalID: -6262434799078348003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_185
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 273
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c8625cab7dab590800000000000000
+      internalID: -7657571019218580371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_186
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 273
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abec8608618df8b0800000000000000
+      internalID: -5116791317836534872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_187
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 274
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ff4aa19227e6870800000000000000
+      internalID: 8677999052855770952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_188
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 274
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559e79e75a7f93360800000000000000
+      internalID: 7150018173592922453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_189
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 274
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8c72c8bac075510800000000000000
+      internalID: 1537711728700672243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_190
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 274
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4973c06138b586140800000000000000
+      internalID: 4713117628611966868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_191
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 273
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89eb5130ea4000e40800000000000000
+      internalID: 5620497480380956312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_192
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 274
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23af339cc623a960800000000000000
+      internalID: 7611970455271875370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_193
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 273
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2495bfdc963a13870800000000000000
+      internalID: 8660883233232869698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_194
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 274
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bab7fbf571bfabf0800000000000000
+      internalID: -310834728968668491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_195
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 270
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860491ecdc9bea650800000000000000
+      internalID: 6246134026786652264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_196
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 232
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c93a908ee3ccf9d0800000000000000
+      internalID: -2739099044220880440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_197
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 232
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735777057ba0d3f60800000000000000
+      internalID: 8015574694234649911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_198
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 232
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccfc084f9f5c0c0c0800000000000000
+      internalID: -4557425145559330868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_199
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 232
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfef395b9e7e86110800000000000000
+      internalID: 1254507487182454524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_200
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 233
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4491ab1f1511210800000000000000
+      internalID: 1301911865937970339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_201
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 233
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82844fffa763a9b40800000000000000
+      internalID: 5447726601166145576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_202
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 232
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e835f9b506d76d0800000000000000
+      internalID: -2991128630872797637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_203
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 233
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc039b64d2f952bc0800000000000000
+      internalID: -3808462893062999860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_204
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 233
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f1b06bf1c6a97a0800000000000000
+      internalID: -6369659839508177095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_205
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 233
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd67e02dcf1bf0670800000000000000
+      internalID: 8507213920540194523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_206
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 233
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219d2f28cbd8e7200800000000000000
+      internalID: 179736875931719954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_207
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 232
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c535dcd6d40d4c040800000000000000
+      internalID: 4667084144835908444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_208
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 232
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572b1ca5e06afbef0800000000000000
+      internalID: -90170886941724043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_209
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 233
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c881163b8e0436120800000000000000
+      internalID: 2405837994132052108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_210
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 232
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b256bc959ec93b0800000000000000
+      internalID: -5504268072679822510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_211
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 233
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082421a5a786d3270800000000000000
+      internalID: 8231850568609579648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_212
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 233
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbe3003a4c6103b0800000000000000
+      internalID: -5548034200054797314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_213
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 233
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aeca9a632df0e3f0800000000000000
+      internalID: -873419999155663193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_214
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 232
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17eaa1f1694dda440800000000000000
+      internalID: 4948845306782068337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_215
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 232
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36dacd554deaa6550800000000000000
+      internalID: 6154924067752029539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_216
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 232
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88758a7829f9998d0800000000000000
+      internalID: -2839062638390388856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_217
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 233
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b353af3f029e7b0800000000000000
+      internalID: -5194584462948222103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_218
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 163
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132d2b937a529dfd0800000000000000
+      internalID: -2316779133147622863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_219
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 150
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57822c6341d9064e0800000000000000
+      internalID: -1990418325154158475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_220
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 151
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c0a3562542683d0800000000000000
+      internalID: -3204834148523307930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_221
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 151
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520c816e0d284e6b0800000000000000
+      internalID: -5267941830391447515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_222
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 150
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589f6e453fe3c7f20800000000000000
+      internalID: 3421679031717132677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_223
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 151
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962d5bdcdaf8e4160800000000000000
+      internalID: 7011699646505800297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_224
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 151
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888fa99f368870c60800000000000000
+      internalID: 7784340443904014472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_225
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 150
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a68f7e4e6d42b00800000000000000
+      internalID: 803002912211495574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_226
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 150
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea61f8a117b5d440800000000000000
+      internalID: 4960071851095190241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_227
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 150
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2005fa40446f680e0800000000000000
+      internalID: -2267854590337658878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_228
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 151
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759875df4bafb45b0800000000000000
+      internalID: -5382933274339866281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_229
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 151
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88acf52dadd288070800000000000000
+      internalID: 8108781546936191624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_230
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 150
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bae2500cefbe5c70800000000000000
+      internalID: 8961811328852486836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_231
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 151
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9bddf8e99aa229f0800000000000000
+      internalID: -494645431041664100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_232
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 150
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b39da5f2d86f81f0800000000000000
+      internalID: -1040497733625080909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_233
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 151
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eeeefc062c0ec0d0800000000000000
+      internalID: -3400767311051821344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_234
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 151
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00963faf4951c8cc0800000000000000
+      internalID: -3707564663623161600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_235
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 150
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399ccf8179ac60250800000000000000
+      internalID: 5910634311278446995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_236
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 150
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d2e9ec6bbd283a0800000000000000
+      internalID: -6664522920357909150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_237
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 150
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24762c7cf8e680810800000000000000
+      internalID: 1731755620534740802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_238
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 151
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c414509861df04aa0800000000000000
+      internalID: -6178660415522389684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_239
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 151
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c35191c19fcf9a90800000000000000
+      internalID: -7304891845646920767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_240
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 150
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df4a3dc3d4ee1230800000000000000
+      internalID: 3611575549530099666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_241
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 109
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686972f0c9739a810800000000000000
+      internalID: 1777012671383049862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_242
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 109
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e785fe769824df620800000000000000
+      internalID: 2809474900470749310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_243
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 109
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f0e3b441ca7e2c0800000000000000
+      internalID: -4402360907569688759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_244
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 109
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3894036e08089a0800000000000000
+      internalID: -6232840158139808791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_245
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 109
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04e6491403fd4320800000000000000
+      internalID: 2543956563463693327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_246
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 110
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d5ec7c74c095ec0800000000000000
+      internalID: -3577814926534746739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_247
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 109
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a043ddad9a2bf40800000000000000
+      internalID: 5742839232329943620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_248
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 109
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c8ceacbe38b1580800000000000000
+      internalID: -8855339193548895127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_249
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 110
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8371c307299d150800000000000000
+      internalID: 5897906197760522474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_250
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 110
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a9f47bc3e33a940800000000000000
+      internalID: 5306153216466983578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_251
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 110
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e93c7addb0aa6730800000000000000
+      internalID: 3993180756892203490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_252
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 110
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f360164eaaa6f50800000000000000
+      internalID: 6875495678991548271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_253
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 110
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a3332633a076690800000000000000
+      internalID: -7609101829612029416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_254
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 109
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d5d43a8dec21650800000000000000
+      internalID: 6202247066690608509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_255
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 109
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83bd9ae71ce461b0800000000000000
+      internalID: -5664142843860634738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_256
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 110
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1181282f517162920800000000000000
+      internalID: 2965082787700414481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_257
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 109
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c0e63deb7068c20800000000000000
+      internalID: 3208260300720442397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_258
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 109
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1d7cbcded7c5760800000000000000
+      internalID: 7447966344043549121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_259
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 109
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a86032f730112d0800000000000000
+      internalID: -3309860406557242804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_260
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 110
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903691d380211b4f0800000000000000
+      internalID: -814850230983236855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_261
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 109
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad680d1adfda20160800000000000000
+      internalID: 6990340876485560026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_262
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 110
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f40a7f360ff2c90800000000000000
+      internalID: -7192265767740485881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_263
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 109
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bacb26b248138f40800000000000000
+      internalID: 5729449825748634297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_264
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 110
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44db62d316cf0a970800000000000000
+      internalID: 8764282369430961476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_265
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 109
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f92fef371e3db80800000000000000
+      internalID: -8371099394036818093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_266
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 68
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e18b87b816d8621c0800000000000000
+      internalID: -4528776925183166434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_267
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 68
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9486751136db070800000000000000
+      internalID: 8123758228978289063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_268
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 68
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742fd3b387d06cdd0800000000000000
+      internalID: -2466268935897615801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_269
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 68
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decf9d94c642c0dc0800000000000000
+      internalID: -3671519548699706131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HelpPanel_270
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 69
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a8e365d40455b70800000000000000
+      internalID: 8887080140589140577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HelpPanel_0: 7305641826919242612
+      HelpPanel_1: 2207446124889798803
+      HelpPanel_10: -196359834926420200
+      HelpPanel_100: -916879375199336314
+      HelpPanel_101: 3065023412036855407
+      HelpPanel_102: -2958862362470869120
+      HelpPanel_103: 6248983275319495259
+      HelpPanel_104: 8021936791163959923
+      HelpPanel_105: -183090630674234944
+      HelpPanel_106: -167935723186471142
+      HelpPanel_107: -7836162237905194260
+      HelpPanel_108: 3417599022549430543
+      HelpPanel_109: -553410708743407985
+      HelpPanel_11: -6611082514831262195
+      HelpPanel_110: 7442662702682193762
+      HelpPanel_111: -2960823245669197866
+      HelpPanel_112: 7974023952685156129
+      HelpPanel_113: -3526882798382714151
+      HelpPanel_114: 408100900530624199
+      HelpPanel_115: 769550469136370850
+      HelpPanel_116: -9096264607510428650
+      HelpPanel_117: 4560906287630942918
+      HelpPanel_118: -1890416483298750117
+      HelpPanel_119: 3322434304506958854
+      HelpPanel_12: -334263330782743186
+      HelpPanel_120: -665038666566120128
+      HelpPanel_121: 5386481075626047385
+      HelpPanel_122: 4084070627521218276
+      HelpPanel_123: 1239208666252951119
+      HelpPanel_124: -2804993105411125697
+      HelpPanel_125: -1820509992325035762
+      HelpPanel_126: -1827235157821770270
+      HelpPanel_127: -8415626221314865644
+      HelpPanel_128: -8783127904719480980
+      HelpPanel_129: 4844834924433752612
+      HelpPanel_13: -6554546819643432553
+      HelpPanel_130: -4840760419221603502
+      HelpPanel_131: -650230909287025903
+      HelpPanel_132: -5600068429731625702
+      HelpPanel_133: -5495759389838098916
+      HelpPanel_134: 4241864233976339852
+      HelpPanel_135: -2657489339613169238
+      HelpPanel_136: -7826718966378116332
+      HelpPanel_137: 4822521708890497312
+      HelpPanel_138: -2271689491153022483
+      HelpPanel_139: 3109790055450267359
+      HelpPanel_14: 7003708131397089346
+      HelpPanel_140: 2370401905853964359
+      HelpPanel_141: 6012601769875206224
+      HelpPanel_142: 3598104525479615477
+      HelpPanel_143: -2390647169855654471
+      HelpPanel_144: -8592516803800273119
+      HelpPanel_145: 4602842385479611772
+      HelpPanel_146: 2332361250681928635
+      HelpPanel_147: 5510410269534356332
+      HelpPanel_148: 8022558155919148282
+      HelpPanel_149: -4491213263858783557
+      HelpPanel_15: 1141941262780974717
+      HelpPanel_150: 630644968119081047
+      HelpPanel_151: -4062944193327702142
+      HelpPanel_152: -2908666125932136680
+      HelpPanel_153: 6651169398685746450
+      HelpPanel_154: 2808999708714213522
+      HelpPanel_155: 791891113737177885
+      HelpPanel_156: 2672730790164154995
+      HelpPanel_157: 1193372726758893865
+      HelpPanel_158: -1780475016793774631
+      HelpPanel_159: 2283345843429421653
+      HelpPanel_16: -7023120503933742632
+      HelpPanel_160: 8556754358307504518
+      HelpPanel_161: -1745545403396521079
+      HelpPanel_162: 7233611649922028901
+      HelpPanel_163: -3704784637811054447
+      HelpPanel_164: -8265396981309154136
+      HelpPanel_165: -4298410316174745827
+      HelpPanel_166: 3120713728157924641
+      HelpPanel_167: -8369838101211988924
+      HelpPanel_168: -3526139758742708971
+      HelpPanel_169: 2020204515903896098
+      HelpPanel_17: -465369989460165757
+      HelpPanel_170: -8692057727423037615
+      HelpPanel_171: 5226336095019712290
+      HelpPanel_172: -8372763969453747715
+      HelpPanel_173: -4991113134553714410
+      HelpPanel_174: 8362085780907040996
+      HelpPanel_175: 7625025433499751882
+      HelpPanel_176: 2022283114450529917
+      HelpPanel_177: -4412628798124109153
+      HelpPanel_178: 4881358091647317195
+      HelpPanel_179: 7478311096437199220
+      HelpPanel_18: -7013816736274575381
+      HelpPanel_180: -4918492816680271734
+      HelpPanel_181: -6859507000042708386
+      HelpPanel_182: -2028775996363695784
+      HelpPanel_183: -1356842925278715236
+      HelpPanel_184: -6262434799078348003
+      HelpPanel_185: -7657571019218580371
+      HelpPanel_186: -5116791317836534872
+      HelpPanel_187: 8677999052855770952
+      HelpPanel_188: 7150018173592922453
+      HelpPanel_189: 1537711728700672243
+      HelpPanel_19: 1750522550602321801
+      HelpPanel_190: 4713117628611966868
+      HelpPanel_191: 5620497480380956312
+      HelpPanel_192: 7611970455271875370
+      HelpPanel_193: 8660883233232869698
+      HelpPanel_194: -310834728968668491
+      HelpPanel_195: 6246134026786652264
+      HelpPanel_196: -2739099044220880440
+      HelpPanel_197: 8015574694234649911
+      HelpPanel_198: -4557425145559330868
+      HelpPanel_199: 1254507487182454524
+      HelpPanel_2: 1457758058225401775
+      HelpPanel_20: -3503952522347680131
+      HelpPanel_200: 1301911865937970339
+      HelpPanel_201: 5447726601166145576
+      HelpPanel_202: -2991128630872797637
+      HelpPanel_203: -3808462893062999860
+      HelpPanel_204: -6369659839508177095
+      HelpPanel_205: 8507213920540194523
+      HelpPanel_206: 179736875931719954
+      HelpPanel_207: 4667084144835908444
+      HelpPanel_208: -90170886941724043
+      HelpPanel_209: 2405837994132052108
+      HelpPanel_21: -1743474158222509332
+      HelpPanel_210: -5504268072679822510
+      HelpPanel_211: 8231850568609579648
+      HelpPanel_212: -5548034200054797314
+      HelpPanel_213: -873419999155663193
+      HelpPanel_214: 4948845306782068337
+      HelpPanel_215: 6154924067752029539
+      HelpPanel_216: -2839062638390388856
+      HelpPanel_217: -5194584462948222103
+      HelpPanel_218: -2316779133147622863
+      HelpPanel_219: -1990418325154158475
+      HelpPanel_22: 1442856835803991132
+      HelpPanel_220: -3204834148523307930
+      HelpPanel_221: -5267941830391447515
+      HelpPanel_222: 3421679031717132677
+      HelpPanel_223: 7011699646505800297
+      HelpPanel_224: 7784340443904014472
+      HelpPanel_225: 803002912211495574
+      HelpPanel_226: 4960071851095190241
+      HelpPanel_227: -2267854590337658878
+      HelpPanel_228: -5382933274339866281
+      HelpPanel_229: 8108781546936191624
+      HelpPanel_23: -5466920411472547125
+      HelpPanel_230: 8961811328852486836
+      HelpPanel_231: -494645431041664100
+      HelpPanel_232: -1040497733625080909
+      HelpPanel_233: -3400767311051821344
+      HelpPanel_234: -3707564663623161600
+      HelpPanel_235: 5910634311278446995
+      HelpPanel_236: -6664522920357909150
+      HelpPanel_237: 1731755620534740802
+      HelpPanel_238: -6178660415522389684
+      HelpPanel_239: -7304891845646920767
+      HelpPanel_24: -1458321068524161630
+      HelpPanel_240: 3611575549530099666
+      HelpPanel_241: 1777012671383049862
+      HelpPanel_242: 2809474900470749310
+      HelpPanel_243: -4402360907569688759
+      HelpPanel_244: -6232840158139808791
+      HelpPanel_245: 2543956563463693327
+      HelpPanel_246: -3577814926534746739
+      HelpPanel_247: 5742839232329943620
+      HelpPanel_248: -8855339193548895127
+      HelpPanel_249: 5897906197760522474
+      HelpPanel_25: 7909684179201849523
+      HelpPanel_250: 5306153216466983578
+      HelpPanel_251: 3993180756892203490
+      HelpPanel_252: 6875495678991548271
+      HelpPanel_253: -7609101829612029416
+      HelpPanel_254: 6202247066690608509
+      HelpPanel_255: -5664142843860634738
+      HelpPanel_256: 2965082787700414481
+      HelpPanel_257: 3208260300720442397
+      HelpPanel_258: 7447966344043549121
+      HelpPanel_259: -3309860406557242804
+      HelpPanel_26: -7511190255287171381
+      HelpPanel_260: -814850230983236855
+      HelpPanel_261: 6990340876485560026
+      HelpPanel_262: -7192265767740485881
+      HelpPanel_263: 5729449825748634297
+      HelpPanel_264: 8764282369430961476
+      HelpPanel_265: -8371099394036818093
+      HelpPanel_266: -4528776925183166434
+      HelpPanel_267: 8123758228978289063
+      HelpPanel_268: -2466268935897615801
+      HelpPanel_269: -3671519548699706131
+      HelpPanel_27: 5808846709064895560
+      HelpPanel_270: 8887080140589140577
+      HelpPanel_28: 2075711349688392750
+      HelpPanel_29: 1153383803398868163
+      HelpPanel_3: -8081543341201512936
+      HelpPanel_30: 953723927433327014
+      HelpPanel_31: 6683592750275234459
+      HelpPanel_32: -2430258038169216518
+      HelpPanel_33: 7960323399889945290
+      HelpPanel_34: 7134012303002931651
+      HelpPanel_35: -5792352935478952417
+      HelpPanel_36: -7580511228523747635
+      HelpPanel_37: -169460616015866877
+      HelpPanel_38: 4060911012204452509
+      HelpPanel_39: 6913217208838064024
+      HelpPanel_4: 4420045267749247618
+      HelpPanel_40: 8964038695992431446
+      HelpPanel_41: 6079422073746457189
+      HelpPanel_42: -4555969310675351208
+      HelpPanel_43: 3714323191939564178
+      HelpPanel_44: 8198173645095972029
+      HelpPanel_45: 6820602880576487535
+      HelpPanel_46: -3537272880490202123
+      HelpPanel_47: 898661159681361052
+      HelpPanel_48: -8942228930823410148
+      HelpPanel_49: -2213124193833569270
+      HelpPanel_5: -6510327283507600232
+      HelpPanel_50: 8072189014378701810
+      HelpPanel_51: -5169207025299370709
+      HelpPanel_52: -8655555850023783970
+      HelpPanel_53: 1257011872922587583
+      HelpPanel_54: -8807860830461379625
+      HelpPanel_55: 1647517786463145653
+      HelpPanel_56: -1551603644120707173
+      HelpPanel_57: 1236551267398651550
+      HelpPanel_58: -1591523349551617484
+      HelpPanel_59: 6136188699733346958
+      HelpPanel_6: 5911089298794040964
+      HelpPanel_60: 983516978507729742
+      HelpPanel_61: 2673767477907548410
+      HelpPanel_62: -3797389247187366639
+      HelpPanel_63: 4240799964549365590
+      HelpPanel_64: 7357128492791717264
+      HelpPanel_65: -3557689594019032825
+      HelpPanel_66: -3255532518790036208
+      HelpPanel_67: 6311400410172925
+      HelpPanel_68: -2275396432186088962
+      HelpPanel_69: 579791133751503958
+      HelpPanel_7: -8432545347029872992
+      HelpPanel_70: -6395716854128033871
+      HelpPanel_71: -4132048204501969258
+      HelpPanel_72: -5367297986905280400
+      HelpPanel_73: -340818162795355383
+      HelpPanel_74: -8167779798715825132
+      HelpPanel_75: -3341517586837726576
+      HelpPanel_76: -3000239500846881193
+      HelpPanel_77: -1687923122903946370
+      HelpPanel_78: 999185760964205098
+      HelpPanel_79: 1393334644409345386
+      HelpPanel_8: 5591953558068274780
+      HelpPanel_80: 5981824083809682843
+      HelpPanel_81: 2553847396216075752
+      HelpPanel_82: 3290334248594605876
+      HelpPanel_83: -7283267358198431865
+      HelpPanel_84: -6481457845556614086
+      HelpPanel_85: -6078476297145353299
+      HelpPanel_86: -7463654488330451723
+      HelpPanel_87: 8321240088389476161
+      HelpPanel_88: -6418154666925095729
+      HelpPanel_89: 7155304275235483758
+      HelpPanel_9: 5697569115078327012
+      HelpPanel_90: -8698431688607269697
+      HelpPanel_91: 5381451143000524107
+      HelpPanel_92: 1888017841025775560
+      HelpPanel_93: -7317033804578086896
+      HelpPanel_94: -1604283012875403359
+      HelpPanel_95: -4348221125412235799
+      HelpPanel_96: -3146336156575081606
+      HelpPanel_97: 6342174901054220487
+      HelpPanel_98: -1356793884080068612
+      HelpPanel_99: 32843105841707910
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

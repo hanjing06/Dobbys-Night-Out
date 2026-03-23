@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -6,15 +5,70 @@ using UnityEngine.UI;
 
 public class OptionsController : MonoBehaviour
 {
-    public Button CharacterButton, SettingsButton, ControlsButton, HelpButton;
-    
-    void BackButton()
+    [Header("Buttons")]
+    [SerializeField] private Button characterButton;
+    [SerializeField] private Button settingsButton;
+    [SerializeField] private Button controlsButton;
+    [SerializeField] private Button helpButton;
+    [SerializeField] private Button xButton;
+
+    [Header("Panels")]
+    [SerializeField] private GameObject characterPanel;
+    [SerializeField] private GameObject settingsPanel;
+    [SerializeField] private GameObject controlsPanel;
+    [SerializeField] private GameObject helpPanel;
+
+    [Header("Whole Menu")]
+    [SerializeField] private GameObject optionsMenuRoot;
+
+    private void Start()
     {
-        SceneManager.LoadScene(0);
+        characterButton.onClick.AddListener(OpenCharacterTab);
+        settingsButton.onClick.AddListener(OpenSettingsTab);
+        controlsButton.onClick.AddListener(OpenControlsTab);
+        helpButton.onClick.AddListener(OpenHelpTab);
+
+        if (xButton != null)
+            xButton.onClick.AddListener(CloseOptionsMenu);
+
+        OpenCharacterTab();
     }
 
-    void CharacterButtonClick()
+    public void OpenCharacterTab()
     {
-        CharacterButton.onClick.Invoke();
+        HideAllPanels();
+        characterPanel.SetActive(true);
+    }
+
+    public void OpenSettingsTab()
+    {
+        HideAllPanels();
+        settingsPanel.SetActive(true);
+    }
+
+    public void OpenControlsTab()
+    {
+        HideAllPanels();
+        controlsPanel.SetActive(true);
+    }
+
+    public void OpenHelpTab()
+    {
+        HideAllPanels();
+        helpPanel.SetActive(true);
+    }
+
+    public void CloseOptionsMenu()
+    {
+        if (optionsMenuRoot != null)
+            optionsMenuRoot.SetActive(false);
+    }
+
+    private void HideAllPanels()
+    {
+        characterPanel.SetActive(false);
+        settingsPanel.SetActive(false);
+        controlsPanel.SetActive(false);
+        helpPanel.SetActive(false);
     }
 }
