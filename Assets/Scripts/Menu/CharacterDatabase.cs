@@ -1,18 +1,20 @@
-using Menu;
 using UnityEngine;
 
-[CreateAssetMenu]
-public class CharacterDatabase : ScriptableObject
+namespace Menu
 {
-    public Character[] characters;
-
-    public int CharacterCount
+    [CreateAssetMenu]
+    public class CharacterDatabase : ScriptableObject
     {
-        get{return characters.Length;}
-    }
+        public Character[] characters;
 
-    public Character GetCharacter(int index)
-    {
-        return characters[index];
+        public int CharacterCount
+        {
+            get { return characters.Length; }
+        }
+
+        public Character GetCharacter(int index)
+        {
+            return characters[index];
+        }
     }
 }

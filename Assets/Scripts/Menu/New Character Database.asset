@@ -12,4 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e6b41097501d4d4c98233bef7b50364, type: 3}
   m_Name: New Character Database
   m_EditorClassIdentifier: Assembly-CSharp::CharacterDatabase
-  characters: []
+  characters:
+  - characterName: DefaultDobby
+    characterSprite: {fileID: -1064045995, guid: 5a7b7a2372c9d36468409b34488877d9, type: 3}
+  - characterName: DobbyParty1
+    characterSprite: {fileID: 2410635517405602792, guid: 7b07c2be141ff44bfa04440b27a6263b, type: 3}
+  - characterName: DobbyParty2
+    characterSprite: {fileID: -7943720702334105097, guid: 8d82c0d487bf843049b0e9683ab1989f, type: 3}
+  - characterName: DobbyParty3
+    characterSprite: {fileID: -2494442190302250955, guid: 130fb336a42b64c40bdac237cf92b71f, type: 3}
+  - characterName: DobbyBow1
+    characterSprite: {fileID: 1929640009269163551, guid: 9c6daf2b98e234178a0db1930af5507c, type: 3}
