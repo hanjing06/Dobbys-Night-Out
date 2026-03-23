@@ -368,7 +368,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 117553523
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -5572,8 +5572,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 117553523
-  m_SortingLayer: 1
+  m_SortingLayerID: -1861266449
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1569650228, guid: c924f1af5dede4fc89ed98da6701a016, type: 3}
@@ -5687,7 +5687,7 @@ MonoBehaviour:
   hitboxSize: {x: 5, y: 5}
   enemyLayers:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 0
   applyKnockback: 0
   knockbackForce: 5
 --- !u!1 &2124175741
@@ -27317,6 +27317,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 3950050398086087633, guid: 3d5b46ef1fdb54f3aae6c87693a118d3, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3950050398086087633, guid: 3d5b46ef1fdb54f3aae6c87693a118d3, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1784886133
+      objectReference: {fileID: 0}
     - target: {fileID: 6531602772922538688, guid: 3d5b46ef1fdb54f3aae6c87693a118d3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.03
@@ -27356,6 +27364,10 @@ PrefabInstance:
     - target: {fileID: 6531602772922538688, guid: 3d5b46ef1fdb54f3aae6c87693a118d3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447185660648964376, guid: 3d5b46ef1fdb54f3aae6c87693a118d3, type: 3}
+      propertyPath: m_IncludeLayers.m_Bits
+      value: 512
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
