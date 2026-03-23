@@ -13,6 +13,8 @@ public class InventoryManager: MonoBehaviour
 {
 	public GameObject inventory;
 	private bool isActive;
+	public Slot[] slot;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -35,5 +37,30 @@ public class InventoryManager: MonoBehaviour
 			isActive = true;
 		}
 		
+    }
+
+    public void AddItem(string itemName, int amt, Sprite itemIcon)
+    {
+	    Debug.Log(itemName + "(" + amt + ") has been added to the inventory."); //print line to keep track of whats in the inventory
+	    
+	    //use recursion to find the first free slot to add item
+	    for (int i = 0; i < slot.Length; i++)
+	    {
+		    if(slot[i].isFull == false)
+			{
+				slot[i].AddItem(itemName, amt, itemIcon);
+				return;//end recursive loop when empty slot is found
+			}
+	    }
+
+    }
+
+    public void DeselectSlots()
+    {
+	    for (int i = 0; i < slot.Length; i++)
+	    {
+		    slot[i].shade.SetActive(false);
+		    slot[i].isSelected = false;
+	    }
     }
 }

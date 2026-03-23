@@ -3,10 +3,9 @@ using UnityEngine;
 public class Item: MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField] //this line makes the following variable editable in the unity editor even if they are private 
-        private string itemName;
-    [SerializeField] 
-        private int amt;
+    //the following line makes the following variable editable in the unity editor even if they are private
+    [SerializeField] private string itemName;
+    [SerializeField] private int amt;
 
     [SerializeField] private Sprite itemIcon;
 
@@ -25,6 +24,10 @@ public class Item: MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        if (collision.gameObject.tag == "Player")
+        {
+            inventoryManager.AddItem(itemName, amt, itemIcon);
+            Destroy(gameObject);
+        }
     }
 }
