@@ -3,12 +3,12 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    public void OnPlayButton()
+    void OnPlayButton()
     {
         SceneManager.LoadScene(1);
     }
 
-    public void OnQuitButton()
+    void OnQuitButton()
     {
         Application.Quit();
     }
