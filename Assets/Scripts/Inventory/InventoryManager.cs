@@ -14,6 +14,7 @@ public class InventoryManager: MonoBehaviour
 	public GameObject inventory;
 	private bool isActive;
 	public Slot[] slot;
+	public ScriptableItem[]  items;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -37,6 +38,17 @@ public class InventoryManager: MonoBehaviour
 			isActive = true;
 		}
 		
+    }
+
+    public void UseItem(string itemName)
+    {
+	    for (int i = 0; i < items.Length; i++)
+	    {
+		    if (items[i].itemName == itemName)
+		    {
+			    items[i].UseItem();
+		    }
+	    }
     }
 
     public int AddItem(string itemName, int amt, Sprite itemIcon, string itemDescription)
