@@ -87,6 +87,11 @@ public class Slot: MonoBehaviour, IPointerClickHandler
 
     public void OnLeftClick()
     {
+        //using the selected item
+        if (this.isSelected)
+        {
+            invManager.UseItem(this.itemName);
+        }
         invManager.DeselectSlots();
         shade.SetActive(true);
         isSelected = true;
