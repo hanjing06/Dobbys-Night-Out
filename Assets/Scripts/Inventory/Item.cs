@@ -6,8 +6,10 @@ public class Item: MonoBehaviour
     //the following line makes the following variable editable in the unity editor even if they are private
     [SerializeField] private string itemName;
     [SerializeField] private int amt;
-
     [SerializeField] private Sprite itemIcon;
+    
+    [TextArea] //creates a text box in the unity inspector
+    [SerializeField] private string itemDescription;
 
     private InventoryManager inventoryManager;
     void Start()
@@ -26,8 +28,15 @@ public class Item: MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            inventoryManager.AddItem(itemName, amt, itemIcon);
-            Destroy(gameObject);
+            int itemsLeft = inventoryManager.AddItem(itemName, amt, itemIcon, itemDescription);
+            if (itemsLeft <= 0)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                amt = itemsLeft;
+            }
         }
     }
 }

@@ -39,20 +39,25 @@ public class InventoryManager: MonoBehaviour
 		
     }
 
-    public void AddItem(string itemName, int amt, Sprite itemIcon)
+    public int AddItem(string itemName, int amt, Sprite itemIcon, string itemDescription)
     {
 	    Debug.Log(itemName + "(" + amt + ") has been added to the inventory."); //print line to keep track of whats in the inventory
 	    
 	    //use recursion to find the first free slot to add item
 	    for (int i = 0; i < slot.Length; i++)
 	    {
-		    if(slot[i].isFull == false)
-			{
-				slot[i].AddItem(itemName, amt, itemIcon);
-				return;//end recursive loop when empty slot is found
-			}
-	    }
+		    //store an item if the slot is empty and allows for stacking if collecting multiple of same item
+		    if (slot[i].isFull == false && slot[i].name == itemName || slot[i].amt == 0)
+		    {
+			    int itemsLeft = slot[i].AddItem(itemName, amt, itemIcon, itemDescription);
+			    if (itemsLeft > 0) {
+				    itemsLeft = slot[i].AddItem(itemName, amt, itemIcon, itemDescription);
+			    }
 
+			    return itemsLeft;
+		    }
+	    }
+	    return amt;
     }
 
     public void DeselectSlots()

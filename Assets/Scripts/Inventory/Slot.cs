@@ -10,13 +10,21 @@ public class Slot: MonoBehaviour, IPointerClickHandler
     
     //item information...
     public string itemName;
+    public string itemDescription;
     public int amt;
     public Sprite itemIcon;
+    public Sprite emptyIcon;
     public bool isFull;
     
     //for slot...
     [SerializeField] private TMP_Text amtText;
     [SerializeField] private Image itemImage;
+    [SerializeField] private int maxItems;
+    
+    //for item description...
+    public TMP_Text itemDescriptionText; //text UI for the item description
+    public TMP_Text itemNameText; //text UI for the item name
+    public Image itemIconUI; //image UI for the item icon/sprite
     
     //variables for selecting items
     public GameObject shade;
@@ -34,18 +42,35 @@ public class Slot: MonoBehaviour, IPointerClickHandler
         
     }
 
-    public void AddItem(string itemName, int amt, Sprite itemIcon)
+    public int AddItem(string itemName, int amt, Sprite itemIcon, string itemDescription)
     {
+        //check if slot is full or not
+        if (isFull)
+        {
+            return amt;
+        }
+
+        //update item variables
         this.itemName = itemName;
-        this.amt = amt;
         this.itemIcon = itemIcon;
-        isFull = true;
-        
-        //add the amount of item to text field and make it visible
-        this.amtText.text = amt.ToString();
-        amtText.enabled = true;
-        
+        this.itemDescription = itemDescription;
         this.itemImage.sprite = itemIcon;
+        this.amt += amt;
+        if (this.amt >= maxItems)
+        {
+            amtText.text = maxItems.ToString();
+            amtText.enabled = true;
+            isFull = true;
+            
+            //once a slot is full the extra items must be carries over
+            int extraItems = this.amt - maxItems;
+            this.amt = maxItems;
+            return extraItems;
+        }
+        amtText.text = this.amt.ToString();
+        amtText.enabled = true;
+        return 0;
+        
     }
 
     public void OnPointerClick(PointerEventData eventData)
@@ -65,6 +90,13 @@ public class Slot: MonoBehaviour, IPointerClickHandler
         invManager.DeselectSlots();
         shade.SetActive(true);
         isSelected = true;
+        itemNameText.text = itemName;
+        itemDescriptionText.text = itemDescription;
+        itemImage.sprite = itemIcon;
+        if (itemImage.sprite == null)
+        {
+            itemImage.sprite = emptyIcon;
+        }
     }
 
     public void OnRightClick()
