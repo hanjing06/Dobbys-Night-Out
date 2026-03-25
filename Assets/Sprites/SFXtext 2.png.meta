@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a8b7e693bec3c4119bd7cfb17709807b
+guid: b4da3e375580f44ecbfb49af04b56d47
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2078675620562289857
-    second: MUSICtext_0
+      213: 424432735125045172
+    second: SFXtext 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,16 +96,29 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MUSICtext_0
+      name: SFXtext 2_0
       rect:
         serializedVersion: 2
-        x: 147
-        y: 136
-        width: 1015
+        x: 192
+        y: 4
+        width: 633
         height: 295
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3bbe11598f0723e0800000000000000
-      internalID: -2078675620562289857
+      spriteID: 4bffc28e253e3e500800000000000000
+      internalID: 424432735125045172
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MUSICtext_0: -2078675620562289857
+      SFXtext 2_0: 424432735125045172
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

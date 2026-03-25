@@ -1,241 +1,241 @@
 fileFormatVersion: 2
-guid: d4ea5d2575316424c979475d4324ea5c
+guid: 34330a4acd127466ab60bf78d96bd702
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8157925892973699123
-    second: ControlsPanel_0
+      213: 5633734781782185242
+    second: ControlsPanel 2_0
   - first:
-      213: 2019096090073368119
-    second: ControlsPanel_1
+      213: -1046985129716285718
+    second: ControlsPanel 2_1
   - first:
-      213: -8412977102765669804
-    second: ControlsPanel_2
+      213: 8278914234262261071
+    second: ControlsPanel 2_2
   - first:
-      213: 8352991557294160582
-    second: ControlsPanel_3
+      213: 8732069319369969213
+    second: ControlsPanel 2_3
   - first:
-      213: 3858615170518946138
-    second: ControlsPanel_4
+      213: 4757780945173010034
+    second: ControlsPanel 2_4
   - first:
-      213: -2889471810222654625
-    second: ControlsPanel_5
+      213: 7891374304195832722
+    second: ControlsPanel 2_5
   - first:
-      213: -1762866739965195871
-    second: ControlsPanel_6
+      213: -7840615171843162866
+    second: ControlsPanel 2_6
   - first:
-      213: 4307583357706127545
-    second: ControlsPanel_7
+      213: -2416295393092482224
+    second: ControlsPanel 2_7
   - first:
-      213: 5458687245081405068
-    second: ControlsPanel_8
+      213: -1241631352524774265
+    second: ControlsPanel 2_8
   - first:
-      213: -126980708172364168
-    second: ControlsPanel_9
+      213: 5461235288511879513
+    second: ControlsPanel 2_9
   - first:
-      213: 8551811106427973
-    second: ControlsPanel_10
+      213: -8490072521040128278
+    second: ControlsPanel 2_10
   - first:
-      213: -6161437711711358859
-    second: ControlsPanel_11
+      213: 3314509193741421544
+    second: ControlsPanel 2_11
   - first:
-      213: -3682743524598010909
-    second: ControlsPanel_12
+      213: -4385845829149402246
+    second: ControlsPanel 2_12
   - first:
-      213: -7625149209830040849
-    second: ControlsPanel_13
+      213: -3269346663413009922
+    second: ControlsPanel 2_13
   - first:
-      213: -2012375779384272483
-    second: ControlsPanel_14
+      213: 2265161087949544135
+    second: ControlsPanel 2_14
   - first:
-      213: -6757981216981111236
-    second: ControlsPanel_15
+      213: -8663508771065017705
+    second: ControlsPanel 2_15
   - first:
-      213: 1916595652489280602
-    second: ControlsPanel_16
+      213: 1634978604398585821
+    second: ControlsPanel 2_16
   - first:
-      213: 6911208654177002077
-    second: ControlsPanel_17
+      213: 5289777158040820933
+    second: ControlsPanel 2_17
   - first:
-      213: -2410119362032837871
-    second: ControlsPanel_18
+      213: -2731630993882424412
+    second: ControlsPanel 2_18
   - first:
-      213: 6201664222145930620
-    second: ControlsPanel_19
+      213: 312669124895640336
+    second: ControlsPanel 2_19
   - first:
-      213: 5950905779066607137
-    second: ControlsPanel_20
+      213: 5713641890784059513
+    second: ControlsPanel 2_20
   - first:
-      213: -3131750047228576282
-    second: ControlsPanel_21
+      213: 4676884869922570094
+    second: ControlsPanel 2_21
   - first:
-      213: -6532038064431555415
-    second: ControlsPanel_22
+      213: 8760337698326995506
+    second: ControlsPanel 2_22
   - first:
-      213: 2063396327224159157
-    second: ControlsPanel_23
+      213: -8375886632606798646
+    second: ControlsPanel 2_23
   - first:
-      213: -6706761244921730903
-    second: ControlsPanel_24
+      213: -6981627595351005528
+    second: ControlsPanel 2_24
   - first:
-      213: 2930875816669706851
-    second: ControlsPanel_25
+      213: -6664931313849443311
+    second: ControlsPanel 2_25
   - first:
-      213: 2707916304203600473
-    second: ControlsPanel_26
+      213: -1284743577767547051
+    second: ControlsPanel 2_26
   - first:
-      213: -6206587281715211357
-    second: ControlsPanel_27
+      213: -2532706382756192050
+    second: ControlsPanel 2_27
   - first:
-      213: 3259148003430231904
-    second: ControlsPanel_28
+      213: -4952085850552161599
+    second: ControlsPanel 2_28
   - first:
-      213: 8125424832345637513
-    second: ControlsPanel_29
+      213: 6552431615334193831
+    second: ControlsPanel 2_29
   - first:
-      213: -7448776795235528672
-    second: ControlsPanel_30
+      213: 7897506650426531623
+    second: ControlsPanel 2_30
   - first:
-      213: -867973250187556038
-    second: ControlsPanel_31
+      213: -1425911813350188334
+    second: ControlsPanel 2_31
   - first:
-      213: -706491869451952671
-    second: ControlsPanel_32
+      213: 859016274082282814
+    second: ControlsPanel 2_32
   - first:
-      213: 6271963576780641538
-    second: ControlsPanel_33
+      213: 3503094475060811100
+    second: ControlsPanel 2_33
   - first:
-      213: 7609452247266036418
-    second: ControlsPanel_34
+      213: -9132510233513133998
+    second: ControlsPanel 2_34
   - first:
-      213: 3024736402142975112
-    second: ControlsPanel_35
+      213: -1856476610954677642
+    second: ControlsPanel 2_35
   - first:
-      213: -2231801718322238616
-    second: ControlsPanel_36
+      213: 1066512779585336325
+    second: ControlsPanel 2_36
   - first:
-      213: 4984428408027572276
-    second: ControlsPanel_37
+      213: -5850700344275699192
+    second: ControlsPanel 2_37
   - first:
-      213: 6994389944207558058
-    second: ControlsPanel_38
+      213: 5246201023569234827
+    second: ControlsPanel 2_38
   - first:
-      213: 9155350881804550604
-    second: ControlsPanel_39
+      213: -1941035264830668380
+    second: ControlsPanel 2_39
   - first:
-      213: 2250499935246410219
-    second: ControlsPanel_40
+      213: 5176558492544180775
+    second: ControlsPanel 2_40
   - first:
-      213: 9201832755047429705
-    second: ControlsPanel_41
+      213: 1862302126603279132
+    second: ControlsPanel 2_41
   - first:
-      213: -2063133025750472068
-    second: ControlsPanel_42
+      213: -7861410922793768960
+    second: ControlsPanel 2_42
   - first:
-      213: 4189774666291476076
-    second: ControlsPanel_43
+      213: 7852678267929123890
+    second: ControlsPanel 2_43
   - first:
-      213: 402619092652056373
-    second: ControlsPanel_44
+      213: 7391911943534839100
+    second: ControlsPanel 2_44
   - first:
-      213: 7245647595520133518
-    second: ControlsPanel_45
+      213: -9043036601645277061
+    second: ControlsPanel 2_45
   - first:
-      213: -6913653565729363642
-    second: ControlsPanel_46
+      213: -8913058641488733249
+    second: ControlsPanel 2_46
   - first:
-      213: -244379600456574545
-    second: ControlsPanel_47
+      213: -756755717969708926
+    second: ControlsPanel 2_47
   - first:
-      213: -7989322273379540889
-    second: ControlsPanel_48
+      213: -3486254876424009182
+    second: ControlsPanel 2_48
   - first:
-      213: 8153526062521648923
-    second: ControlsPanel_49
+      213: -150519605784402345
+    second: ControlsPanel 2_49
   - first:
-      213: -8902271025232768369
-    second: ControlsPanel_50
+      213: -8749991590132389392
+    second: ControlsPanel 2_50
   - first:
-      213: 7778999196821333589
-    second: ControlsPanel_51
+      213: 8521462006854915861
+    second: ControlsPanel 2_51
   - first:
-      213: 2632390293257804985
-    second: ControlsPanel_52
+      213: -965902533767571312
+    second: ControlsPanel 2_52
   - first:
-      213: 2217779507782160233
-    second: ControlsPanel_53
+      213: 1062507010979977291
+    second: ControlsPanel 2_53
   - first:
-      213: 7883373211674933093
-    second: ControlsPanel_54
+      213: -3423715241034400624
+    second: ControlsPanel 2_54
   - first:
-      213: -1733884323168693979
-    second: ControlsPanel_55
+      213: -3359987704102011833
+    second: ControlsPanel 2_55
   - first:
-      213: -8557080721362354615
-    second: ControlsPanel_56
+      213: 4558040994704889440
+    second: ControlsPanel 2_56
   - first:
-      213: -6934166281798944814
-    second: ControlsPanel_57
+      213: -569894645696553096
+    second: ControlsPanel 2_57
   - first:
-      213: -4737636748445136554
-    second: ControlsPanel_58
+      213: 2282505852477315537
+    second: ControlsPanel 2_58
   - first:
-      213: -4903168676185682474
-    second: ControlsPanel_59
+      213: 5755390339080094613
+    second: ControlsPanel 2_59
   - first:
-      213: -7354989506238596012
-    second: ControlsPanel_60
+      213: -7417138603072970786
+    second: ControlsPanel 2_60
   - first:
-      213: 6081511279914657036
-    second: ControlsPanel_61
+      213: 1091226272469600546
+    second: ControlsPanel 2_61
   - first:
-      213: 1527209472555396507
-    second: ControlsPanel_62
+      213: -7609242417852294595
+    second: ControlsPanel 2_62
   - first:
-      213: -2749738511102204793
-    second: ControlsPanel_63
+      213: 1784122487308123264
+    second: ControlsPanel 2_63
   - first:
-      213: 2534800776282999691
-    second: ControlsPanel_64
+      213: -113334518059719206
+    second: ControlsPanel 2_64
   - first:
-      213: -8440525034051557572
-    second: ControlsPanel_65
+      213: -3770781393537111177
+    second: ControlsPanel 2_65
   - first:
-      213: -4531037211480783250
-    second: ControlsPanel_66
+      213: -6404179063219697039
+    second: ControlsPanel 2_66
   - first:
-      213: -8102254502870617345
-    second: ControlsPanel_67
+      213: -227467092492390604
+    second: ControlsPanel 2_67
   - first:
-      213: -4522351294118463181
-    second: ControlsPanel_68
+      213: -1088594482793119508
+    second: ControlsPanel 2_68
   - first:
-      213: -8946293490675644322
-    second: ControlsPanel_69
+      213: -705138329579812437
+    second: ControlsPanel 2_69
   - first:
-      213: 3605047111087684882
-    second: ControlsPanel_70
+      213: -7396942337651609183
+    second: ControlsPanel 2_70
   - first:
-      213: -6778329792786850013
-    second: ControlsPanel_71
+      213: -3181652658203572181
+    second: ControlsPanel 2_71
   - first:
-      213: 4218191492479054868
-    second: ControlsPanel_72
+      213: -9151061747964754246
+    second: ControlsPanel 2_72
   - first:
-      213: -2587522183329271980
-    second: ControlsPanel_73
+      213: 6710930744079501226
+    second: ControlsPanel 2_73
   - first:
-      213: -6087037457016451303
-    second: ControlsPanel_74
+      213: -9092487567567974622
+    second: ControlsPanel 2_74
   - first:
-      213: -8706532621164922455
-    second: ControlsPanel_75
+      213: 125665315938875584
+    second: ControlsPanel 2_75
   - first:
-      213: -7977047647396843085
-    second: ControlsPanel_76
+      213: -4122942820268413576
+    second: ControlsPanel 2_76
   - first:
-      213: 9162777198295110910
-    second: ControlsPanel_77
+      213: 5362325655314967780
+    second: ControlsPanel 2_77
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -277,7 +277,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -327,11 +327,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ControlsPanel_0
+      name: ControlsPanel 2_0
       rect:
         serializedVersion: 2
         x: 45
@@ -346,14 +359,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 330a8aa8066c63170800000000000000
-      internalID: 8157925892973699123
+      spriteID: a15d3ea6feb0f2e40800000000000000
+      internalID: 5633734781782185242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_1
+      name: ControlsPanel 2_1
       rect:
         serializedVersion: 2
         x: 73
@@ -368,14 +381,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 73604304235450c10800000000000000
-      internalID: 2019096090073368119
+      spriteID: aeef42a529c5871f0800000000000000
+      internalID: -1046985129716285718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_2
+      name: ControlsPanel 2_2
       rect:
         serializedVersion: 2
         x: 102
@@ -390,14 +403,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 452482e16e91f3b80800000000000000
-      internalID: -8412977102765669804
+      spriteID: f4d802be1ac94e270800000000000000
+      internalID: 8278914234262261071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_3
+      name: ControlsPanel 2_3
       rect:
         serializedVersion: 2
         x: 140
@@ -412,14 +425,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6cafa58b099cbe370800000000000000
-      internalID: 8352991557294160582
+      spriteID: d3e422f08ca8e2970800000000000000
+      internalID: 8732069319369969213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_4
+      name: ControlsPanel 2_4
       rect:
         serializedVersion: 2
         x: 168
@@ -434,14 +447,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5117b3cd0e8c8530800000000000000
-      internalID: 3858615170518946138
+      spriteID: 276d824df88070240800000000000000
+      internalID: 4757780945173010034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_5
+      name: ControlsPanel 2_5
       rect:
         serializedVersion: 2
         x: 196
@@ -456,14 +469,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f5b7c2b92b886e7d0800000000000000
-      internalID: -2889471810222654625
+      spriteID: 29bec3f8e1bc38d60800000000000000
+      internalID: 7891374304195832722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_6
+      name: ControlsPanel 2_6
       rect:
         serializedVersion: 2
         x: 224
@@ -478,14 +491,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a906024a0a0987e0800000000000000
-      internalID: -1762866739965195871
+      spriteID: e0dffb5ea0a803390800000000000000
+      internalID: -7840615171843162866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_7
+      name: ControlsPanel 2_7
       rect:
         serializedVersion: 2
         x: 262
@@ -500,14 +513,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b84574cd3c97cb30800000000000000
-      internalID: 4307583357706127545
+      spriteID: 05b4f4e5428977ed0800000000000000
+      internalID: -2416295393092482224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_8
+      name: ControlsPanel 2_8
       rect:
         serializedVersion: 2
         x: 290
@@ -522,14 +535,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c866807c02721cb40800000000000000
-      internalID: 5458687245081405068
+      spriteID: 784e5c20dd6d4cee0800000000000000
+      internalID: -1241631352524774265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_9
+      name: ControlsPanel 2_9
       rect:
         serializedVersion: 2
         x: 328
@@ -544,14 +557,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8760f0cf7bfdc3ef0800000000000000
-      internalID: -126980708172364168
+      spriteID: 959149e5f843acb40800000000000000
+      internalID: 5461235288511879513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_10
+      name: ControlsPanel 2_10
       rect:
         serializedVersion: 2
         x: 356
@@ -566,14 +579,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5445f2fa3d16e1000800000000000000
-      internalID: 8551811106427973
+      spriteID: ae6191246043d2a80800000000000000
+      internalID: -8490072521040128278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_11
+      name: ControlsPanel 2_11
       rect:
         serializedVersion: 2
         x: 384
@@ -588,14 +601,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 570bfbfbb0d2e7aa0800000000000000
-      internalID: -6161437711711358859
+      spriteID: 8eb49b9fc808ffd20800000000000000
+      internalID: 3314509193741421544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_12
+      name: ControlsPanel 2_12
       rect:
         serializedVersion: 2
         x: 413
@@ -610,14 +623,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3eb2771c64444ecc0800000000000000
-      internalID: -3682743524598010909
+      spriteID: a7bdbe1a4785223c0800000000000000
+      internalID: -4385845829149402246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_13
+      name: ControlsPanel 2_13
       rect:
         serializedVersion: 2
         x: 441
@@ -632,14 +645,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: feadab481370e2690800000000000000
-      internalID: -7625149209830040849
+      spriteID: ef1b8a70882f0a2d0800000000000000
+      internalID: -3269346663413009922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_14
+      name: ControlsPanel 2_14
       rect:
         serializedVersion: 2
         x: 479
@@ -654,14 +667,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d99533304ea9214e0800000000000000
-      internalID: -2012375779384272483
+      spriteID: 7ca154612087f6f10800000000000000
+      internalID: 2265161087949544135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_15
+      name: ControlsPanel 2_15
       rect:
         serializedVersion: 2
         x: 507
@@ -676,14 +689,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c3e241373e3d632a0800000000000000
-      internalID: -6757981216981111236
+      spriteID: 79a40388ca805c780800000000000000
+      internalID: -8663508771065017705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_16
+      name: ControlsPanel 2_16
       rect:
         serializedVersion: 2
         x: 535
@@ -698,14 +711,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5c7ea4679d199a10800000000000000
-      internalID: 1916595652489280602
+      spriteID: dd7aa82d06c90b610800000000000000
+      internalID: 1634978604398585821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_17
+      name: ControlsPanel 2_17
       rect:
         serializedVersion: 2
         x: 563
@@ -720,14 +733,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5263d067ab89ef50800000000000000
-      internalID: 6911208654177002077
+      spriteID: 5cc9ffd7c40196940800000000000000
+      internalID: 5289777158040820933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_18
+      name: ControlsPanel 2_18
       rect:
         serializedVersion: 2
         x: 601
@@ -742,14 +755,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11bddb7a5398d8ed0800000000000000
-      internalID: -2410119362032837871
+      spriteID: 4abd038751c471ad0800000000000000
+      internalID: -2731630993882424412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_19
+      name: ControlsPanel 2_19
       rect:
         serializedVersion: 2
         x: 629
@@ -764,14 +777,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c75e14190ccb01650800000000000000
-      internalID: 6201664222145930620
+      spriteID: 01b03a999e2d65400800000000000000
+      internalID: 312669124895640336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_20
+      name: ControlsPanel 2_20
       rect:
         serializedVersion: 2
         x: 45
@@ -786,14 +799,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 126951dd64dd59250800000000000000
-      internalID: 5950905779066607137
+      spriteID: 970a9f9070fea4f40800000000000000
+      internalID: 5713641890784059513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_21
+      name: ControlsPanel 2_21
       rect:
         serializedVersion: 2
         x: 73
@@ -808,14 +821,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6edb0adbce9c984d0800000000000000
-      internalID: -3131750047228576282
+      spriteID: e6f322f8202a7e040800000000000000
+      internalID: 4676884869922570094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_22
+      name: ControlsPanel 2_22
       rect:
         serializedVersion: 2
         x: 102
@@ -830,14 +843,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ac1a361df98955a0800000000000000
-      internalID: -6532038064431555415
+      spriteID: 2326e3de8b8f29970800000000000000
+      internalID: 8760337698326995506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_23
+      name: ControlsPanel 2_23
       rect:
         serializedVersion: 2
         x: 130
@@ -852,14 +865,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5bbaa0bf608a2ac10800000000000000
-      internalID: 2063396327224159157
+      spriteID: acc67882c7fd2cb80800000000000000
+      internalID: -8375886632606798646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_24
+      name: ControlsPanel 2_24
       rect:
         serializedVersion: 2
         x: 168
@@ -874,14 +887,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a865138e2ccce2a0800000000000000
-      internalID: -6706761244921730903
+      spriteID: 8a6e90931b64c1f90800000000000000
+      internalID: -6981627595351005528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_25
+      name: ControlsPanel 2_25
       rect:
         serializedVersion: 2
         x: 196
@@ -896,14 +909,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36a716dd6009ca820800000000000000
-      internalID: 2930875816669706851
+      spriteID: 11c50a948486183a0800000000000000
+      internalID: -6664931313849443311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_26
+      name: ControlsPanel 2_26
       rect:
         serializedVersion: 2
         x: 224
@@ -918,14 +931,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9525b811883749520800000000000000
-      internalID: 2707916304203600473
+      spriteID: 55f63bbd58cab2ee0800000000000000
+      internalID: -1284743577767547051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_27
+      name: ControlsPanel 2_27
       rect:
         serializedVersion: 2
         x: 252
@@ -940,14 +953,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a358ed40c5cdd9a0800000000000000
-      internalID: -6206587281715211357
+      spriteID: ec0e377b6f40adcd0800000000000000
+      internalID: -2532706382756192050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_28
+      name: ControlsPanel 2_28
       rect:
         serializedVersion: 2
         x: 280
@@ -962,14 +975,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 06fe1e667d1da3d20800000000000000
-      internalID: 3259148003430231904
+      spriteID: 1caa99cf728a64bb0800000000000000
+      internalID: -4952085850552161599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_29
+      name: ControlsPanel 2_29
       rect:
         serializedVersion: 2
         x: 308
@@ -984,14 +997,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 982891da5de43c070800000000000000
-      internalID: 8125424832345637513
+      spriteID: 7aa980f76d9eeea50800000000000000
+      internalID: 6552431615334193831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_30
+      name: ControlsPanel 2_30
       rect:
         serializedVersion: 2
         x: 140
@@ -1006,14 +1019,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02050d458f0a0a890800000000000000
-      internalID: -7448776795235528672
+      spriteID: 72f55fda474999d60800000000000000
+      internalID: 7897506650426531623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_31
+      name: ControlsPanel 2_31
       rect:
         serializedVersion: 2
         x: 477
@@ -1028,14 +1041,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3b870c7de654f3f0800000000000000
-      internalID: -867973250187556038
+      spriteID: 2da9a34b2c4263ce0800000000000000
+      internalID: -1425911813350188334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_32
+      name: ControlsPanel 2_32
       rect:
         serializedVersion: 2
         x: 46
@@ -1050,14 +1063,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ed5d9c43690236f0800000000000000
-      internalID: -706491869451952671
+      spriteID: e3d34f000c6dbeb00800000000000000
+      internalID: 859016274082282814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_33
+      name: ControlsPanel 2_33
       rect:
         serializedVersion: 2
         x: 140
@@ -1072,14 +1085,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 205d23e84ad7a0750800000000000000
-      internalID: 6271963576780641538
+      spriteID: c5512a86ddd7d9030800000000000000
+      internalID: 3503094475060811100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_34
+      name: ControlsPanel 2_34
       rect:
         serializedVersion: 2
         x: 234
@@ -1094,14 +1107,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ca079590843a9960800000000000000
-      internalID: 7609452247266036418
+      spriteID: 25874d7245ec24180800000000000000
+      internalID: -9132510233513133998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_35
+      name: ControlsPanel 2_35
       rect:
         serializedVersion: 2
         x: 383
@@ -1116,14 +1129,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 884dce46bb50af920800000000000000
-      internalID: 3024736402142975112
+      spriteID: 672b93ebb587c36e0800000000000000
+      internalID: -1856476610954677642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_36
+      name: ControlsPanel 2_36
       rect:
         serializedVersion: 2
         x: 477
@@ -1138,14 +1151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86beb4a692c0701e0800000000000000
-      internalID: -2231801718322238616
+      spriteID: 504399fe8b30dce00800000000000000
+      internalID: 1066512779585336325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_37
+      name: ControlsPanel 2_37
       rect:
         serializedVersion: 2
         x: 570
@@ -1160,14 +1173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43869dc7a3f3c2540800000000000000
-      internalID: 4984428408027572276
+      spriteID: 80af03409032ecea0800000000000000
+      internalID: -5850700344275699192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_38
+      name: ControlsPanel 2_38
       rect:
         serializedVersion: 2
         x: 47
@@ -1182,14 +1195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa54e0da890111160800000000000000
-      internalID: 6994389944207558058
+      spriteID: b8b822e09004ec840800000000000000
+      internalID: 5246201023569234827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_39
+      name: ControlsPanel 2_39
       rect:
         serializedVersion: 2
         x: 75
@@ -1204,14 +1217,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc10500be175e0f70800000000000000
-      internalID: 9155350881804550604
+      spriteID: 4a1034fe5be0015e0800000000000000
+      internalID: -1941035264830668380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_40
+      name: ControlsPanel 2_40
       rect:
         serializedVersion: 2
         x: 104
@@ -1226,14 +1239,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: be1e66774c16b3f10800000000000000
-      internalID: 2250499935246410219
+      spriteID: 722a02bb584d6d740800000000000000
+      internalID: 5176558492544180775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_41
+      name: ControlsPanel 2_41
       rect:
         serializedVersion: 2
         x: 132
@@ -1248,14 +1261,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 946f727232a73bf70800000000000000
-      internalID: 9201832755047429705
+      spriteID: c1b94a0dae938d910800000000000000
+      internalID: 1862302126603279132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_42
+      name: ControlsPanel 2_42
       rect:
         serializedVersion: 2
         x: 370
@@ -1270,14 +1283,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c7a24cba1774e53e0800000000000000
-      internalID: -2063133025750472068
+      spriteID: 0086081da68a6e290800000000000000
+      internalID: -7861410922793768960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_43
+      name: ControlsPanel 2_43
       rect:
         serializedVersion: 2
         x: 398
@@ -1292,14 +1305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c66fb315cd1152a30800000000000000
-      internalID: 4189774666291476076
+      spriteID: 23c585787415afc60800000000000000
+      internalID: 7852678267929123890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_44
+      name: ControlsPanel 2_44
       rect:
         serializedVersion: 2
         x: 427
@@ -1314,14 +1327,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 53fd05d7ee3669500800000000000000
-      internalID: 402619092652056373
+      spriteID: c358c55afb8559660800000000000000
+      internalID: 7391911943534839100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_45
+      name: ControlsPanel 2_45
       rect:
         serializedVersion: 2
         x: 455
@@ -1336,14 +1349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8904aa5916bd8460800000000000000
-      internalID: 7245647595520133518
+      spriteID: b70e3147f1ea08280800000000000000
+      internalID: -9043036601645277061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_46
+      name: ControlsPanel 2_46
       rect:
         serializedVersion: 2
         x: 483
@@ -1358,14 +1371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 649a69a46b4cd00a0800000000000000
-      internalID: -6913653565729363642
+      spriteID: fbb96d393647e4480800000000000000
+      internalID: -8913058641488733249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_47
+      name: ControlsPanel 2_47
       rect:
         serializedVersion: 2
         x: 41
@@ -1380,14 +1393,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fa91f645c0acb9cf0800000000000000
-      internalID: -244379600456574545
+      spriteID: 2887ba81fa67f75f0800000000000000
+      internalID: -756755717969708926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_48
+      name: ControlsPanel 2_48
       rect:
         serializedVersion: 2
         x: 369
@@ -1402,14 +1415,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 760a81bb8b9302190800000000000000
-      internalID: -7989322273379540889
+      spriteID: 22a064e29a55e9fc0800000000000000
+      internalID: -3486254876424009182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_49
+      name: ControlsPanel 2_49
       rect:
         serializedVersion: 2
         x: 48
@@ -1424,14 +1437,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b170e7f21c4272170800000000000000
-      internalID: 8153526062521648923
+      spriteID: 7562d7d473f39edf0800000000000000
+      internalID: -150519605784402345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_50
+      name: ControlsPanel 2_50
       rect:
         serializedVersion: 2
         x: 76
@@ -1446,14 +1459,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f829fb63ba7c47480800000000000000
-      internalID: -8902271025232768369
+      spriteID: 0f9e08a1209c19680800000000000000
+      internalID: -8749991590132389392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_51
+      name: ControlsPanel 2_51
       rect:
         serializedVersion: 2
         x: 105
@@ -1468,14 +1481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 556a59afd8e84fb60800000000000000
-      internalID: 7778999196821333589
+      spriteID: 517139deb80524670800000000000000
+      internalID: 8521462006854915861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_52
+      name: ControlsPanel 2_52
       rect:
         serializedVersion: 2
         x: 133
@@ -1490,14 +1503,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9bc51d35601288420800000000000000
-      internalID: 2632390293257804985
+      spriteID: 098522b53cc6892f0800000000000000
+      internalID: -965902533767571312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_53
+      name: ControlsPanel 2_53
       rect:
         serializedVersion: 2
         x: 161
@@ -1512,14 +1525,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96f0f7746b227ce10800000000000000
-      internalID: 2217779507782160233
+      spriteID: b48d2d04f78cebe00800000000000000
+      internalID: 1062507010979977291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_54
+      name: ControlsPanel 2_54
       rect:
         serializedVersion: 2
         x: 189
@@ -1534,14 +1547,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 567f6b90b2e576d60800000000000000
-      internalID: 7883373211674933093
+      spriteID: 09cbd0eb0258c70d0800000000000000
+      internalID: -3423715241034400624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_55
+      name: ControlsPanel 2_55
       rect:
         serializedVersion: 2
         x: 217
@@ -1556,14 +1569,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52159e3056100f7e0800000000000000
-      internalID: -1733884323168693979
+      spriteID: 74cb15f2cfcee51d0800000000000000
+      internalID: -3359987704102011833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_56
+      name: ControlsPanel 2_56
       rect:
         serializedVersion: 2
         x: 245
@@ -1578,14 +1591,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 94e7ad8db642f3980800000000000000
-      internalID: -8557080721362354615
+      spriteID: 0669d09922a614f30800000000000000
+      internalID: 4558040994704889440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_57
+      name: ControlsPanel 2_57
       rect:
         serializedVersion: 2
         x: 273
@@ -1600,14 +1613,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d7f1e76184e4cf90800000000000000
-      internalID: -6934166281798944814
+      spriteID: 87f1cd3d6d35718f0800000000000000
+      internalID: -569894645696553096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_58
+      name: ControlsPanel 2_58
       rect:
         serializedVersion: 2
         x: 301
@@ -1622,14 +1635,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 65947167a78804eb0800000000000000
-      internalID: -4737636748445136554
+      spriteID: 1d919a6caf61daf10800000000000000
+      internalID: 2282505852477315537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_59
+      name: ControlsPanel 2_59
       rect:
         serializedVersion: 2
         x: 301
@@ -1644,14 +1657,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6dd412e211274fbb0800000000000000
-      internalID: -4903168676185682474
+      spriteID: 593859025014fdf40800000000000000
+      internalID: 5755390339080094613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_60
+      name: ControlsPanel 2_60
       rect:
         serializedVersion: 2
         x: 48
@@ -1666,14 +1679,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45c3ce13304dde990800000000000000
-      internalID: -7354989506238596012
+      spriteID: edf9ff9fcb7011990800000000000000
+      internalID: -7417138603072970786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_61
+      name: ControlsPanel 2_61
       rect:
         serializedVersion: 2
         x: 152
@@ -1688,14 +1701,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c0528d0b94ed56450800000000000000
-      internalID: 6081511279914657036
+      spriteID: 229cf146380d42f00800000000000000
+      internalID: 1091226272469600546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_62
+      name: ControlsPanel 2_62
       rect:
         serializedVersion: 2
         x: 180
@@ -1710,14 +1723,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9da64d7cecb13510800000000000000
-      internalID: 1527209472555396507
+      spriteID: d3a5412265a866690800000000000000
+      internalID: -7609242417852294595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_63
+      name: ControlsPanel 2_63
       rect:
         serializedVersion: 2
         x: 209
@@ -1732,14 +1745,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 784aa849467f6d9d0800000000000000
-      internalID: -2749738511102204793
+      spriteID: 08c79c313f972c810800000000000000
+      internalID: 1784122487308123264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_64
+      name: ControlsPanel 2_64
       rect:
         serializedVersion: 2
         x: 335
@@ -1754,14 +1767,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8b8bb640eb6d2320800000000000000
-      internalID: 2534800776282999691
+      spriteID: ad5a2463bda5d6ef0800000000000000
+      internalID: -113334518059719206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_65
+      name: ControlsPanel 2_65
       rect:
         serializedVersion: 2
         x: 443
@@ -1776,14 +1789,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c37a09b833b3dda80800000000000000
-      internalID: -8440525034051557572
+      spriteID: 77b61901d4e7babc0800000000000000
+      internalID: -3770781393537111177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_66
+      name: ControlsPanel 2_66
       rect:
         serializedVersion: 2
         x: 471
@@ -1798,14 +1811,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e668c91a9a58e11c0800000000000000
-      internalID: -4531037211480783250
+      spriteID: 17acbc2a219cf17a0800000000000000
+      internalID: -6404179063219697039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_67
+      name: ControlsPanel 2_67
       rect:
         serializedVersion: 2
         x: 500
@@ -1820,14 +1833,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff2769c05720f8f80800000000000000
-      internalID: -8102254502870617345
+      spriteID: 43f66e172efd7dcf0800000000000000
+      internalID: -227467092492390604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_68
+      name: ControlsPanel 2_68
       rect:
         serializedVersion: 2
         x: 528
@@ -1842,14 +1855,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3397a8c55716d31c0800000000000000
-      internalID: -4522351294118463181
+      spriteID: ce08aa4e51984e0f0800000000000000
+      internalID: -1088594482793119508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_69
+      name: ControlsPanel 2_69
       rect:
         serializedVersion: 2
         x: 556
@@ -1864,14 +1877,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5883ef387168d380800000000000000
-      internalID: -8946293490675644322
+      spriteID: ba902ebdc68d636f0800000000000000
+      internalID: -705138329579812437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_70
+      name: ControlsPanel 2_70
       rect:
         serializedVersion: 2
         x: 584
@@ -1886,14 +1899,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21dfde64f33b70230800000000000000
-      internalID: 3605047111087684882
+      spriteID: 1a17a347228c85990800000000000000
+      internalID: -7396942337651609183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_71
+      name: ControlsPanel 2_71
       rect:
         serializedVersion: 2
         x: 152
@@ -1908,14 +1921,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32f1e7277f88ee1a0800000000000000
-      internalID: -6778329792786850013
+      spriteID: b284915b3cf78d3d0800000000000000
+      internalID: -3181652658203572181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_72
+      name: ControlsPanel 2_72
       rect:
         serializedVersion: 2
         x: 180
@@ -1930,14 +1943,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 414f9cf30d60a8a30800000000000000
-      internalID: 4218191492479054868
+      spriteID: ab645ea13d5e00180800000000000000
+      internalID: -9151061747964754246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_73
+      name: ControlsPanel 2_73
       rect:
         serializedVersion: 2
         x: 209
@@ -1952,14 +1965,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45f27369846471cd0800000000000000
-      internalID: -2587522183329271980
+      spriteID: aa74b19a4f3022d50800000000000000
+      internalID: 6710930744079501226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_74
+      name: ControlsPanel 2_74
       rect:
         serializedVersion: 2
         x: 237
@@ -1974,14 +1987,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91f8900feaf768ba0800000000000000
-      internalID: -6087037457016451303
+      spriteID: 22f847a3bbef0d180800000000000000
+      internalID: -9092487567567974622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_75
+      name: ControlsPanel 2_75
       rect:
         serializedVersion: 2
         x: 265
@@ -1996,14 +2009,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a93d12d5be2c2780800000000000000
-      internalID: -8706532621164922455
+      spriteID: 0c8bf1560f37eb100800000000000000
+      internalID: 125665315938875584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_76
+      name: ControlsPanel 2_76
       rect:
         serializedVersion: 2
         x: 443
@@ -2018,14 +2031,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b1bb8ccd65db4190800000000000000
-      internalID: -7977047647396843085
+      spriteID: 87d67a8695d58c6c0800000000000000
+      internalID: -4122942820268413576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ControlsPanel_77
+      name: ControlsPanel 2_77
       rect:
         serializedVersion: 2
         x: 471
@@ -2040,8 +2053,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef4dd6cb059b82f70800000000000000
-      internalID: 9162777198295110910
+      spriteID: 4ec230fc5ceca6a40800000000000000
+      internalID: 5362325655314967780
       vertices: []
       indices: 
       edges: []
@@ -2050,7 +2063,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -2060,84 +2073,84 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ControlsPanel_0: 8157925892973699123
-      ControlsPanel_1: 2019096090073368119
-      ControlsPanel_10: 8551811106427973
-      ControlsPanel_11: -6161437711711358859
-      ControlsPanel_12: -3682743524598010909
-      ControlsPanel_13: -7625149209830040849
-      ControlsPanel_14: -2012375779384272483
-      ControlsPanel_15: -6757981216981111236
-      ControlsPanel_16: 1916595652489280602
-      ControlsPanel_17: 6911208654177002077
-      ControlsPanel_18: -2410119362032837871
-      ControlsPanel_19: 6201664222145930620
-      ControlsPanel_2: -8412977102765669804
-      ControlsPanel_20: 5950905779066607137
-      ControlsPanel_21: -3131750047228576282
-      ControlsPanel_22: -6532038064431555415
-      ControlsPanel_23: 2063396327224159157
-      ControlsPanel_24: -6706761244921730903
-      ControlsPanel_25: 2930875816669706851
-      ControlsPanel_26: 2707916304203600473
-      ControlsPanel_27: -6206587281715211357
-      ControlsPanel_28: 3259148003430231904
-      ControlsPanel_29: 8125424832345637513
-      ControlsPanel_3: 8352991557294160582
-      ControlsPanel_30: -7448776795235528672
-      ControlsPanel_31: -867973250187556038
-      ControlsPanel_32: -706491869451952671
-      ControlsPanel_33: 6271963576780641538
-      ControlsPanel_34: 7609452247266036418
-      ControlsPanel_35: 3024736402142975112
-      ControlsPanel_36: -2231801718322238616
-      ControlsPanel_37: 4984428408027572276
-      ControlsPanel_38: 6994389944207558058
-      ControlsPanel_39: 9155350881804550604
-      ControlsPanel_4: 3858615170518946138
-      ControlsPanel_40: 2250499935246410219
-      ControlsPanel_41: 9201832755047429705
-      ControlsPanel_42: -2063133025750472068
-      ControlsPanel_43: 4189774666291476076
-      ControlsPanel_44: 402619092652056373
-      ControlsPanel_45: 7245647595520133518
-      ControlsPanel_46: -6913653565729363642
-      ControlsPanel_47: -244379600456574545
-      ControlsPanel_48: -7989322273379540889
-      ControlsPanel_49: 8153526062521648923
-      ControlsPanel_5: -2889471810222654625
-      ControlsPanel_50: -8902271025232768369
-      ControlsPanel_51: 7778999196821333589
-      ControlsPanel_52: 2632390293257804985
-      ControlsPanel_53: 2217779507782160233
-      ControlsPanel_54: 7883373211674933093
-      ControlsPanel_55: -1733884323168693979
-      ControlsPanel_56: -8557080721362354615
-      ControlsPanel_57: -6934166281798944814
-      ControlsPanel_58: -4737636748445136554
-      ControlsPanel_59: -4903168676185682474
-      ControlsPanel_6: -1762866739965195871
-      ControlsPanel_60: -7354989506238596012
-      ControlsPanel_61: 6081511279914657036
-      ControlsPanel_62: 1527209472555396507
-      ControlsPanel_63: -2749738511102204793
-      ControlsPanel_64: 2534800776282999691
-      ControlsPanel_65: -8440525034051557572
-      ControlsPanel_66: -4531037211480783250
-      ControlsPanel_67: -8102254502870617345
-      ControlsPanel_68: -4522351294118463181
-      ControlsPanel_69: -8946293490675644322
-      ControlsPanel_7: 4307583357706127545
-      ControlsPanel_70: 3605047111087684882
-      ControlsPanel_71: -6778329792786850013
-      ControlsPanel_72: 4218191492479054868
-      ControlsPanel_73: -2587522183329271980
-      ControlsPanel_74: -6087037457016451303
-      ControlsPanel_75: -8706532621164922455
-      ControlsPanel_76: -7977047647396843085
-      ControlsPanel_77: 9162777198295110910
-      ControlsPanel_8: 5458687245081405068
-      ControlsPanel_9: -126980708172364168
+      ControlsPanel 2_0: 5633734781782185242
+      ControlsPanel 2_1: -1046985129716285718
+      ControlsPanel 2_10: -8490072521040128278
+      ControlsPanel 2_11: 3314509193741421544
+      ControlsPanel 2_12: -4385845829149402246
+      ControlsPanel 2_13: -3269346663413009922
+      ControlsPanel 2_14: 2265161087949544135
+      ControlsPanel 2_15: -8663508771065017705
+      ControlsPanel 2_16: 1634978604398585821
+      ControlsPanel 2_17: 5289777158040820933
+      ControlsPanel 2_18: -2731630993882424412
+      ControlsPanel 2_19: 312669124895640336
+      ControlsPanel 2_2: 8278914234262261071
+      ControlsPanel 2_20: 5713641890784059513
+      ControlsPanel 2_21: 4676884869922570094
+      ControlsPanel 2_22: 8760337698326995506
+      ControlsPanel 2_23: -8375886632606798646
+      ControlsPanel 2_24: -6981627595351005528
+      ControlsPanel 2_25: -6664931313849443311
+      ControlsPanel 2_26: -1284743577767547051
+      ControlsPanel 2_27: -2532706382756192050
+      ControlsPanel 2_28: -4952085850552161599
+      ControlsPanel 2_29: 6552431615334193831
+      ControlsPanel 2_3: 8732069319369969213
+      ControlsPanel 2_30: 7897506650426531623
+      ControlsPanel 2_31: -1425911813350188334
+      ControlsPanel 2_32: 859016274082282814
+      ControlsPanel 2_33: 3503094475060811100
+      ControlsPanel 2_34: -9132510233513133998
+      ControlsPanel 2_35: -1856476610954677642
+      ControlsPanel 2_36: 1066512779585336325
+      ControlsPanel 2_37: -5850700344275699192
+      ControlsPanel 2_38: 5246201023569234827
+      ControlsPanel 2_39: -1941035264830668380
+      ControlsPanel 2_4: 4757780945173010034
+      ControlsPanel 2_40: 5176558492544180775
+      ControlsPanel 2_41: 1862302126603279132
+      ControlsPanel 2_42: -7861410922793768960
+      ControlsPanel 2_43: 7852678267929123890
+      ControlsPanel 2_44: 7391911943534839100
+      ControlsPanel 2_45: -9043036601645277061
+      ControlsPanel 2_46: -8913058641488733249
+      ControlsPanel 2_47: -756755717969708926
+      ControlsPanel 2_48: -3486254876424009182
+      ControlsPanel 2_49: -150519605784402345
+      ControlsPanel 2_5: 7891374304195832722
+      ControlsPanel 2_50: -8749991590132389392
+      ControlsPanel 2_51: 8521462006854915861
+      ControlsPanel 2_52: -965902533767571312
+      ControlsPanel 2_53: 1062507010979977291
+      ControlsPanel 2_54: -3423715241034400624
+      ControlsPanel 2_55: -3359987704102011833
+      ControlsPanel 2_56: 4558040994704889440
+      ControlsPanel 2_57: -569894645696553096
+      ControlsPanel 2_58: 2282505852477315537
+      ControlsPanel 2_59: 5755390339080094613
+      ControlsPanel 2_6: -7840615171843162866
+      ControlsPanel 2_60: -7417138603072970786
+      ControlsPanel 2_61: 1091226272469600546
+      ControlsPanel 2_62: -7609242417852294595
+      ControlsPanel 2_63: 1784122487308123264
+      ControlsPanel 2_64: -113334518059719206
+      ControlsPanel 2_65: -3770781393537111177
+      ControlsPanel 2_66: -6404179063219697039
+      ControlsPanel 2_67: -227467092492390604
+      ControlsPanel 2_68: -1088594482793119508
+      ControlsPanel 2_69: -705138329579812437
+      ControlsPanel 2_7: -2416295393092482224
+      ControlsPanel 2_70: -7396942337651609183
+      ControlsPanel 2_71: -3181652658203572181
+      ControlsPanel 2_72: -9151061747964754246
+      ControlsPanel 2_73: 6710930744079501226
+      ControlsPanel 2_74: -9092487567567974622
+      ControlsPanel 2_75: 125665315938875584
+      ControlsPanel 2_76: -4122942820268413576
+      ControlsPanel 2_77: 5362325655314967780
+      ControlsPanel 2_8: -1241631352524774265
+      ControlsPanel 2_9: 5461235288511879513
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
