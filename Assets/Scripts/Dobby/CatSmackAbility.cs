@@ -1,10 +1,10 @@
 using System.Collections;
 using UnityEngine;
 
-public class CatSmackAbility : MonoBehaviour
+public class CatSmackAbility: MonoBehaviour
 {
     [Header("Unlock")]
-    [SerializeField] private bool isUnlocked = false;
+    public bool isUnlocked = false;
 
     [Header("Input")]
     [SerializeField] private KeyCode smackKey = KeyCode.C;
@@ -24,6 +24,8 @@ public class CatSmackAbility : MonoBehaviour
     [SerializeField] private float knockbackForce = 5f;
 
     private bool isOnCooldown = false;
+    
+    public int amtEquipped; //the number of times a certain power up is equipped from the inventory
 
     private void Update()
     {
@@ -35,6 +37,14 @@ public class CatSmackAbility : MonoBehaviour
         if (Input.GetKeyDown(smackKey) && !isOnCooldown)
         {
             StartCoroutine(PerformCatSmack());
+            
+            //lock the ability if all equipped are used 
+            amtEquipped--;
+            if (amtEquipped <= 0)
+            {
+                LockAbility();
+                Debug.Log("Cat Smack is unavailable");
+            }
         }
     }
 

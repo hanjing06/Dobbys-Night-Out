@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dea6c3543790a4e66987890559530204, type: 3}
+  m_Name: MysteryBox
+  m_EditorClassIdentifier: Assembly-CSharp::ScriptableItem
+  itemName: MysteryBox
+  itemDescription: 'Surprise!! Purchase to unlock a mystery power up.
+
+'
+  itemIcon: {fileID: 3704975146128819605, guid: e050a009a79dd41f2a75e369bf21054f, type: 3}
+  change: 0
+  changeAmt: 0

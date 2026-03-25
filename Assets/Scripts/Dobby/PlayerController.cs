@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator animator;
     [SerializeField] private InteractionDetector interactionDetector;
+    [SerializeField] private CurrencyManager currencyManager;
     
     [SerializeField] private float walkSpeed = 5f;
     [SerializeField] private float runSpeed = 7f;
@@ -14,8 +15,11 @@ public class PlayerController : MonoBehaviour
     public Vector3 playerMoveDirection;
     // Update is called once per frame
     private bool FacingRight = true;
-    private int numSpiders;
 
+    void Start()
+    {
+        currencyManager = GameObject.Find("CurrencyCanvas").GetComponent<CurrencyManager>();
+    }
     void Update()
     {
         move();
@@ -86,21 +90,16 @@ public class PlayerController : MonoBehaviour
         }
         return false;
     }
-    public int getNumSpiders(){
-        return numSpiders;
-    }
-    public void collectSpider(){
-        numSpiders++;
-    }
+   
     void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Triggered with: " + other.gameObject.name);
 
         if (other.CompareTag("spider"))
         {
-            numSpiders++;
-            Debug.Log("Spider touched! Total: " + numSpiders);
+            Debug.Log("Spider touched! Total: " + currencyManager.numSpiders);
             Destroy(other.gameObject);
+            currencyManager.CollectCurrency(1);
         }
     }
 }
