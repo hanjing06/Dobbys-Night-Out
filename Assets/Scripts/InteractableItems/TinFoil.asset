@@ -10,8 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dea6c3543790a4e66987890559530204, type: 3}
-  m_Name: Yogurt
+  m_Name: TinFoil
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableItem
-  itemName: Yogurt
-  change: 1
-  changeAmt: 10
+  itemName: Tin Foil
+  itemDescription: AHHHHHHH! DO NOT touch this. Dobby is afraid of his own reflection
+    :(
+  itemIcon: {fileID: 3055672002921812344, guid: 43d755373f0304cad833fc788e53a293, type: 3}
+  change: 2
+  changeAmt: 15

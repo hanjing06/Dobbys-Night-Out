@@ -4,25 +4,33 @@ using UnityEngine;
 public class ScriptableItem: ScriptableObject
 {
     public string itemName;
+    [TextArea] public string itemDescription;
+    public Sprite itemIcon;
     public Change change = new Change();
     public int changeAmt;
 
     public enum Change
     {
-       none,
-       health,
-       currency
+       None,
+       AddHealth, //items with energy (ex: yogurt)
+       TakeDamage, //harmful items in the environment (ex: tinfoil)
+       Currency //the spiders for purchasing from the store
     }
 
     public void UseItem()
     {
-        if(change == Change.health)
+        if(change == Change.AddHealth)
         {
-            GameObject.Find("DobbyHealthManager").GetComponent<DobbyHealth>().ChangeHealth(changeAmt);
+            GameObject.Find("HealthCanvas").GetComponent<HealthManager>().AddHealth(changeAmt);
         }
-        if(change == Change.currency)
+        if(change == Change.Currency)
         {
-            GameObject.Find("CurrencyManager").GetComponent<numSpiders>().collectCurrency(changeAmt);
+            GameObject.Find("CurrencyCanvas").GetComponent<CurrencyManager>().CollectCurrency(changeAmt);
+        }
+
+        if (change == Change.TakeDamage)
+        {
+            GameObject.Find("HealthCanvas").GetComponent<HealthManager>().TakeDamage(changeAmt);
         }
     }
 }

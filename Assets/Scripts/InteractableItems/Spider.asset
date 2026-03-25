@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: Spider
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableItem
   itemName: Spider
-  change: 2
+  itemDescription: The is the currency
+  itemIcon: {fileID: 3873087697204469031, guid: 605916c35b6674a8cac488c5db8a04c9, type: 3}
+  change: 3
   changeAmt: 1

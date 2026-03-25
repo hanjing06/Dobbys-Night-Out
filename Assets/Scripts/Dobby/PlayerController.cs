@@ -8,8 +8,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float walkSpeed = 5f;
     [SerializeField] private float runSpeed = 7f;
     [SerializeField] private bool canSprint = true;
+    private CurrencyManager  currencyManager;
      private float CurrentSpeed;
-     private int numSpiders;
      
     public Vector3 playerMoveDirection;
     // Update is called once per frame
