@@ -4,19 +4,22 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator animator;
+    [SerializeField] private InteractionDetector interactionDetector;
     
     [SerializeField] private float walkSpeed = 5f;
     [SerializeField] private float runSpeed = 7f;
     [SerializeField] private bool canSprint = true;
-    private float CurrentSpeed;
+     private float CurrentSpeed;
      
     public Vector3 playerMoveDirection;
     // Update is called once per frame
     private bool FacingRight = true;
+    private int numSpiders;
 
     void Update()
     {
         move();
+        Interaction();
     }
 
     void FixedUpdate()
@@ -58,6 +61,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void Interaction()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            interactionDetector?.Interact();
+        }
+    }
+
     private void Flip()
     {
         FacingRight = !FacingRight;
@@ -74,10 +85,12 @@ public class PlayerController : MonoBehaviour
         }
         return false;
     }
-
-    /*ghanwa --> commenting out the following method because it is handled in the Item.cs script on the players end
-                 and will be handled on the spiders end by adding a Collider2D component to the spider
-                 game object with OnTrigger enabled
+    public int getNumSpiders(){
+        return numSpiders;
+    }
+    public void collectSpider(){
+        numSpiders++;
+    }
     void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Triggered with: " + other.gameObject.name);
@@ -89,6 +102,4 @@ public class PlayerController : MonoBehaviour
             Destroy(other.gameObject);
         }
     }
-    */
-   
 }

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1ec653a53ff9594a9f874ddafad1df9, type: 3}
+  m_Name: OldManNPCDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  npcName: Old Man
+  npcPortrait: {fileID: -7527145504033472756, guid: d4a61732424194f449459d3f500dcdf2, type: 3}
+  autoProgressLines: 0100
+  dialogueLines:
+  - Aw what a cute cat!
+  - ew where is your hair!
+  typingSpeed: 0.05
+  voiceSound: {fileID: 8300000, guid: 503a337577d5258468102e38df6b0307, type: 3}
+  voicePitch: 1
+  autoProgressSpeed: 1.5
