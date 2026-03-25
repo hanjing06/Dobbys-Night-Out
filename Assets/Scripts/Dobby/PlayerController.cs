@@ -48,6 +48,7 @@ public class PlayerController : MonoBehaviour
         if (playerMoveDirection == Vector3.zero)
         {
             animator.SetBool("moving", false);
+            Debug.Log("not moving");
         }else{
             animator.SetBool("moving", true);
         }
