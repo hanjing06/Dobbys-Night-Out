@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e6b41097501d4d4c98233bef7b50364, type: 3}
+  m_Name: New Character Database
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterDatabase
+  characters:
+  - characterName: Default Dobby
+    characterSprite: {fileID: 21300000, guid: 695c097363cf94cb89ab2496b9f07507, type: 3}
+  - characterName: Dobby Party 1
+    characterSprite: {fileID: 21300000, guid: 7b07c2be141ff44bfa04440b27a6263b, type: 3}
+  - characterName: Dobby Party 2
+    characterSprite: {fileID: 21300000, guid: 8d82c0d487bf843049b0e9683ab1989f, type: 3}
+  - characterName: Dobby Party 3
+    characterSprite: {fileID: 21300000, guid: 130fb336a42b64c40bdac237cf92b71f, type: 3}
+  - characterName: Dobby Bow 1
+    characterSprite: {fileID: 21300000, guid: 9c6daf2b98e234178a0db1930af5507c, type: 3}

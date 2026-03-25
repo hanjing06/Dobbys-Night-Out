@@ -17,7 +17,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         move();
-        
     }
 
     void FixedUpdate()
@@ -91,4 +90,5 @@ public class PlayerController : MonoBehaviour
         }
     }
     */
+   
 }
