@@ -627,9 +627,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46218e4cf585f40709efbd6d831b0dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Quit
-  playButton: {fileID: 1167245179}
-  optionsButton: {fileID: 1804969929}
-  quitButton: {fileID: 76245806}
 --- !u!114 &1342962266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1054,13 +1051,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1342962264}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1342962265}
+        m_TargetAssemblyTypeName: Menu.MenuController, Assembly-CSharp
+        m_MethodName: OnOptionsButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
