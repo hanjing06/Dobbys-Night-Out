@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dea6c3543790a4e66987890559530204, type: 3}
-  m_Name: TinFoil
+  m_Name: Yogurt
   m_EditorClassIdentifier: Assembly-CSharp::ScriptableItem
-  itemName: 
-  change: 0
-  changeAmt: -15
+  itemName: Yogurt
+  itemDescription: YUM! Dobby loves yogurt. Yougurt gives Dobby energy.
+  itemIcon: {fileID: 2990146154647488063, guid: e8794072d8f8f494bac3d64169c70b5d, type: 3}
+  change: 1
+  changeAmt: 10

@@ -10,10 +10,8 @@ public class Slot: MonoBehaviour, IPointerClickHandler
     
     //item information...
     public string itemName;
-    public string itemDescription;
     public int amt;
     public Sprite itemIcon;
-    public Sprite emptyIcon;
     public bool isFull;
     
     //for slot...
@@ -44,6 +42,7 @@ public class Slot: MonoBehaviour, IPointerClickHandler
 
     public int AddItem(string itemName, int amt, Sprite itemIcon, string itemDescription)
     {
+        Debug.Log("amtText is null: " + (amtText == null) + " on slot: " + gameObject.name);
         //check if slot is full or not
         if (isFull)
         {
@@ -53,24 +52,31 @@ public class Slot: MonoBehaviour, IPointerClickHandler
         //update item variables
         this.itemName = itemName;
         this.itemIcon = itemIcon;
-        this.itemDescription = itemDescription;
-        this.itemImage.sprite = itemIcon;
+        itemImage.sprite = itemIcon;
+        itemImage.enabled = true;
         this.amt += amt;
+        
+        //enable amount text 
+        amtText.gameObject.SetActive(true);
+        amtText.text = this.amt.ToString();
+            
+        //if a slot has the max number of items move to next available slot
         if (this.amt >= maxItems)
         {
             amtText.text = maxItems.ToString();
             amtText.enabled = true;
             isFull = true;
             
-            //once a slot is full the extra items must be carries over
             int extraItems = this.amt - maxItems;
             this.amt = maxItems;
             return extraItems;
         }
-        amtText.text = this.amt.ToString();
-        amtText.enabled = true;
         return 0;
-        
+    }
+
+    public bool SlotHasItem()
+    {
+        return amt > 0 && !string.IsNullOrEmpty(itemName);
     }
 
     public void OnPointerClick(PointerEventData eventData)
@@ -78,10 +84,6 @@ public class Slot: MonoBehaviour, IPointerClickHandler
         if (eventData.button == PointerEventData.InputButton.Left)
         {
             OnLeftClick();
-        }
-        if (eventData.button == PointerEventData.InputButton.Right)
-        {
-            OnRightClick();
         }
     }
 
@@ -91,21 +93,59 @@ public class Slot: MonoBehaviour, IPointerClickHandler
         if (this.isSelected)
         {
             invManager.UseItem(this.itemName);
+            UpdateSlot();
         }
+        
+        //ensure only one slot is selected at a time
         invManager.DeselectSlots();
         shade.SetActive(true);
         isSelected = true;
-        itemNameText.text = itemName;
-        itemDescriptionText.text = itemDescription;
-        itemImage.sprite = itemIcon;
-        if (itemImage.sprite == null)
+        UpdateItemViewer();
+
+    }
+
+
+    public void UpdateSlot()
+    {
+        //adjusts the slot based on the players actions
+        if (SlotHasItem())
         {
-            itemImage.sprite = emptyIcon;
+            amt -= 1;
+            itemImage.sprite = itemIcon;
+            itemImage.enabled = true;
+            amtText.gameObject.SetActive(true);
+            amtText.text = amt.ToString();
+        }
+        else
+        {
+            itemImage.sprite =  null;
+            itemImage.enabled = false;
+            amtText.gameObject.SetActive(false);
+            itemName = "";
+            itemIcon = null;
+            isFull = false;
         }
     }
 
-    public void OnRightClick()
+    public void UpdateItemViewer()
     {
-        
+        ScriptableItem itemInfo = invManager.GetItem(itemName);
+        //display info in the viewer
+        if (SlotHasItem())
+        {
+            itemNameText.text = itemInfo.itemName;
+            itemDescriptionText.text = itemInfo.itemDescription;
+            itemIconUI.sprite = itemInfo.itemIcon;
+            itemIconUI.GetComponent<Image>().enabled = true;
+        }
+        else
+        {
+            itemNameText.text = "";
+            itemDescriptionText.text = "";
+            itemIconUI.sprite = null;
+            itemIconUI.GetComponent<Image>().enabled = false;
+        }
     }
+
+
 }

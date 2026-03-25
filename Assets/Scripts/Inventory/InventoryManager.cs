@@ -1,6 +1,5 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.UI;
 
 
 /*
@@ -15,11 +14,14 @@ public class InventoryManager: MonoBehaviour
 	private bool isActive;
 	public Slot[] slot;
 	public ScriptableItem[]  items;
+	public Sprite test;
+	[TextArea]
+	public string testDescription;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+	    slot[1].AddItem("Spider", 2,test, testDescription);
     }
 
     // Update is called once per frame
@@ -58,12 +60,19 @@ public class InventoryManager: MonoBehaviour
 	    //use recursion to find the first free slot to add item
 	    for (int i = 0; i < slot.Length; i++)
 	    {
+		    /*//enable image views
+		    if (slot[i].SlotHasItem())
+		    {
+			    slot[i].GetComponent<Image>().enabled = true;
+			    slot[i].GetComponent<Image>().sprite = itemIcon;
+			    
+		    }*/
 		    //store an item if the slot is empty and allows for stacking if collecting multiple of same item
-		    if (slot[i].isFull == false && slot[i].name == itemName || slot[i].amt == 0)
+		    if (slot[i].isFull == false && (slot[i].itemName == itemName || slot[i].amt == 0))
 		    {
 			    int itemsLeft = slot[i].AddItem(itemName, amt, itemIcon, itemDescription);
 			    if (itemsLeft > 0) {
-				    itemsLeft = slot[i].AddItem(itemName, amt, itemIcon, itemDescription);
+				    return AddItem(itemName, amt, itemIcon, itemDescription);
 			    }
 
 			    return itemsLeft;
@@ -79,5 +88,17 @@ public class InventoryManager: MonoBehaviour
 		    slot[i].shade.SetActive(false);
 		    slot[i].isSelected = false;
 	    }
+    }
+
+    public ScriptableItem GetItem(string itemName)
+    {
+	    for (int i = 0; i < items.Length; i++)
+	    {
+		    if(items[i].itemName == itemName)
+			{
+				return items[i];
+			}
+	    }
+		return null;
     }
 }

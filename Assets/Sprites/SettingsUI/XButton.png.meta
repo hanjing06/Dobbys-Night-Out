@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 95ec1f53f27f549999adabfc92116229
+guid: 1004730910db6476cad8da4a27e80790
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2257040759460654887
-    second: ControlsButton_0
+      213: 7228479579958016333
+    second: XButton_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,17 +96,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ControlsButton_0
+      name: XButton_0
       rect:
         serializedVersion: 2
-        x: 266
-        y: 482
-        width: 684
-        height: 163
+        x: 237
+        y: 178
+        width: 158
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d015c833616da0e0800000000000000
-      internalID: -2257040759460654887
+      spriteID: d49ff8d31e7b05460800000000000000
+      internalID: 7228479579958016333
       vertices: []
       indices: 
       edges: []
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ControlsButton_0: -2257040759460654887
+      XButton_0: 7228479579958016333
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
