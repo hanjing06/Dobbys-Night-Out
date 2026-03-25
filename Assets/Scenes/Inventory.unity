@@ -2625,6 +2625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CurrencyManager
   numSpiders: 5
+  currencyDisplay: {fileID: 1829284313}
 --- !u!1001 &1752788765
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2789,6 +2790,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CurrencyManager
   numSpiders: 0
+  currencyDisplay: {fileID: 0}
 --- !u!114 &1829284313
 MonoBehaviour:
   m_ObjectHideFlags: 0

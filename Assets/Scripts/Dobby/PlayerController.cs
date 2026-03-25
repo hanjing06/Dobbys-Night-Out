@@ -8,8 +8,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float walkSpeed = 5f;
     [SerializeField] private float runSpeed = 7f;
     [SerializeField] private bool canSprint = true;
-    private CurrencyManager  currencyManager;
-     private float CurrentSpeed;
+    private float CurrentSpeed;
      
     public Vector3 playerMoveDirection;
     // Update is called once per frame
@@ -77,22 +76,19 @@ public class PlayerController : MonoBehaviour
         return false;
     }
 
-	public int getNumSpiders(){
-		return numSpiders;
-
-}
-	public void collectSpider(){
-		numSpiders++;
-}
-void OnTriggerEnter2D(Collider2D other)
-{
-    Debug.Log("Triggered with: " + other.gameObject.name);
-
-    if (other.CompareTag("spider"))
+    /*ghanwa --> commenting out the following method because it is handled in the Item.cs script on the players end
+                 and will be handled on the spiders end by adding a Collider2D component to the spider
+                 game object with OnTrigger enabled
+    void OnTriggerEnter2D(Collider2D other)
     {
-        numSpiders++;
-        Debug.Log("Spider touched! Total: " + numSpiders);
-        Destroy(other.gameObject);
+        Debug.Log("Triggered with: " + other.gameObject.name);
+
+        if (other.CompareTag("spider"))
+        {
+            numSpiders++;
+            Debug.Log("Spider touched! Total: " + numSpiders);
+            Destroy(other.gameObject);
+        }
     }
-}
+    */
 }
