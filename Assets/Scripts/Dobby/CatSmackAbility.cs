@@ -8,6 +8,7 @@ public class CatSmackAbility: MonoBehaviour
 
     [Header("Input")]
     [SerializeField] private KeyCode smackKey = KeyCode.C;
+    [SerializeField] private Animator animator;
 
     [Header("Attack Stats")]
     [SerializeField] private int damage = 1;
@@ -36,6 +37,7 @@ public class CatSmackAbility: MonoBehaviour
 
         if (Input.GetKeyDown(smackKey) && !isOnCooldown)
         {
+            animator.SetTrigger("smack");
             StartCoroutine(PerformCatSmack());
             
             //lock the ability if all equipped are used 
@@ -50,6 +52,7 @@ public class CatSmackAbility: MonoBehaviour
 
     private IEnumerator PerformCatSmack()
     {
+        Debug.Log("smacked");
         isOnCooldown = true;
 
         DealDamage();
@@ -73,6 +76,8 @@ public class CatSmackAbility: MonoBehaviour
             0f,
             enemyLayers
         );
+        
+        Debug.Log("Enemies hit: " + hitEnemies.Length);
 
         foreach (Collider2D enemy in hitEnemies)
         {
