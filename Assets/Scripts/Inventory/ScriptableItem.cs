@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 [CreateAssetMenu(fileName = "ScriptableItem", menuName = "Scriptable Objects/ScriptableItem")]
 public class ScriptableItem: ScriptableObject
@@ -14,7 +15,8 @@ public class ScriptableItem: ScriptableObject
        None,
        AddHealth, //items with energy (ex: yogurt)
        TakeDamage, //harmful items in the environment (ex: tinfoil)
-       Currency //the spiders for purchasing from the store
+       Currency, //the spiders for purchasing from the store
+       Power //power ups obtained from mystery box
     }
 
     public void UseItem()
@@ -31,6 +33,11 @@ public class ScriptableItem: ScriptableObject
         if (change == Change.TakeDamage)
         {
             GameObject.Find("HealthCanvas").GetComponent<HealthManager>().TakeDamage(changeAmt);
+        }
+
+        if (change == Change.Power)
+        {
+            GameObject.Find("Player").GetComponent<AbilityManager>().EquipPowerUp();
         }
     }
 }

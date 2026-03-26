@@ -2,10 +2,11 @@ using UnityEngine;
 
 public class SpiderControl : MonoBehaviour
 {
+    private CurrencyManager currencyManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        currencyManager = GameObject.Find("Player").GetComponent<CurrencyManager>();
     }
 
     // Update is called once per frame
@@ -14,12 +15,11 @@ public class SpiderControl : MonoBehaviour
         
     }
     
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionTrigger2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
-            //numSpiders++;
-            //Debug.Log("Spider touched! Total: " + numSpiders);
+            
             Destroy(gameObject);
         }
     }

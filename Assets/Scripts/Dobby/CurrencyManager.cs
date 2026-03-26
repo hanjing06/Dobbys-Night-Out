@@ -9,6 +9,7 @@ public class CurrencyManager: MonoBehaviour
     void Start()
     {
         numSpiders = 0; //always start off with 0
+        UpdateCurrency();
     }
 
     // Update is called once per frame
