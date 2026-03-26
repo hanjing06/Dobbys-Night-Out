@@ -4,7 +4,8 @@ public class AbilityManager: MonoBehaviour
 {
     //ability references
     private GameObject player;
-    
+    public ScriptableItem[] allAbilities;
+    public ScriptableItem mysteryAbility;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -48,6 +49,8 @@ public class AbilityManager: MonoBehaviour
                 player.GetComponent<ThrowYogurtAbility>().amtEquipped++;
                 break;
         }
-
+        
+        //pass myster ability
+        mysteryAbility =  allAbilities[rand-1];
     }
 }

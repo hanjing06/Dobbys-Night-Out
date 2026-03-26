@@ -21,7 +21,6 @@ public class InventoryManager: MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-	    slot[1].AddItem("Spider", 2,test, testDescription);
     }
 
     // Update is called once per frame
