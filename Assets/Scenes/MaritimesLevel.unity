@@ -28174,6 +28174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal
       objectReference: {fileID: 0}
+    - target: {fileID: 7282267637793409360, guid: 0dc3bfed66d7f4c7db09576f8b902322, type: 3}
+      propertyPath: sceneToLoad
+      value: OceanLevel
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
