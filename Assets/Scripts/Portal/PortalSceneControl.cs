@@ -1,4 +1,5 @@
 using UnityEngine;
+
 using UnityEngine.SceneManagement;
 
 public class Portal : MonoBehaviour
@@ -9,9 +10,6 @@ public class Portal : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player entered portal");
-
-            
             SceneManager.LoadScene(sceneToLoad);
         }
     }
