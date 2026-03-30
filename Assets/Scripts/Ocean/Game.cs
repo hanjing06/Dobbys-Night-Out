@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using Ocean;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using TMPro;
 
 public class Game : MonoBehaviour
 {
+    [Header("References")]
     public ArrayLayout boardLayout;
     public Sprite[] pieces;
     public GameObject tilePrefab;
@@ -19,7 +20,12 @@ public class Game : MonoBehaviour
     [SerializeField] private float tileSpacing = 1.2f;
     [SerializeField] private Vector2 boardOffset = Vector2.zero;
     [SerializeField] private bool centerBoard = true;
+
+    [Header("Drag / Swap")]
     [SerializeField] private float dragThreshold = 0.3f;
+    [SerializeField] private float previewDistance = 0.35f;
+    [SerializeField] private float swapDuration = 0.12f;
+    [SerializeField] private float invalidSwapReturnDuration = 0.10f;
 
     [Header("Game Progress")]
     [SerializeField] private int maxMatchesAllowed = 12;
@@ -31,15 +37,18 @@ public class Game : MonoBehaviour
     public GameObject winPanel;
     public GameObject gameOverPanel;
 
-    private TilePiece dragStartTile;
     private Node[,] board;
     private TilePiece[,] tilePieces;
     private System.Random random;
 
+    private TilePiece dragStartTile;
+    private TilePiece previewTile;
+    private Vector3 previewStartPosition;
+
     private int matchesUsed = 0;
     private int boatProgress = 0;
+
     private bool gameEnded = false;
-    
     private bool isResolving = false;
 
     void Start()
@@ -55,6 +64,7 @@ public class Game : MonoBehaviour
         matchesUsed = 0;
         boatProgress = 0;
         gameEnded = false;
+        isResolving = false;
 
         if (winPanel != null) winPanel.SetActive(false);
         if (gameOverPanel != null) gameOverPanel.SetActive(false);
@@ -63,6 +73,32 @@ public class Game : MonoBehaviour
         RemoveStartingMatches();
         UpdateBoardVisuals();
         UpdateUI();
+    }
+
+    void InitializeBoard()
+    {
+        board = new Node[width, height];
+        tilePieces = new TilePiece[width, height];
+
+        for (int y = 0; y < height; y++)
+        {
+            for (int x = 0; x < width; x++)
+            {
+                int value = FillPiece();
+
+                // board layout stuff
+
+                board[x, y] = new Node(value, new Point(x, y));
+
+                GameObject obj = Instantiate(tilePrefab, GetWorldPosition(x, y), Quaternion.identity);
+                TilePiece tile = obj.GetComponent<TilePiece>();
+
+                tile.boardPosition = new Point(x, y);
+                tile.game = this;
+
+                tilePieces[x, y] = tile;
+            }
+        }
     }
 
     Vector3 GetWorldPosition(int x, int y)
@@ -91,47 +127,58 @@ public class Game : MonoBehaviour
         );
     }
 
-    void InitializeBoard()
-    {
-        board = new Node[width, height];
-        tilePieces = new TilePiece[width, height];
-
-        for (int y = 0; y < height; y++)
-        {
-            for (int x = 0; x < width; x++)
-            {
-                int value = FillPiece();
-                board[x, y] = new Node(value, new Point(x, y));
-
-                GameObject obj = Instantiate(tilePrefab, GetWorldPosition(x, y), Quaternion.identity);
-                TilePiece tile = obj.GetComponent<TilePiece>();
-
-                tile.boardPosition = new Point(x, y);
-                tile.game = this;
-
-                tilePieces[x, y] = tile;
-            }
-        }
-    }
-
     public void BeginDrag(TilePiece tile)
     {
         if (gameEnded || isResolving) return;
+
         dragStartTile = tile;
+        previewTile = tile;
+        previewStartPosition = tile.transform.position;
+    }
+
+    public void UpdateDragPreview(TilePiece tile, Vector3 dragDelta, Vector3 startWorldPos)
+    {
+        if (gameEnded || isResolving) return;
+        if (dragStartTile == null || tile != dragStartTile) return;
+
+        previewTile = tile;
+        previewStartPosition = startWorldPos;
+
+        Vector3 offset = Vector3.zero;
+
+        if (Mathf.Abs(dragDelta.x) > Mathf.Abs(dragDelta.y))
+        {
+            float clampedX = Mathf.Clamp(dragDelta.x, -previewDistance, previewDistance);
+            offset = new Vector3(clampedX, 0f, 0f);
+        }
+        else
+        {
+            float clampedY = Mathf.Clamp(dragDelta.y, -previewDistance, previewDistance);
+            offset = new Vector3(0f, clampedY, 0f);
+        }
+
+        tile.transform.position = startWorldPos + offset;
     }
 
     public void EndDrag(TilePiece tile, Vector3 dragDelta)
     {
-        if (gameEnded || isResolving) return;
+        if (gameEnded || isResolving)
+        {
+            ResetPreviewTile();
+            dragStartTile = null;
+            return;
+        }
 
         if (dragStartTile == null || tile != dragStartTile)
         {
+            ResetPreviewTile();
             dragStartTile = null;
             return;
         }
 
         if (dragDelta.magnitude < dragThreshold)
         {
+            ResetPreviewTile();
             dragStartTile = null;
             return;
         }
@@ -152,48 +199,28 @@ public class Game : MonoBehaviour
                 : Point.add(start, Point.down);
         }
 
+        ResetPreviewTile();
+
         if (IsInBoard(target))
         {
-            if (TrySwap(start, target))
-            {
-                UpdateBoardVisuals();
-                StartCoroutine(ResolveBoardRoutine());
-            }
+            StartCoroutine(PerformSwap(start, target));
         }
 
         dragStartTile = null;
     }
-    
-    IEnumerator PlayBreakAnimations(List<Point> matches)
+
+    void ResetPreviewTile()
     {
-        foreach (Point p in matches)
+        if (previewTile != null)
         {
-            TilePiece tile = tilePieces[p.x, p.y];
-            if (tile != null && tile.gameObject.activeSelf)
-            {
-                StartCoroutine(tile.BreakAnimation());
-            }
+            previewTile.transform.position = GetWorldPosition(previewTile.boardPosition.x, previewTile.boardPosition.y);
+            previewTile = null;
         }
-
-        yield return new WaitForSeconds(0.2f);
-    }
-    
-    int GetProgressEarned(List<Point> matches)
-    {
-        int progress = 1;
-
-        if (matches.Count >= 4)
-            progress = 2;
-
-        if (GetBonusForShape(matches) > 0)
-            progress = 2;
-
-        return progress;
     }
 
-    bool TrySwap(Point a, Point b)
+    bool IsSwapValid(Point a, Point b)
     {
-        if (gameEnded) return false;
+        if (gameEnded || isResolving) return false;
 
         if (!IsInBoard(a) || !IsInBoard(b))
             return false;
@@ -205,19 +232,78 @@ public class Game : MonoBehaviour
             return false;
 
         SwapValues(a, b);
-
         List<Point> allMatches = FindAllMatches();
+        bool valid = allMatches.Count > 0;
+        SwapValues(a, b);
 
-        if (allMatches.Count == 0)
+        return valid;
+    }
+
+    IEnumerator AnimateTileSwap(
+        TilePiece tileA,
+        TilePiece tileB,
+        Vector3 targetPosA,
+        Vector3 targetPosB,
+        float duration)
+    {
+        Vector3 startPosA = tileA.transform.position;
+        Vector3 startPosB = tileB.transform.position;
+
+        float time = 0f;
+
+        while (time < duration)
         {
-            SwapValues(a, b);
-            UpdateBoardVisuals();
-            Debug.Log("Invalid swap");
-            return false;
+            time += Time.deltaTime;
+            float t = time / duration;
+
+            tileA.transform.position = Vector3.Lerp(startPosA, targetPosA, t);
+            tileB.transform.position = Vector3.Lerp(startPosB, targetPosB, t);
+
+            yield return null;
         }
 
-        Debug.Log("Valid swap");
-        return true;
+        tileA.transform.position = targetPosA;
+        tileB.transform.position = targetPosB;
+    }
+
+    IEnumerator PerformSwap(Point a, Point b)
+    {
+        if (gameEnded || isResolving) yield break;
+
+        isResolving = true;
+
+        TilePiece tileA = tilePieces[a.x, a.y];
+        TilePiece tileB = tilePieces[b.x, b.y];
+
+        Vector3 posA = GetWorldPosition(a.x, a.y);
+        Vector3 posB = GetWorldPosition(b.x, b.y);
+
+        bool valid = IsSwapValid(a, b);
+
+        // IsSwapValid checks isResolving, so temporarily clear it before validation is needed.
+        // Since we're already inside this coroutine, we can safely do this:
+        isResolving = false;
+        valid = IsSwapValid(a, b);
+        isResolving = true;
+
+        if (valid)
+        {
+            yield return StartCoroutine(AnimateTileSwap(tileA, tileB, posB, posA, swapDuration));
+
+            SwapValues(a, b);
+            UpdateBoardVisuals();
+
+            isResolving = false;
+            yield return StartCoroutine(ResolveBoardRoutine());
+        }
+        else
+        {
+            yield return StartCoroutine(AnimateTileSwap(tileA, tileB, posB, posA, swapDuration));
+            yield return StartCoroutine(AnimateTileSwap(tileA, tileB, posA, posB, invalidSwapReturnDuration));
+
+            UpdateBoardVisuals();
+            isResolving = false;
+        }
     }
 
     IEnumerator ResolveBoardRoutine()
@@ -240,8 +326,9 @@ public class Game : MonoBehaviour
             }
 
             yield return StartCoroutine(PlayBreakAnimations(matches));
-
+            yield return new WaitForSeconds(0.05f);
             boatProgress += progressEarned;
+            Camera.main.transform.position += new Vector3(0, 0.05f, 0);
 
             if (boatBuilder != null)
             {
@@ -264,7 +351,7 @@ public class Game : MonoBehaviour
             RefillBoard();
             UpdateBoardVisuals();
 
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.10f);
 
             if (boatProgress >= boatProgressNeeded)
             {
@@ -282,6 +369,33 @@ public class Game : MonoBehaviour
         }
 
         isResolving = false;
+    }
+
+    IEnumerator PlayBreakAnimations(List<Point> matches)
+    {
+        foreach (Point p in matches)
+        {
+            TilePiece tile = tilePieces[p.x, p.y];
+            if (tile != null && tile.gameObject.activeSelf)
+            {
+                StartCoroutine(tile.BreakAnimation());
+            }
+        }
+
+        yield return new WaitForSeconds(0.2f);
+    }
+
+    int GetProgressEarned(List<Point> matches)
+    {
+        int progress = 1;
+
+        if (matches.Count >= 4)
+            progress = 2;
+
+        if (GetBonusForShape(matches) > 0)
+            progress = 2;
+
+        return progress;
     }
 
     void SwapValues(Point a, Point b)
@@ -510,12 +624,13 @@ public class Game : MonoBehaviour
                 TilePiece tile = tilePieces[x, y];
                 int value = board[x, y].value;
 
+                tile.transform.position = GetWorldPosition(x, y);
+                tile.transform.localScale = Vector3.one;
+                tile.transform.rotation = Quaternion.identity;
+
                 if (value > 0)
                 {
                     tile.gameObject.SetActive(true);
-                    tile.transform.position = GetWorldPosition(x, y);
-                    tile.transform.localScale = Vector3.one;
-                    tile.transform.rotation = Quaternion.identity;
                     tile.SetSprite(pieces[value - 1]);
                 }
                 else
