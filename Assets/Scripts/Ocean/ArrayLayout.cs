@@ -1,15 +1,13 @@
 using UnityEngine;
 
 [System.Serializable]
-public class ArrayLayout
+public class Row
 {
-    [System.Serializable]
-    public struct rowData
-    {
-        public bool[] row;
-    }
+    public bool[] row;
+}
 
-    public Grid grid;
-    public rowData[] rows = new rowData[14];
-
+[CreateAssetMenu]
+public class ArrayLayout : MonoBehaviour
+{
+    public Row[] rows;
 }

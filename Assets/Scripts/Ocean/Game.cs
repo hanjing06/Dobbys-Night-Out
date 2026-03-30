@@ -10,6 +10,9 @@ public class Game : MonoBehaviour
 
     [SerializeField] private int width = 7;
     [SerializeField] private int height = 10;
+    [SerializeField] private float tileSpacing = 1.2f;
+    [SerializeField] private Vector2 boardOffset = Vector2.zero;
+    [SerializeField] private bool centerBoard = true;
 
     private Node[,] board;
     private TilePiece[,] tilePieces;
@@ -20,6 +23,32 @@ public class Game : MonoBehaviour
     void Start()
     {
         StartGame();
+    }
+    
+    Vector3 GetWorldPosition(int x, int y)
+    {
+        float xPos = x;
+        float yPos = y;
+
+        if (centerBoard)
+        {
+            float offsetX = (width - 1) / 2f;
+            float offsetY = (height - 1) / 2f;
+
+            xPos = (x - offsetX) * tileSpacing;
+            yPos = (y - offsetY) * tileSpacing;
+        }
+        else
+        {
+            xPos = x * tileSpacing;
+            yPos = y * tileSpacing;
+        }
+
+        return new Vector3(
+            xPos + boardOffset.x,
+            yPos + boardOffset.y,
+            0f
+        );
     }
 
     void StartGame()
@@ -41,10 +70,10 @@ public class Game : MonoBehaviour
         {
             for (int x = 0; x < width; x++)
             {
-                int value = boardLayout.rows[y].row[x] ? -1 : FillPiece();
+                int value = FillPiece();
                 board[x, y] = new Node(value, new Point(x, y));
 
-                GameObject obj = Instantiate(tilePrefab, new Vector3(x, y, 0), Quaternion.identity);
+                GameObject obj = Instantiate(tilePrefab, GetWorldPosition(x, y), Quaternion.identity);
                 TilePiece tile = obj.GetComponent<TilePiece>();
 
                 tile.boardPosition = new Point(x, y);
