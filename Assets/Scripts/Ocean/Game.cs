@@ -13,7 +13,9 @@ public class Game : MonoBehaviour
     [SerializeField] private float tileSpacing = 1.2f;
     [SerializeField] private Vector2 boardOffset = Vector2.zero;
     [SerializeField] private bool centerBoard = true;
+    [SerializeField] private float dragThreshold = 0.3f;
 
+    private TilePiece dragStartTile;
     private Node[,] board;
     private TilePiece[,] tilePieces;
     private System.Random random;
@@ -49,6 +51,57 @@ public class Game : MonoBehaviour
             yPos + boardOffset.y,
             0f
         );
+    }
+    
+    public void BeginDrag(TilePiece tile)
+    {
+        dragStartTile = tile;
+    }
+
+    public void EndDrag(TilePiece tile, Vector3 dragDelta)
+    {
+        if (dragStartTile == null || tile != dragStartTile)
+        {
+            dragStartTile = null;
+            return;
+        }
+
+        if (dragDelta.magnitude < dragThreshold)
+        {
+            dragStartTile = null;
+            return;
+        }
+
+        Point start = tile.boardPosition;
+        Point target = start;
+
+        // Choose strongest drag direction
+        if (Mathf.Abs(dragDelta.x) > Mathf.Abs(dragDelta.y))
+        {
+            if (dragDelta.x > 0)
+                target = Point.add(start, Point.right);
+            else
+                target = Point.add(start, Point.left);
+        }
+        else
+        {
+            if (dragDelta.y > 0)
+                target = Point.add(start, Point.up);
+            else
+                target = Point.add(start, Point.down);
+        }
+
+        if (IsInBoard(target))
+        {
+            if (TrySwap(start, target))
+            {
+                UpdateBoardVisuals();
+                ResolveBoard();
+                UpdateBoardVisuals();
+            }
+        }
+
+        dragStartTile = null;
     }
 
     void StartGame()
