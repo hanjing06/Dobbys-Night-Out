@@ -1,16 +1,16 @@
 using UnityEngine;
+using TMPro;
 
 public class NoiseUI : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public TextMeshProUGUI noiseText;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (NoiseManager.Instance != null && noiseText != null)
+        {
+            noiseText.text = "Noise: " + Mathf.RoundToInt(NoiseManager.Instance.currentNoise) 
+                                       + " / " + Mathf.RoundToInt(NoiseManager.Instance.maxNoise);
+        }
     }
 }

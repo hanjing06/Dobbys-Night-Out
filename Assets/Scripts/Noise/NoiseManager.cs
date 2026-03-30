@@ -48,6 +48,11 @@ public class NoiseManager : MonoBehaviour
 
     public void RestartLevel()
     {
+        Invoke(nameof(ReloadScene), 1f);
+    }
+
+    private void ReloadScene()
+    {
         Scene currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(currentScene.buildIndex);
     }
