@@ -90,10 +90,11 @@ public class Slot: MonoBehaviour, IPointerClickHandler
     public void OnLeftClick()
     {
         //using the selected item
-        if (this.isSelected)
+        if (isSelected)
         {
-            invManager.UseItem(this.itemName);
-            UpdateSlot();
+            amt -= 1;
+            invManager.UseItem(itemName);
+            UpdateSlot(amt);
         }
         
         //ensure only one slot is selected at a time
@@ -105,18 +106,17 @@ public class Slot: MonoBehaviour, IPointerClickHandler
     }
 
 
-    public void UpdateSlot()
+    public void UpdateSlot(int num)
     {
         //adjusts the slot based on the players actions
-        if (SlotHasItem())
+        if (SlotHasItem() && num > 0)
         {
-            amt -= 1;
             itemImage.sprite = itemIcon;
             itemImage.enabled = true;
             amtText.gameObject.SetActive(true);
-            amtText.text = amt.ToString();
+            amtText.text = num.ToString();
         }
-        else
+        else 
         {
             itemImage.sprite =  null;
             itemImage.enabled = false;
@@ -138,7 +138,7 @@ public class Slot: MonoBehaviour, IPointerClickHandler
             itemIconUI.sprite = itemInfo.itemIcon;
             itemIconUI.GetComponent<Image>().enabled = true;
         }
-        else
+        else 
         {
             itemNameText.text = "";
             itemDescriptionText.text = "";
