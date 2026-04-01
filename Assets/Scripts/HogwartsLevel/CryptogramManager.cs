@@ -18,6 +18,7 @@ public class CryptogramManager: MonoBehaviour//, IPointerClickHandler
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        isActive = false;
         for (int i = 0; i < lettersArr.Length; i++)
         {
             lettersArr[i].enabled = false;
