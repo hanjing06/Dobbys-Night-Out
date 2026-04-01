@@ -15,6 +15,8 @@ public class NPC : MonoBehaviour, IInteractable
 
     public void Interact()
     {
+        Debug.Log("Interact called on NPC");
+
         if (dialogueData == null)
         {
             Debug.LogWarning("No dialogue assigned!");
@@ -23,10 +25,12 @@ public class NPC : MonoBehaviour, IInteractable
 
         if (isdialogueActive)
         {
+            Debug.Log("Dialogue already active, going to next line");
             nextLine();
         }
         else
         {
+            Debug.Log("Starting dialogue now");
             StartDialogue();
         }
     }
@@ -38,17 +42,32 @@ public class NPC : MonoBehaviour, IInteractable
 
     void StartDialogue()
     {
-        Debug.Log("Starting dialogue with " + dialogueData.npcName);
+        Debug.Log("StartDialogue entered");
+
         isdialogueActive = true;
         dialogueIndex = 0;
-        
-        nameText.SetText(dialogueData.npcName);
-        portraitImage.sprite = dialogueData.npcPortrait;
 
-        dialoguePanel.SetActive(true);
+        if (nameText != null)
+            nameText.SetText(dialogueData.npcName);
+        else
+            Debug.LogWarning("nameText is null");
+
+        if (portraitImage != null)
+            portraitImage.sprite = dialogueData.npcPortrait;
+        else
+            Debug.LogWarning("portraitImage is null");
+
+        if (dialoguePanel != null)
+        {
+            Debug.Log("Setting dialogue panel active");
+            dialoguePanel.SetActive(true);
+        }
+        else
+        {
+            Debug.LogWarning("dialoguePanel is null");
+        }
 
         StartCoroutine(TypeLine());
-        //typeLine
     }
 
     void nextLine()

@@ -22,7 +22,15 @@ public class InteractionDetector: MonoBehaviour
     public void Interact()
     {
         Debug.Log("Trying to interact...");
-        interactableInRange?.Interact();
+
+        if (interactableInRange == null)
+        {
+            Debug.LogWarning("No interactable in range.");
+            return;
+        }
+
+        Debug.Log("Calling Interact() on object in range.");
+        interactableInRange.Interact();
     }
 
     // Update is called once per frame
@@ -30,7 +38,12 @@ public class InteractionDetector: MonoBehaviour
     {
         Debug.Log("Entered trigger with: " + collision.name);
 
-        if (collision.TryGetComponent(out IInteractable interactable) && interactable.CanInteract())
+        IInteractable interactable = collision.GetComponent<IInteractable>();
+
+        if (interactable == null)
+            interactable = collision.GetComponentInParent<IInteractable>();
+
+        if (interactable != null && interactable.CanInteract())
         {
             interactableInRange = interactable;
             interactionIcon.SetActive(true);
@@ -40,7 +53,12 @@ public class InteractionDetector: MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.TryGetComponent(out IInteractable interactable) && interactable == interactableInRange)
+        IInteractable interactable = collision.GetComponent<IInteractable>();
+
+        if (interactable == null)
+            interactable = collision.GetComponentInParent<IInteractable>();
+
+        if (interactable != null && interactable == interactableInRange)
         {
             interactableInRange = null;
             interactionIcon.SetActive(false);
