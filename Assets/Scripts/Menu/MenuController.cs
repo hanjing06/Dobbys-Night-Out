@@ -14,7 +14,7 @@ namespace Menu
 
             //SceneManager.LoadScene(2); //need to make it the scene to the actual game
 
-            SceneManager.LoadScene(nextSceneName); //need to make it the scene to the actual game
+            SceneManager.LoadScene(5); //need to make it the scene to the actual game
 
 
 
