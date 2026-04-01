@@ -16,7 +16,7 @@ MonoBehaviour:
   npcPortrait: {fileID: -7527145504033472756, guid: aa2b613fbb2eae34a942630691d05461, type: 3}
   autoProgressLines: 01010100
   dialogueLines:
-  - EWWWW WHERE IS YOUR HAIR
+  - WHERE Is your hair
   - your so UGLY
   - you need a hair transplant!!!!!!
   - EWWWWWWW
