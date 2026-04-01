@@ -20,6 +20,7 @@ public class InventoryManager: MonoBehaviour
 
 	//for cryptogram puzzle
 	private CryptogramManager cryptManager;
+	
 	public Slot[] space;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

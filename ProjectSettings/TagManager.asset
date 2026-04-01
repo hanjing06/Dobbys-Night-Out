@@ -9,7 +9,7 @@ TagManager:
   - buyYogurt
   - exit
   - boundary
-  - space
+  - scroll
   layers:
   - Default
   - TransparentFX

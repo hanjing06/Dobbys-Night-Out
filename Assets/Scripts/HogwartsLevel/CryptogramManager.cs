@@ -46,6 +46,8 @@ public class CryptogramManager: MonoBehaviour//, IPointerClickHandler
             cryptogramUI.SetActive(false);
 
         }
+
+        Exit();
     }
     
     void RevealLetters(KeyCode input)
@@ -85,8 +87,14 @@ public class CryptogramManager: MonoBehaviour//, IPointerClickHandler
     }
  
     
-    //DESELCTING SPACES
-   
-   
-    
+    //EXITING THE CRYPTOGRAM (WARNING YOU LOSE PROGRESS = INCREASED DIFFICULTY)
+    void Exit()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            isActive = false;
+        }
+    }
+
+
 }
