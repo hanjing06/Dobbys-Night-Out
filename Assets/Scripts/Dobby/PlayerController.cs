@@ -1,10 +1,14 @@
+using System;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Animator animator;
     [SerializeField] private InteractionDetector interactionDetector;
+    [SerializeField] private CurrencyManager currencyManager;
     
     [SerializeField] private float walkSpeed = 5f;
     [SerializeField] private float runSpeed = 7f;
@@ -14,12 +18,28 @@ public class PlayerController : MonoBehaviour
     public Vector3 playerMoveDirection;
     // Update is called once per frame
     private bool FacingRight = true;
-    private int numSpiders;
-
+    
+    //HOGWARTS LEVEL: INTERACTING WITH THE SCROLL
+    public GameObject box;
+    public TMP_Text displayMessage;
+    private CryptogramManager cryptManager;
+    public GameObject cryptogram;
+    void Start()
+    {
+        currencyManager = GameObject.Find("CurrencyCanvas").GetComponent<CurrencyManager>();
+        cryptManager = cryptogram.GetComponent<CryptogramManager>();
+        
+    }
     void Update()
     {
         move();
         Interaction();
+        
+        //hide display message
+        if (cryptManager.isActive)
+        {
+            HideMessage();
+        }
     }
 
     void FixedUpdate()
@@ -67,6 +87,9 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             interactionDetector?.Interact();
+        } else if (Input.GetKeyDown(KeyCode.C))
+        {
+            cryptManager.isActive = true;
         }
     }
 
@@ -86,21 +109,37 @@ public class PlayerController : MonoBehaviour
         }
         return false;
     }
-    public int getNumSpiders(){
-        return numSpiders;
-    }
-    public void collectSpider(){
-        numSpiders++;
-    }
+   
     void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("Triggered with: " + other.gameObject.name);
 
         if (other.CompareTag("spider"))
         {
-            numSpiders++;
-            Debug.Log("Spider touched! Total: " + numSpiders);
+            Debug.Log("Spider touched! Total: " + currencyManager.numSpiders);
             Destroy(other.gameObject);
+            currencyManager.CollectCurrency(1);
+        } else if (other.CompareTag("scroll"))
+        {
+            Debug.Log("Touched scroll!");
+            box.GetComponent<Image>().enabled = true;
+            displayMessage.GetComponent<TextMeshProUGUI>().enabled = true;
+            displayMessage.text = "Press C to interact";
         }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("scroll"))
+        {
+            Debug.Log("Leaving scroll!");
+            HideMessage();
+        }
+    }
+
+    void HideMessage()
+    {
+        box.GetComponent<Image>().enabled = false;
+        displayMessage.GetComponent<TextMeshProUGUI>().enabled = false;
     }
 }

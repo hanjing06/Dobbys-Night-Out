@@ -105,6 +105,11 @@ GameObject:
   - component: {fileID: 9098397465976173695}
   - component: {fileID: 2230215148499844060}
   - component: {fileID: 6746178554062523238}
+  - component: {fileID: 4575904501580390654}
+  - component: {fileID: 8593593961513524758}
+  - component: {fileID: 1166356670182162964}
+  - component: {fileID: 6964027331468420881}
+  - component: {fileID: 4817781050580571486}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -175,7 +180,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 117553523
   m_SortingLayer: 2
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1569650228, guid: 7a4e1fa360e41481a84dc56c79dff5b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -224,6 +229,7 @@ MonoBehaviour:
   rb: {fileID: 2230215148499844060}
   animator: {fileID: 4099345060563511631}
   interactionDetector: {fileID: 8491454781568128969}
+  currencyManager: {fileID: 0}
   walkSpeed: 5
   runSpeed: 7
   canSprint: 1
@@ -289,7 +295,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.5}
+  m_Offset: {x: 0.08850616, y: 0.5271299}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -299,8 +305,94 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.52375686, y: 0.51059294}
   m_EdgeRadius: 0
+--- !u!114 &4575904501580390654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242700544287450529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 742505ba9dc7c41d6b43df41409373c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CatSmackAbility
+  isUnlocked: 0
+  smackKey: 99
+  animator: {fileID: 0}
+  damage: 1
+  cooldown: 0.75
+  hitboxDuration: 0.12
+  attackPoint: {fileID: 0}
+  hitboxSize: {x: 1.25, y: 1}
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  applyKnockback: 0
+  knockbackForce: 5
+  amtEquipped: 0
+--- !u!114 &8593593961513524758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242700544287450529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23443491783e413c82307d67d657254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ContortionAbility
+  isUnlocked: 0
+  amtEquipped: 0
+  useKey: 271
+--- !u!114 &1166356670182162964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242700544287450529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbad70ad700284e0e93725861b181ad6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HighJumpAbility
+  isUnlocked: 0
+  amtEquipped: 0
+  useKey: 32
+--- !u!114 &6964027331468420881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242700544287450529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c4149108ce84f1c9417fb5497278fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MuscleUpAbility
+  isUnlocked: 0
+  amtEquipped: 0
+  useKey: 112
+--- !u!114 &4817781050580571486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242700544287450529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90fa03ff56167407b8ce5bd81a9e203c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ThrowYogurtAbility
+  isUnlocked: 0
+  amtEquipped: 0
+  useKey: 116
 --- !u!1 &8516465509780393091
 GameObject:
   m_ObjectHideFlags: 0
