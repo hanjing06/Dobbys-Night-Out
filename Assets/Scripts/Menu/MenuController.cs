@@ -8,7 +8,7 @@ namespace Menu
 
         public void OnPlayButton()
         {
-            SceneManager.LoadScene(3); //need to make it the scene to the actual game
+            SceneManager.LoadScene("Scenes/Level-1/TheClinic/TheClinic"); //need to make it the scene to the actual game
         }
 
         public void OnQuitButton()
