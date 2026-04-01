@@ -8,6 +8,8 @@ TagManager:
   - buyMystery
   - buyYogurt
   - exit
+  - boundary
+  - space
   layers:
   - Default
   - TransparentFX

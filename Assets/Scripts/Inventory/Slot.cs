@@ -13,6 +13,8 @@ public class Slot: MonoBehaviour, IPointerClickHandler
     public int amt;
     public Sprite itemIcon;
     public bool isFull;
+    public bool onInv;
+
     
     //for slot...
     [SerializeField] private TMP_Text amtText;
@@ -89,20 +91,27 @@ public class Slot: MonoBehaviour, IPointerClickHandler
 
     public void OnLeftClick()
     {
-        //using the selected item
-        if (isSelected)
+        if (onInv)
         {
-            amt -= 1;
-            invManager.UseItem(itemName);
-            UpdateSlot(amt);
-        }
-        
-        //ensure only one slot is selected at a time
-        invManager.DeselectSlots();
-        shade.SetActive(true);
-        isSelected = true;
-        UpdateItemViewer();
+            //using the selected item
+            if (isSelected)
+            {
+                amt -= 1;
+                invManager.UseItem(itemName);
+                UpdateSlot(amt);
+            }
 
+            //ensure only one slot is selected at a time
+            invManager.DeselectSlots();
+            shade.SetActive(true);
+            isSelected = true;
+            UpdateItemViewer();
+        }
+        else
+        {
+            invManager.DeselectSpaces();
+            shade.SetActive(true);
+        }
     }
 
 
