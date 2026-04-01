@@ -10,10 +10,20 @@ namespace Menu
         public void OnPlayButton()
         {
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            SceneManager.LoadScene("Scenes/Level-1/TheClinic/TheClinic"); //need to make it the scene to the actual game
+=======
+>>>>>>> main
             //SceneManager.LoadScene(2); //need to make it the scene to the actual game
 
             SceneManager.LoadScene(nextSceneName); //need to make it the scene to the actual game
 
+<<<<<<< HEAD
+=======
+>>>>>>> 160d460 (resolved conflicts)
+>>>>>>> main
         }
 
         public void OnQuitButton()
@@ -24,7 +34,7 @@ namespace Menu
         public void OnOptionsButton()
         {
             // HideAllPanel();
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene("OptionsMenu");
 
         }
     }
