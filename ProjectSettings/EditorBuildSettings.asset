@@ -15,6 +15,10 @@ EditorBuildSettings:
     path: Assets/Scenes/OptionsMenu.unity
     guid: ac4f3447320bf464a8971bc7e2dce593
   - enabled: 1
+<<<<<<< HEAD
+    path: Assets/Scenes/demo scene.unity
+    guid: f41c3f2768fd9cd4d99f617aaf4046b3
+=======
     path: Assets/Scenes/MaritimesLevel.unity
     guid: 7a235f210087e4a68a099c5bdbd3987f
   - enabled: 1
@@ -35,6 +39,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level-1/TheClinic/TheClinic.unity
     guid: c7913029c46bcd549bb582164e7b0328
+>>>>>>> 0b3b3015902e1002634a9f6264c64701eaafd73f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

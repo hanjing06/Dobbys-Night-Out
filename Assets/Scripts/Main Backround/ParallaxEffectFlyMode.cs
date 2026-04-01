@@ -9,6 +9,8 @@ namespace SkyBackgroundsPixelArt6
         public float parallaxIntensityX;
         public float independantSpeed;
 
+        public int tileDivisor = 3;
+        
         private float cameraSize;
         private float spriteWidth;
         private Vector2 initialPos;
@@ -18,10 +20,8 @@ namespace SkyBackgroundsPixelArt6
         {
             mainCamera = Camera.main.transform;
             cameraSize = Camera.main.orthographicSize;
-            spriteWidth = GetComponent<SpriteRenderer>().bounds.size.x / 3;
-
-            transform.position = new Vector2(mainCamera.position.x, mainCamera.position.y - cameraSize);
-            initialPos = transform.position;
+            spriteWidth = GetComponent<SpriteRenderer>().bounds.size.x / tileDivisor;
+            initialPos = transform.position; 
         }
 
         private void LateUpdate()
@@ -30,7 +30,7 @@ namespace SkyBackgroundsPixelArt6
 
             float parallaxOffsetX = (mainCamera.position.x * (1 - (parallaxIntensityX / 2))) + translationOffset;
 
-            transform.position = new Vector2(initialPos.x + parallaxOffsetX, transform.position.y);
+            transform.position = new Vector2(mainCamera.position.x, mainCamera.position.y);
 
             float cameraOffsetX = mainCamera.position.x - transform.position.x;
 
