@@ -5,6 +5,7 @@ namespace Menu
 {
     public class MenuController : MonoBehaviour
     {
+        public string nextSceneName;
 
         public void OnPlayButton()
         {
@@ -14,7 +15,7 @@ namespace Menu
 =======
             //SceneManager.LoadScene(2); //need to make it the scene to the actual game
 
-            SceneManager.LoadScene("TheClinic"); //need to make it the scene to the actual game
+            SceneManager.LoadScene(nextSceneName); //need to make it the scene to the actual game
 
 >>>>>>> 160d460 (resolved conflicts)
         }
