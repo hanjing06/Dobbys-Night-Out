@@ -5975,6 +5975,9 @@ MonoBehaviour:
   runSpeed: 7
   canSprint: 1
   playerMoveDirection: {x: 0, y: 0, z: 0}
+  box: {fileID: 0}
+  displayMessage: {fileID: 0}
+  cryptogram: {fileID: 0}
 --- !u!95 &1305262403
 Animator:
   serializedVersion: 7
