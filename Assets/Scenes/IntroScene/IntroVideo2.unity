@@ -269,6 +269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::FlightController
   speed: 10
   destroyX: 10
+  nextSceneName: IntroVideo3
 --- !u!1 &2016553901
 GameObject:
   m_ObjectHideFlags: 0
