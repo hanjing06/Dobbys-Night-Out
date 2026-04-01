@@ -91,27 +91,28 @@ public class Slot: MonoBehaviour, IPointerClickHandler
 
     public void OnLeftClick()
     {
-        if (onInv)
+       // if (onInv)
+       // {
+       //}
+       /*else
+       {
+           invManager.DeselectSpaces();
+           shade.SetActive(true);
+       }*/
+        //using the selected item
+        if (isSelected)
         {
-            //using the selected item
-            if (isSelected)
-            {
-                amt -= 1;
-                invManager.UseItem(itemName);
-                UpdateSlot(amt);
-            }
+            amt -= 1;
+            invManager.UseItem(itemName);
+            UpdateSlot(amt);
+        }
 
-            //ensure only one slot is selected at a time
-            invManager.DeselectSlots();
-            shade.SetActive(true);
-            isSelected = true;
-            UpdateItemViewer();
-        }
-        else
-        {
-            invManager.DeselectSpaces();
-            shade.SetActive(true);
-        }
+        //ensure only one slot is selected at a time
+        invManager.DeselectSlots();
+        shade.SetActive(true);
+        isSelected = true;
+        UpdateItemViewer();
+        
     }
 
 

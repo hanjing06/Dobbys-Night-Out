@@ -71,13 +71,6 @@ public class InventoryManager: MonoBehaviour
 	    //use recursion to find the first free slot to add item
 	    for (int i = 0; i < slot.Length; i++)
 	    {
-		    /*//enable image views
-		    if (slot[i].SlotHasItem())
-		    {
-			    slot[i].GetComponent<Image>().enabled = true;
-			    slot[i].GetComponent<Image>().sprite = itemIcon;
-			    
-		    }*/
 		    //store an item if the slot is empty and allows for stacking if collecting multiple of same item
 		    if (slot[i].isFull == false && (slot[i].itemName == itemName || slot[i].amt == 0))
 		    {
