@@ -19,7 +19,7 @@ public class InventoryManager: MonoBehaviour
 	public string testDescription;
 
 	//for cryptogram puzzle
-	private CryptogramManager cryptManager;
+	private PuzzleManager puzzleManager;
 	
 	public Slot[] space;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -27,7 +27,7 @@ public class InventoryManager: MonoBehaviour
     {
 	    isActive = false;
 	    slot[0].AddItem("Spider", 3, test, testDescription);
-	    cryptManager = GameObject.Find("CryptogramCanvas").GetComponent<CryptogramManager>();
+	    puzzleManager = GameObject.Find("PuzzleCanvas").GetComponent<PuzzleManager>();
     }
 
     // Update is called once per frame
@@ -35,7 +35,7 @@ public class InventoryManager: MonoBehaviour
     {
 	    if (isActive)
 	    {
-		    cryptManager.isActive = false;
+		    puzzleManager.isActive = false;
 	    }
 		//note: 'Inventory' is a seperately created input asset that toggles the inventory when the 'I' key is pressed
         if(Input.GetKeyDown(KeyCode.I) && isActive)
@@ -94,14 +94,7 @@ public class InventoryManager: MonoBehaviour
 	    }
     }
     
-    public void DeselectSpaces()
-    {
-	    for (int i = 0; i < space.Length; i++)
-	    {
-		    space[i].shade.SetActive(false);
-		    space[i].isSelected = false;
-	    }
-    }
+    
 
     public ScriptableItem GetItem(string itemName)
     {
