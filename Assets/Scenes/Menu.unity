@@ -813,6 +813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46218e4cf585f40709efbd6d831b0dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Quit
+  nextSceneName: TheClinic
 --- !u!114 &1342962266
 MonoBehaviour:
   m_ObjectHideFlags: 0
