@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Playables;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class CutsceneDialogue : MonoBehaviour
@@ -30,6 +31,9 @@ public class CutsceneDialogue : MonoBehaviour
     [Header("Dialogue Lines")]
     public DialogueLine[] lines;
 
+    [Header("Scene Transition")]
+    public string nextSceneName;
+
     private int currentLineIndex = 0;
     private bool dialogueStarted = false;
     private bool dialogueActive = false;
@@ -43,7 +47,7 @@ public class CutsceneDialogue : MonoBehaviour
         if (closeButton != null)
         {
             closeButton.onClick.RemoveAllListeners();
-            closeButton.onClick.AddListener(EndDialogue);
+            closeButton.onClick.AddListener(EndDialogueAndLoadNextScene);
         }
     }
 
@@ -54,7 +58,7 @@ public class CutsceneDialogue : MonoBehaviour
         if (!dialogueActive)
             return;
 
-        // Prevent the same click/frame that opened the dialogue from instantly skipping
+        // Prevent the same click/frame that opened the dialogue from skipping instantly
         if (Time.frameCount == startFrame)
             return;
 
@@ -120,18 +124,27 @@ public class CutsceneDialogue : MonoBehaviour
 
         if (currentLineIndex >= lines.Length)
         {
-            EndDialogue();
+            EndDialogueAndLoadNextScene();
             return;
         }
 
         ShowCurrentLine();
     }
 
-    public void EndDialogue()
+    public void EndDialogueAndLoadNextScene()
     {
         dialogueActive = false;
 
         if (dialoguePanel != null)
             dialoguePanel.SetActive(false);
+
+        if (!string.IsNullOrEmpty(nextSceneName))
+        {
+            SceneManager.LoadScene(nextSceneName);
+        }
+        else
+        {
+            Debug.LogWarning("Next scene name is empty. Assign it in the Inspector.");
+        }
     }
 }
