@@ -20,7 +20,13 @@ public class EnemyFollower : MonoBehaviour
         FollowPlayerPath();
         HandleAnimation();
     }
-
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            GameManager.Instance.ResetGame();
+        }
+    }
     void FollowPlayerPath()
     {
         if (PlayerTracker.PositionQueue.Count == 0)
