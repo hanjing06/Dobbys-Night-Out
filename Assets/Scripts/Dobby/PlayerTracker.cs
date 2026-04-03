@@ -16,6 +16,7 @@ public class PlayerTracker : MonoBehaviour
 
     void Start()
     {
+        PositionQueue.Clear();
         lastRecordedPosition = transform.position;
         PositionQueue.Enqueue(GetOffsetPosition(transform.position));
     }
@@ -52,5 +53,9 @@ public class PlayerTracker : MonoBehaviour
     private Vector3 GetOffsetPosition(Vector3 original)
     {
         return new Vector3(original.x, original.y + yOffset, original.z);
+    }
+    public static void ResetTracker()
+    {
+        PositionQueue.Clear();
     }
 }

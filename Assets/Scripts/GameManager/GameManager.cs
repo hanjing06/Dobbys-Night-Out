@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
@@ -11,16 +12,30 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TMP_Text timerText; 
 
     private bool hasSwapped = false;
-    private float timeRemaining = 300f; // 5 minutes
+    private float timeRemaining = 120f; // 2 minutes
     private bool timerRunning = false;
-    void Start()
-    {
-        timerPanel.SetActive(false);
-    }
     void Awake()
     {
         Instance = this;
     }
+
+    void Start()
+    {
+        timerPanel.SetActive(false);
+    }
+    void SwapNPC()
+    {
+        if (normalNPC == null || chaseNPCPrefab == null)
+            return;
+
+        Vector3 spawnPos = normalNPC.transform.position;
+        Quaternion spawnRot = normalNPC.transform.rotation;
+
+        Destroy(normalNPC);
+
+        Instantiate(chaseNPCPrefab, spawnPos, spawnRot);
+    }
+
 
     public void OnPlayerLeftRoom()
     {
@@ -33,26 +48,6 @@ public class GameManager : MonoBehaviour
         timerRunning = true;
     }
 
-    void SwapNPC()
-    {
-        if (normalNPC != null)
-        {
-            Destroy(normalNPC);
-        }
-
-        if (normalNPC == null || chaseNPCPrefab == null)
-            return;
-
-        // Save old position + rotation
-        Vector3 spawnPos = normalNPC.transform.position;
-        Quaternion spawnRot = normalNPC.transform.rotation;
-
-        // Destroy old NPC
-        Destroy(normalNPC);
-
-        // Spawn chase version in same place
-        Instantiate(chaseNPCPrefab, spawnPos, spawnRot);
-    }
     void Update()
     {
         if (!timerRunning) return;
@@ -63,6 +58,7 @@ public class GameManager : MonoBehaviour
             {
                 timerText.color = Color.red;
             }
+
             timeRemaining -= Time.deltaTime;
             UpdateTimerDisplay(timeRemaining);
         }
@@ -73,14 +69,20 @@ public class GameManager : MonoBehaviour
 
             UpdateTimerDisplay(0);
             Debug.Log("Time's up!");
-            
+            ResetGame();
         }
-        void UpdateTimerDisplay(float time)
-        {
-            int minutes = Mathf.FloorToInt(time / 60);
-            int seconds = Mathf.FloorToInt(time % 60);
+    }
+    void UpdateTimerDisplay(float time)
+    {
+        int minutes = Mathf.FloorToInt(time / 60);
+        int seconds = Mathf.FloorToInt(time % 60);
 
-            timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
-        }
+        timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+    }
+
+    public void ResetGame()
+    {
+        PlayerTracker.ResetTracker();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
