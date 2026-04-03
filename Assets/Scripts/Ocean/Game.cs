@@ -681,14 +681,31 @@ public class Game : MonoBehaviour
             matchesText.text=matchesLeft.ToString();
         }
     }
+    
+    [SerializeField] private GameObject winText;
+    [SerializeField] private GameObject setSailText;
 
     void WinGame()
     {
         gameEnded = true;
         Debug.Log("You built the boat!");
+        StartCoroutine(WinSequence());
+    }
+    
+    IEnumerator WinSequence()
+    {
+        Debug.Log("Win sequence started");
 
-        if (winPanel != null)
-            winPanel.SetActive(true);
+        winPanel.SetActive(true);
+        winText.SetActive(true);
+        setSailText.SetActive(false);
+
+        yield return new WaitForSeconds(1f);
+
+        winText.SetActive(false);
+        setSailText.SetActive(true);
+
+        yield return new WaitForSeconds(1f);
     }
 
     void LoseGame()
