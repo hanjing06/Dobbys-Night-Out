@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System.Collections;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
@@ -11,6 +12,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject timerPanel;
     [SerializeField] private TMP_Text timerText; 
 
+    [SerializeField] private GameObject InfoPanel;
+    [SerializeField] private float fadeDuration = 2f;
+    [SerializeField] private float displayTime = 2f;
+    
+    private UnityEngine.UI.Image infoPanelImage;
+    
     private bool hasSwapped = false;
     private float timeRemaining = 120f; // 2 minutes
     private bool timerRunning = false;
@@ -22,6 +29,14 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         timerPanel.SetActive(false);
+
+        timerPanel.SetActive(false);
+
+        InfoPanel.SetActive(true);
+        
+        infoPanelImage = InfoPanel.GetComponent<UnityEngine.UI.Image>();
+
+        StartCoroutine(FadeOutInfoPanel());
     }
     void SwapNPC()
     {
@@ -71,6 +86,26 @@ public class GameManager : MonoBehaviour
             Debug.Log("Time's up!");
             ResetGame();
         }
+    }
+    IEnumerator FadeOutInfoPanel()
+    {
+        yield return new WaitForSeconds(displayTime);
+
+        float elapsed = 0f;
+        Color panelColor = infoPanelImage.color;
+
+        while (elapsed < fadeDuration)
+        {
+            elapsed += Time.deltaTime;
+            float alpha = 1f - (elapsed / fadeDuration);
+
+            panelColor.a = alpha;
+            infoPanelImage.color = panelColor;
+
+            yield return null;
+        }
+
+        InfoPanel.SetActive(false);
     }
     void UpdateTimerDisplay(float time)
     {

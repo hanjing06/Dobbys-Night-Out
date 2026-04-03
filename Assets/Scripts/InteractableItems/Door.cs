@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
-public class Door : MonoBehaviour
+public class Door : MonoBehaviour, IInteractable
 {
     [SerializeField] private GameObject player;
     [SerializeField] private string sceneToLoad;
@@ -33,5 +33,13 @@ public class Door : MonoBehaviour
         {
             PlayerIsAtTheDoor = true;
         }
+    }
+    public void Interact()
+    {
+        
+    }
+    public bool CanInteract()
+    {
+        return true;
     }
 }
