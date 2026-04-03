@@ -685,6 +685,13 @@ public class Game : MonoBehaviour
     [SerializeField] private GameObject winText;
     [SerializeField] private GameObject setSailText;
 
+    [SerializeField] private CanvasGroup winTextGroup;
+    [SerializeField] private CanvasGroup setSailGroup;
+    [SerializeField] private CanvasGroup fadeOverlay;
+    
+    [SerializeField] private float fadeToBlackDuration = 1.2f;
+    [SerializeField] private float holdDuration = 0.8f;
+
     void WinGame()
     {
         gameEnded = true;
@@ -697,15 +704,82 @@ public class Game : MonoBehaviour
         Debug.Log("Win sequence started");
 
         winPanel.SetActive(true);
+
         winText.SetActive(true);
-        setSailText.SetActive(false);
-
-        yield return new WaitForSeconds(1f);
-
-        winText.SetActive(false);
         setSailText.SetActive(true);
 
-        yield return new WaitForSeconds(1f);
+        winTextGroup.alpha = 0f;
+        setSailGroup.alpha = 0f;
+        fadeOverlay.alpha = 0f;
+
+        float time = 0f;
+
+        // Fade in
+        while (time < 0.6f)
+        {
+            time += Time.deltaTime;
+            float t = time / 0.6f;
+            winTextGroup.alpha = Mathf.Lerp(0f, 1f, t);
+            yield return null;
+        }
+
+        winTextGroup.alpha = 1f;
+
+        yield return new WaitForSeconds(holdDuration);
+
+        // Fade out "Boat Built!"
+        time = 0f;
+        while (time < 1f)
+        {
+            time += Time.deltaTime;
+            float t = time / 1f;
+            winTextGroup.alpha = Mathf.Lerp(1f, 0f, t);
+            yield return null;
+        }
+
+        winTextGroup.alpha = 0f;
+
+        // Fade in "Setting sail..."
+        time = 0f;
+        while (time < 2.5f)
+        {
+            time += Time.deltaTime;
+            float t = time / 2.5f;
+            setSailGroup.alpha = Mathf.Lerp(0f, 1f, t);
+            yield return null;
+        }
+
+        setSailGroup.alpha = 1f;
+
+        yield return new WaitForSeconds(0.4f);
+
+        // Fade screen to black while "Setting sail..." stays visible
+        time = 0f;
+        while (time < fadeToBlackDuration)
+        {
+            time += Time.deltaTime;
+            float t = time / fadeToBlackDuration;
+            fadeOverlay.alpha = Mathf.Lerp(0f, 1f, t);
+            yield return null;
+        }
+
+        fadeOverlay.alpha = 1f;
+
+        // Fade out "Setting sail..." after black is already on screen
+        time = 0f;
+        while (time < 2f)
+        {
+            time += Time.deltaTime;
+            float t = time / 2f;
+            setSailGroup.alpha = Mathf.Lerp(1f, 0f, t);
+            yield return null;
+        }
+
+        setSailGroup.alpha = 0f;
+
+        yield return new WaitForSeconds(5f);
+
+        SceneManager.LoadScene("MaritimesLevel");
     }
 
     void LoseGame()
