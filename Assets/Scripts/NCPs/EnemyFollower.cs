@@ -1,7 +1,4 @@
 using UnityEngine;
-
-using UnityEngine;
-
 public class EnemyFollower : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 3.5f;
@@ -11,7 +8,7 @@ public class EnemyFollower : MonoBehaviour
     [SerializeField] private float maxMoveSpeed = 5f;
     [SerializeField] private float speedIncreaseRate = 0.05f;
     [SerializeField] private float speedGrowthDelay = 3f;
-
+    private Vector3 lockedDirection;
     private float speedTimer = 0f;
 
     private Vector3 currentTarget;
@@ -36,25 +33,32 @@ public class EnemyFollower : MonoBehaviour
         {
             currentTarget = PlayerTracker.PositionQueue.Peek();
             hasTarget = true;
+
+            Vector3 diff = currentTarget - transform.position;
+
+            if (Mathf.Abs(diff.x) > Mathf.Abs(diff.y))
+                lockedDirection = new Vector3(Mathf.Sign(diff.x), 0, 0);
+            else
+                lockedDirection = new Vector3(0, Mathf.Sign(diff.y), 0);
         }
 
-        Vector3 currentPos = transform.position;
-        Vector3 diff = currentTarget - currentPos;
+        Vector3 toTarget = currentTarget - transform.position;
 
-        // Snap direction to grid (NO diagonal movement)
-        Vector3 direction;
-
-        if (Mathf.Abs(diff.x) > Mathf.Abs(diff.y))
-            direction = new Vector3(Mathf.Sign(diff.x), 0, 0);
-        else
-            direction = new Vector3(0, Mathf.Sign(diff.y), 0);
-
-        // Move using Transform instead of Rigidbody
-        transform.position += direction * moveSpeed * Time.deltaTime;
-
-        // Reached node
-        if (Vector3.Distance(currentPos, currentTarget) <= reachDistance)
+        // 🔥 If we passed the target → reset
+        if (Vector3.Dot(toTarget, lockedDirection) < 0)
         {
+            hasTarget = false;
+            return;
+        }
+
+        // Move
+        transform.position += lockedDirection * moveSpeed * Time.deltaTime;
+
+        // 🔥 Snap when close
+        if (Vector3.Distance(transform.position, currentTarget) <= reachDistance)
+        {
+            transform.position = currentTarget;
+
             PlayerTracker.PositionQueue.Dequeue();
             hasTarget = false;
         }
