@@ -31,9 +31,10 @@ public class Game : MonoBehaviour
     [SerializeField] private int maxMatchesAllowed = 12;
     [SerializeField] private int boatProgressNeeded = 12;
 
-    [Header("UI")]
-    public Slider progressBar;
+    [Header("UI")] 
+    public GameObject objectivePanel;
     public TextMeshProUGUI matchesText;
+    public TextMeshProUGUI matchesLeft;
     public GameObject winPanel;
     public GameObject gameOverPanel;
 
@@ -50,10 +51,44 @@ public class Game : MonoBehaviour
 
     private bool gameEnded = false;
     private bool isResolving = false;
+    
+    private bool showingObjective = true;
+    private bool gameStarted = false;
 
     void Start()
     {
-        StartGame();
+        showingObjective = true;
+        gameStarted = false;
+
+        // ONLY show objective panel
+        if (objectivePanel != null)
+            objectivePanel.SetActive(true);
+
+        // Disable everything else
+        if (winPanel != null) winPanel.SetActive(false);
+        if (gameOverPanel != null) gameOverPanel.SetActive(false);
+
+        if (matchesText != null) matchesText.gameObject.SetActive(false);
+        if(matchesLeft != null) matchesLeft.gameObject.SetActive(false);
+    }
+    
+    void Update()
+    {
+        if (showingObjective && Input.anyKeyDown)
+        {
+            showingObjective = false;
+            gameStarted = true;
+
+            if (objectivePanel != null)
+                objectivePanel.SetActive(false);
+
+            // Enable UI
+            if (matchesText != null) matchesText.gameObject.SetActive(true);
+            if(matchesLeft != null) matchesLeft.gameObject.SetActive(true);
+
+            // NOW start the game
+            StartGame();
+        }
     }
 
     void StartGame()
@@ -74,7 +109,7 @@ public class Game : MonoBehaviour
         UpdateBoardVisuals();
         UpdateUI();
     }
-
+    
     void InitializeBoard()
     {
         board = new Node[width, height];
@@ -129,7 +164,7 @@ public class Game : MonoBehaviour
 
     public void BeginDrag(TilePiece tile)
     {
-        if (gameEnded || isResolving) return;
+        if (!gameStarted || showingObjective || gameEnded || isResolving) return;
 
         dragStartTile = tile;
         previewTile = tile;
@@ -336,7 +371,6 @@ public class Game : MonoBehaviour
             }
 
             UpdateUI();
-            DebugMatchShapes(matches);
 
             ClearMatches(matches);
             UpdateBoardVisuals();
@@ -390,9 +424,6 @@ public class Game : MonoBehaviour
         int progress = 1;
 
         if (matches.Count >= 4)
-            progress = 2;
-
-        if (GetBonusForShape(matches) > 0)
             progress = 2;
 
         return progress;
@@ -643,15 +674,11 @@ public class Game : MonoBehaviour
 
     void UpdateUI()
     {
-        if (progressBar != null)
-        {
-            progressBar.maxValue = boatProgressNeeded;
-            progressBar.value = boatProgress;
-        }
 
         if (matchesText != null)
         {
-            matchesText.text = "Matches: " + matchesUsed + " / " + maxMatchesAllowed;
+            int matchesLeft = maxMatchesAllowed - matchesUsed;
+            matchesText.text=matchesLeft.ToString();
         }
     }
 
@@ -696,88 +723,5 @@ public class Game : MonoBehaviour
 
         return seed;
     }
-
-    int GetBonusForShape(List<Point> matches)
-    {
-        foreach (Point p in matches)
-        {
-            MatchShape shape = GetMatchShape(p);
-            if (shape == MatchShape.LShape || shape == MatchShape.TShape)
-                return 1;
-        }
-
-        return 0;
-    }
-
-    void DebugMatchShapes(List<Point> matches)
-    {
-        foreach (Point p in matches)
-        {
-            MatchShape shape = GetMatchShape(p);
-
-            if (shape == MatchShape.LShape)
-            {
-                Debug.Log("L shape found at: " + p.x + ", " + p.y);
-            }
-            else if (shape == MatchShape.TShape)
-            {
-                Debug.Log("T shape found at: " + p.x + ", " + p.y);
-            }
-        }
-    }
-
-    MatchShape GetMatchShape(Point p)
-    {
-        List<Point> horizontal = GetHorizontalMatch(p);
-        List<Point> vertical = GetVerticalMatch(p);
-
-        bool hasH = horizontal.Count >= 3;
-        bool hasV = vertical.Count >= 3;
-
-        if (!hasH && !hasV)
-            return MatchShape.None;
-
-        if (hasH && hasV)
-        {
-            int val = GetValueAtPoint(p);
-
-            bool left = IsInBoard(Point.add(p, Point.left)) &&
-                        GetValueAtPoint(Point.add(p, Point.left)) == val;
-
-            bool right = IsInBoard(Point.add(p, Point.right)) &&
-                         GetValueAtPoint(Point.add(p, Point.right)) == val;
-
-            bool up = IsInBoard(Point.add(p, Point.up)) &&
-                      GetValueAtPoint(Point.add(p, Point.up)) == val;
-
-            bool down = IsInBoard(Point.add(p, Point.down)) &&
-                        GetValueAtPoint(Point.add(p, Point.down)) == val;
-
-            int horizontalSides = 0;
-            int verticalSides = 0;
-
-            if (left) horizontalSides++;
-            if (right) horizontalSides++;
-            if (up) verticalSides++;
-            if (down) verticalSides++;
-
-            if ((horizontalSides == 2 && verticalSides >= 1) ||
-                (verticalSides == 2 && horizontalSides >= 1))
-            {
-                return MatchShape.TShape;
-            }
-
-            return MatchShape.LShape;
-        }
-
-        return MatchShape.Line;
-    }
-}
-
-public enum MatchShape
-{
-    None,
-    Line,
-    LShape,
-    TShape
+    
 }
