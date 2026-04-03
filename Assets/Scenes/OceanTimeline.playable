@@ -757,7 +757,7 @@ MonoBehaviour:
   m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
---- !u!114 &-84433020030159710
+--- !u!114 &-441262676858787928
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -782,8 +782,8 @@ MonoBehaviour:
     m_Objects: []
   m_InfiniteClipPreExtrapolation: 1
   m_InfiniteClipPostExtrapolation: 1
-  m_InfiniteClipOffsetPosition: {x: 0, y: 0, z: 0}
-  m_InfiniteClipOffsetEulerAngles: {x: 0, y: 0, z: 0}
+  m_InfiniteClipOffsetPosition: {x: 0, y: -338, z: 0}
+  m_InfiniteClipOffsetEulerAngles: {x: -0, y: 0, z: 0}
   m_InfiniteClipTimeOffset: 0
   m_InfiniteClipRemoveOffset: 0
   m_InfiniteClipApplyFootIK: 1
@@ -794,7 +794,7 @@ MonoBehaviour:
   m_AvatarMask: {fileID: 0}
   m_ApplyAvatarMask: 1
   m_TrackOffset: 0
-  m_InfiniteClip: {fileID: 6620708432836729161}
+  m_InfiniteClip: {fileID: 1895793690119423410}
   m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
@@ -815,7 +815,7 @@ MonoBehaviour:
   - {fileID: -6583529862661638656}
   - {fileID: 6633542052408159943}
   - {fileID: -4756855173464062214}
-  - {fileID: -84433020030159710}
+  - {fileID: -441262676858787928}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
@@ -1317,7 +1317,7 @@ AnimationClip:
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events: []
---- !u!74 &6620708432836729161
+--- !u!74 &1895793690119423410
 AnimationClip:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1340,7 +1340,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 7.5
-        value: -97
+        value: -187
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1349,7 +1349,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 8
-        value: 119
+        value: 202
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1360,7 +1360,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AnchoredPosition.y
-    path: DialoguePanel
+    path: 
     classID: 224
     script: {fileID: 0}
     flags: 0
@@ -1373,7 +1373,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2280246148
+      path: 0
       attribute: 538195251
       script: {fileID: 0}
       typeID: 224
@@ -1409,7 +1409,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 7.5
-        value: -97
+        value: -187
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1418,7 +1418,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 8
-        value: 119
+        value: 202
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1429,7 +1429,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AnchoredPosition.y
-    path: DialoguePanel
+    path: 
     classID: 224
     script: {fileID: 0}
     flags: 0
@@ -1437,6 +1437,22 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events: []
+--- !u!114 &4064750019346524958
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
+  m_Name: Signal Emitter
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalEmitter
+  m_Time: 7.533333333333333
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: 821aaa5fc838b4488835d7cc4b4ccc79, type: 2}
 --- !u!114 &6633542052408159943
 MonoBehaviour:
   m_ObjectHideFlags: 1
