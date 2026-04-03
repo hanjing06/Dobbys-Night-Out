@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
@@ -22,12 +23,13 @@ public class PlayerController : MonoBehaviour
     //HOGWARTS LEVEL: INTERACTING WITH THE SCROLL
     public GameObject box;
     public TMP_Text displayMessage;
-    private CryptogramManager cryptManager;
-    public GameObject cryptogram;
+    private PuzzleManager puzzleManager;
+    public GameObject puzzle;
+    public bool unlockScroll;
     void Start()
     {
         currencyManager = GameObject.Find("CurrencyCanvas").GetComponent<CurrencyManager>();
-        cryptManager = cryptogram.GetComponent<CryptogramManager>();
+        puzzleManager = puzzle.GetComponent<PuzzleManager>();
         
     }
     void Update()
@@ -36,7 +38,7 @@ public class PlayerController : MonoBehaviour
         Interaction();
         
         //hide display message
-        if (cryptManager.isActive)
+        if (puzzleManager.isActive)
         {
             HideMessage();
         }
@@ -87,9 +89,9 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             interactionDetector?.Interact();
-        } else if (Input.GetKeyDown(KeyCode.C))
+        } else if (Input.GetKeyDown(KeyCode.C) && unlockScroll)
         {
-            cryptManager.isActive = true;
+            puzzleManager.isActive = true;
         }
     }
 
@@ -125,6 +127,7 @@ public class PlayerController : MonoBehaviour
             box.GetComponent<Image>().enabled = true;
             displayMessage.GetComponent<TextMeshProUGUI>().enabled = true;
             displayMessage.text = "Press C to interact";
+            unlockScroll = true;
         }
     }
 
@@ -133,6 +136,7 @@ public class PlayerController : MonoBehaviour
         if (other.CompareTag("scroll"))
         {
             Debug.Log("Leaving scroll!");
+            unlockScroll = false;
             HideMessage();
         }
     }
