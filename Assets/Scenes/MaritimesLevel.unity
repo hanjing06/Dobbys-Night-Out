@@ -6081,7 +6081,8 @@ MonoBehaviour:
   playerMoveDirection: {x: 0, y: 0, z: 0}
   box: {fileID: 0}
   displayMessage: {fileID: 0}
-  cryptogram: {fileID: 0}
+  puzzle: {fileID: 0}
+  unlockScroll: 0
 --- !u!95 &1305262403
 Animator:
   serializedVersion: 7
@@ -6808,6 +6809,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 896607372}
     - target: {fileID: 5738765743137853914, guid: 3412fc7a9c1b8bc4eb7240f9e68c2569, type: 3}
+      propertyPath: dialogueData
+      value: 
+      objectReference: {fileID: 11400000, guid: 3465230bdd9dc488dae5eaaa0b6d2cb3, type: 2}
+    - target: {fileID: 5738765743137853914, guid: 3412fc7a9c1b8bc4eb7240f9e68c2569, type: 3}
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 1296999025}
@@ -7488,6 +7493,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1910029266931683525, guid: 0b8e0bb3853d30d4389083baa7ea6ae6, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612837408789298382, guid: 0b8e0bb3853d30d4389083baa7ea6ae6, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612837408789298382, guid: 0b8e0bb3853d30d4389083baa7ea6ae6, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612837408789298382, guid: 0b8e0bb3853d30d4389083baa7ea6ae6, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612837408789298382, guid: 0b8e0bb3853d30d4389083baa7ea6ae6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2612837408789298382, guid: 0b8e0bb3853d30d4389083baa7ea6ae6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3672406405860050972, guid: 0b8e0bb3853d30d4389083baa7ea6ae6, type: 3}
       propertyPath: m_Name
       value: UI
@@ -7575,6 +7604,10 @@ PrefabInstance:
     - target: {fileID: 4860484872095212007, guid: 0b8e0bb3853d30d4389083baa7ea6ae6, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5282736378485335529, guid: 0b8e0bb3853d30d4389083baa7ea6ae6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9219578332275678999, guid: 0b8e0bb3853d30d4389083baa7ea6ae6, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
