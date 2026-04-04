@@ -2,15 +2,15 @@ using UnityEngine;
 
 namespace SkyBackgroundsPixelArt6
 {
-    public class ParallaxEffectFlyMode : MonoBehaviour
+    public class ParallaxEffect : MonoBehaviour
     {
         private Transform mainCamera;
+        private Transform player;
 
         public float parallaxIntensityX;
+        public float parallaxIntensityY;
         public float independantSpeed;
 
-        public int tileDivisor = 3;
-        
         private float cameraSize;
         private float spriteWidth;
         private Vector2 initialPos;
@@ -20,8 +20,11 @@ namespace SkyBackgroundsPixelArt6
         {
             mainCamera = Camera.main.transform;
             cameraSize = Camera.main.orthographicSize;
-            spriteWidth = GetComponent<SpriteRenderer>().bounds.size.x / tileDivisor;
-            initialPos = transform.position; 
+            player = GameObject.FindWithTag("Player").GetComponent<Transform>();
+            spriteWidth = GetComponent<SpriteRenderer>().bounds.size.x / 3;
+
+            transform.position = new Vector2(mainCamera.position.x, mainCamera.position.y);
+            initialPos = transform.position;
         }
 
         private void LateUpdate()
@@ -29,8 +32,9 @@ namespace SkyBackgroundsPixelArt6
             translationOffset += independantSpeed * Time.deltaTime * parallaxIntensityX;
 
             float parallaxOffsetX = (mainCamera.position.x * (1 - (parallaxIntensityX / 2))) + translationOffset;
+            float parallaxOffsetY = ((mainCamera.position.y / cameraSize) / 0.7f) * (1 - parallaxIntensityY);
 
-            transform.position = new Vector2(mainCamera.position.x, mainCamera.position.y);
+            transform.position = new Vector2(initialPos.x + parallaxOffsetX, initialPos.y + parallaxOffsetY);
 
             float cameraOffsetX = mainCamera.position.x - transform.position.x;
 

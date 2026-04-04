@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: da55b89af777c8e4ca521d9ab1fcfe45
+guid: e85b301faad8469419e35e6705ecdf9b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8321010922345286606
-    second: Layer_5_0
+      213: 6292828006704262670
+    second: Layer_1_0
+  - first:
+      213: 448253976057315698
+    second: Layer_1_1
+  - first:
+      213: -1196256193879284329
+    second: Layer_1_2
+  - first:
+      213: 2492716732645724851
+    second: Layer_1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +105,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Layer_5_0
+      name: Layer_1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1728
-        height: 324
+        width: 292
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 234b67917a4d58c80800000000000000
-      internalID: -8321010922345286606
+      spriteID: e0eac343bbd945750800000000000000
+      internalID: 6292828006704262670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Layer_1_1
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 0
+        width: 519
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2718d04cd94883600800000000000000
+      internalID: 448253976057315698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Layer_1_2
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 0
+        width: 519
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795e677645b066fe0800000000000000
+      internalID: -1196256193879284329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Layer_1_3
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 0
+        width: 227
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2550f49a8e79220800000000000000
+      internalID: 2492716732645724851
       vertices: []
       indices: 
       edges: []
@@ -148,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Layer_5_0: -8321010922345286606
+      Layer_1_0: 6292828006704262670
+      Layer_1_1: 448253976057315698
+      Layer_1_2: -1196256193879284329
+      Layer_1_3: 2492716732645724851
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
