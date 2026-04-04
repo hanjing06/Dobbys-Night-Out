@@ -38,5 +38,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HogwartsCutScene.unity
     guid: f3caea9b0b1284709b8f7abba54fe35c
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: a7699e414056648438d7060c90b8fda0
+  - enabled: 1
+    path: Assets/Scenes/OptionsMenu.unity
+    guid: ac4f3447320bf464a8971bc7e2dce593
+  - enabled: 1
+    path: Assets/Scenes/Inventory.unity
+    guid: 569e247ebbd90764faf1e0d637e86101
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
