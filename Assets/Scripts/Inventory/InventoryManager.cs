@@ -33,24 +33,22 @@ public class InventoryManager: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-	    if (isActive)
-	    {
-		    puzzleManager.isActive = false;
-	    }
 		//note: 'Inventory' is a seperately created input asset that toggles the inventory when the 'I' key is pressed
-        if(Input.GetKeyDown(KeyCode.I) && isActive)
+        if(Input.GetKeyDown(KeyCode.I))
         {
-	        Time.timeScale = 1; //game moves at regular speed
-			inventory.SetActive(false); //deactivates inventory
-			isActive = false;
-		} else if(Input.GetKeyDown(KeyCode.I) && !isActive)
-        {
-	        Time.timeScale = 0;  //time is paused during active inventory
-			inventory.SetActive(true); //activates inventory
-			isActive = true;
-		}
-         
-		
+	        if (puzzleManager.isActive) { return; }
+
+	        if (isActive && !puzzleManager.isActive)
+	        {
+		        Time.timeScale = 1; //game moves at regular speed
+		        inventory.SetActive(false); //deactivates inventory
+		        isActive = false;
+			} else {
+		        Time.timeScale = 0;  //time is paused during active inventory
+		        inventory.SetActive(true); //activates inventory
+		        isActive = true;
+			}
+        } 
     }
 
     public void UseItem(string itemName)

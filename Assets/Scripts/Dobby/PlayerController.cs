@@ -146,4 +146,6 @@ public class PlayerController : MonoBehaviour
         box.GetComponent<Image>().enabled = false;
         displayMessage.GetComponent<TextMeshProUGUI>().enabled = false;
     }
+    
+    
 }
