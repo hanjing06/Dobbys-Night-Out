@@ -14,9 +14,8 @@ public class InventoryManager: MonoBehaviour
 	private bool isActive;
 	public Slot[] slot;
 	public ScriptableItem[]  items;
-	public Sprite test;
-	[TextArea]
-	public string testDescription;
+	public string currentScene;
+
 
 	//for cryptogram puzzle
 	private PuzzleManager puzzleManager;
@@ -26,7 +25,7 @@ public class InventoryManager: MonoBehaviour
     void Start()
     {
 	    isActive = false;
-	    slot[0].AddItem("Spider", 3, test, testDescription);
+	    //slot[0].AddItem("Spider", 3, test, testDescription);
 	    puzzleManager = GameObject.Find("PuzzleCanvas").GetComponent<PuzzleManager>();
     }
 
@@ -36,9 +35,15 @@ public class InventoryManager: MonoBehaviour
 		//note: 'Inventory' is a seperately created input asset that toggles the inventory when the 'I' key is pressed
         if(Input.GetKeyDown(KeyCode.I))
         {
-	        if (puzzleManager.isActive) { return; }
+	        if (currentScene == "HogwartsLevel")
+	        {
+		        if (puzzleManager.isActive)
+		        {
+			        return;
+		        }
+	        }
 
-	        if (isActive && !puzzleManager.isActive)
+	        if (isActive)
 	        {
 		        Time.timeScale = 1; //game moves at regular speed
 		        inventory.SetActive(false); //deactivates inventory
