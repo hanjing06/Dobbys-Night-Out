@@ -14,9 +14,8 @@ public class InventoryManager: MonoBehaviour
 	private bool isActive;
 	public Slot[] slot;
 	public ScriptableItem[]  items;
-	public Sprite test;
-	[TextArea]
-	public string testDescription;
+	public string currentScene;
+
 
 	//for cryptogram puzzle
 	private PuzzleManager puzzleManager;
@@ -26,31 +25,35 @@ public class InventoryManager: MonoBehaviour
     void Start()
     {
 	    isActive = false;
-	    slot[0].AddItem("Spider", 3, test, testDescription);
+	    //slot[0].AddItem("Spider", 3, test, testDescription);
 	    puzzleManager = GameObject.Find("PuzzleCanvas").GetComponent<PuzzleManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-	    if (isActive)
-	    {
-		    puzzleManager.isActive = false;
-	    }
 		//note: 'Inventory' is a seperately created input asset that toggles the inventory when the 'I' key is pressed
-        if(Input.GetKeyDown(KeyCode.I) && isActive)
+        if(Input.GetKeyDown(KeyCode.I))
         {
-	        Time.timeScale = 1; //game moves at regular speed
-			inventory.SetActive(false); //deactivates inventory
-			isActive = false;
-		} else if(Input.GetKeyDown(KeyCode.I) && !isActive)
-        {
-	        Time.timeScale = 0;  //time is paused during active inventory
-			inventory.SetActive(true); //activates inventory
-			isActive = true;
-		}
-         
-		
+	        if (currentScene == "HogwartsLevel")
+	        {
+		        if (puzzleManager.isActive)
+		        {
+			        return;
+		        }
+	        }
+
+	        if (isActive)
+	        {
+		        Time.timeScale = 1; //game moves at regular speed
+		        inventory.SetActive(false); //deactivates inventory
+		        isActive = false;
+			} else {
+		        Time.timeScale = 0;  //time is paused during active inventory
+		        inventory.SetActive(true); //activates inventory
+		        isActive = true;
+			}
+        } 
     }
 
     public void UseItem(string itemName)

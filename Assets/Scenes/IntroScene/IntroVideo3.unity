@@ -914,7 +914,8 @@ MonoBehaviour:
   playerMoveDirection: {x: 0, y: 0, z: 0}
   box: {fileID: 0}
   displayMessage: {fileID: 0}
-  cryptogram: {fileID: 0}
+  puzzle: {fileID: 0}
+  unlockScroll: 0
 --- !u!95 &1460276313
 Animator:
   serializedVersion: 7
@@ -1304,7 +1305,7 @@ AudioSource:
   m_GameObject: {fileID: 1988314130}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 6208515873539221647, guid: ffb5090efed854ed192c6dc26ef7dd42, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 402287a0a44cb451098c42e05462872d, type: 3}
   m_PlayOnAwake: 1
