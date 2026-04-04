@@ -4,6 +4,33 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Toronto.unity
+    guid: b220b2e56ff804bed91df8513df429e8
+  - enabled: 1
+    path: Assets/Scenes/HogwartsLevel.unity
+    guid: eea7d3c8eb8d2438aa9631290089ba39
+  - enabled: 1
+    path: Assets/Scenes/OceanLevel.unity
+    guid: c7bbbd88a310345a093138b92d132b15
+  - enabled: 1
+    path: Assets/Scenes/MaritimesLevel.unity
+    guid: 7a235f210087e4a68a099c5bdbd3987f
+  - enabled: 1
+    path: Assets/Scenes/Level-1/TheCity/Turkey.unity
+    guid: 660e693c6937ecd4eb12d56cf7a95f06
+  - enabled: 1
+    path: Assets/Scenes/Level-1/TheClinic/TheClinic.unity
+    guid: c7913029c46bcd549bb582164e7b0328
+  - enabled: 1
+    path: Assets/Scenes/IntroScene/IntroVideo.unity
+    guid: fcb3c5513ad6f4a62a86491ae6c9d3ad
+  - enabled: 1
+    path: Assets/Scenes/IntroScene/IntroVideo2.unity
+    guid: 3fda8e02423bd4bf689342349e5a8b8d
+  - enabled: 1
+    path: Assets/Scenes/IntroScene/IntroVideo3.unity
+    guid: 4f055a377f1ce4c0db756cda9fd7a634
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
