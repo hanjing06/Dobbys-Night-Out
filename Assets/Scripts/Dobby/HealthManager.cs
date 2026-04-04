@@ -18,7 +18,7 @@ public class HealthManager: MonoBehaviour
     public bool restartOnDeath;
     public string restartScene = "";
     public GameObject lossUI;
-    private bool dead = false;
+    public bool dead = false;
 
     public Image healthBar;
 
