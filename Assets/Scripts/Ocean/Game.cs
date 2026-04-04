@@ -4,7 +4,6 @@ using Ocean;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class Game : MonoBehaviour
 {
@@ -32,10 +31,21 @@ public class Game : MonoBehaviour
     [SerializeField] private int boatProgressNeeded = 12;
 
     [Header("UI")]
-    public Slider progressBar;
-    public TextMeshProUGUI matchesText;
-    public GameObject winPanel;
-    public GameObject gameOverPanel;
+    [SerializeField] private GameObject objectivePanel;
+    [SerializeField] private TextMeshProUGUI matchesText;
+    [SerializeField] private TextMeshProUGUI matchesLeft;
+    [SerializeField] private GameObject winPanel;
+    [SerializeField] private GameObject gameOverPanel;
+    [SerializeField] private GameObject winText;
+    [SerializeField] private GameObject setSailText;
+    [SerializeField] private CanvasGroup winTextGroup;
+    [SerializeField] private CanvasGroup setSailGroup;
+    [SerializeField] private CanvasGroup fadeOverlay;
+
+    [Header("Timing")]
+    [SerializeField] private float sceneFadeInDuration = 1f;
+    [SerializeField] private float holdDuration = 0.8f;
+    [SerializeField] private float fadeToBlackDuration = 1.2f;
 
     private Node[,] board;
     private TilePiece[,] tilePieces;
@@ -43,31 +53,53 @@ public class Game : MonoBehaviour
 
     private TilePiece dragStartTile;
     private TilePiece previewTile;
-    private Vector3 previewStartPosition;
 
-    private int matchesUsed = 0;
-    private int boatProgress = 0;
+    private int matchesUsed;
+    private int boatProgress;
 
-    private bool gameEnded = false;
-    private bool isResolving = false;
+    private bool gameEnded;
+    private bool isResolving;
+    private bool showingObjective = true;
+    private bool gameStarted;
 
     void Start()
     {
+        SetActive(objectivePanel, true);
+        SetActive(winPanel, false);
+        SetActive(gameOverPanel, false);
+
+        if (matchesText != null) matchesText.gameObject.SetActive(false);
+        if (matchesLeft != null) matchesLeft.gameObject.SetActive(false);
+
+        StartCoroutine(FadeCanvasGroup(fadeOverlay, 1f, 0f, sceneFadeInDuration, true));
+    }
+
+    void Update()
+    {
+        if (!showingObjective || !Input.anyKeyDown) return;
+
+        showingObjective = false;
+        gameStarted = true;
+
+        SetActive(objectivePanel, false);
+
+        if (matchesText != null) matchesText.gameObject.SetActive(true);
+        if (matchesLeft != null) matchesLeft.gameObject.SetActive(true);
+
         StartGame();
     }
 
     void StartGame()
     {
-        string seed = GetRandomSeed();
-        random = new System.Random(seed.GetHashCode());
+        random = new System.Random(GetRandomSeed().GetHashCode());
 
         matchesUsed = 0;
         boatProgress = 0;
         gameEnded = false;
         isResolving = false;
 
-        if (winPanel != null) winPanel.SetActive(false);
-        if (gameOverPanel != null) gameOverPanel.SetActive(false);
+        SetActive(winPanel, false);
+        SetActive(gameOverPanel, false);
 
         InitializeBoard();
         RemoveStartingMatches();
@@ -84,18 +116,13 @@ public class Game : MonoBehaviour
         {
             for (int x = 0; x < width; x++)
             {
-                int value = FillPiece();
+                board[x, y] = new Node(FillPiece(), new Point(x, y));
 
-                // board layout stuff
-
-                board[x, y] = new Node(value, new Point(x, y));
-
-                GameObject obj = Instantiate(tilePrefab, GetWorldPosition(x, y), Quaternion.identity);
-                TilePiece tile = obj.GetComponent<TilePiece>();
+                TilePiece tile = Instantiate(tilePrefab, GetWorldPosition(x, y), Quaternion.identity)
+                    .GetComponent<TilePiece>();
 
                 tile.boardPosition = new Point(x, y);
                 tile.game = this;
-
                 tilePieces[x, y] = tile;
             }
         }
@@ -103,80 +130,35 @@ public class Game : MonoBehaviour
 
     Vector3 GetWorldPosition(int x, int y)
     {
-        float xPos = x;
-        float yPos = y;
-
-        if (centerBoard)
-        {
-            float offsetX = (width - 1) / 2f;
-            float offsetY = (height - 1) / 2f;
-
-            xPos = (x - offsetX) * tileSpacing;
-            yPos = (y - offsetY) * tileSpacing;
-        }
-        else
-        {
-            xPos = x * tileSpacing;
-            yPos = y * tileSpacing;
-        }
-
-        return new Vector3(
-            xPos + boardOffset.x,
-            yPos + boardOffset.y,
-            0f
-        );
+        float xPos = centerBoard ? (x - (width - 1) / 2f) * tileSpacing : x * tileSpacing;
+        float yPos = centerBoard ? (y - (height - 1) / 2f) * tileSpacing : y * tileSpacing;
+        return new Vector3(xPos + boardOffset.x, yPos + boardOffset.y, 0f);
     }
 
     public void BeginDrag(TilePiece tile)
     {
-        if (gameEnded || isResolving) return;
+        if (!CanInteract()) return;
 
         dragStartTile = tile;
         previewTile = tile;
-        previewStartPosition = tile.transform.position;
     }
 
     public void UpdateDragPreview(TilePiece tile, Vector3 dragDelta, Vector3 startWorldPos)
     {
-        if (gameEnded || isResolving) return;
-        if (dragStartTile == null || tile != dragStartTile) return;
+        if (gameEnded || isResolving || dragStartTile == null || tile != dragStartTile) return;
 
         previewTile = tile;
-        previewStartPosition = startWorldPos;
 
-        Vector3 offset = Vector3.zero;
-
-        if (Mathf.Abs(dragDelta.x) > Mathf.Abs(dragDelta.y))
-        {
-            float clampedX = Mathf.Clamp(dragDelta.x, -previewDistance, previewDistance);
-            offset = new Vector3(clampedX, 0f, 0f);
-        }
-        else
-        {
-            float clampedY = Mathf.Clamp(dragDelta.y, -previewDistance, previewDistance);
-            offset = new Vector3(0f, clampedY, 0f);
-        }
+        Vector3 offset = Mathf.Abs(dragDelta.x) > Mathf.Abs(dragDelta.y)
+            ? new Vector3(Mathf.Clamp(dragDelta.x, -previewDistance, previewDistance), 0f, 0f)
+            : new Vector3(0f, Mathf.Clamp(dragDelta.y, -previewDistance, previewDistance), 0f);
 
         tile.transform.position = startWorldPos + offset;
     }
 
     public void EndDrag(TilePiece tile, Vector3 dragDelta)
     {
-        if (gameEnded || isResolving)
-        {
-            ResetPreviewTile();
-            dragStartTile = null;
-            return;
-        }
-
-        if (dragStartTile == null || tile != dragStartTile)
-        {
-            ResetPreviewTile();
-            dragStartTile = null;
-            return;
-        }
-
-        if (dragDelta.magnitude < dragThreshold)
+        if (gameEnded || isResolving || dragStartTile == null || tile != dragStartTile || dragDelta.magnitude < dragThreshold)
         {
             ResetPreviewTile();
             dragStartTile = null;
@@ -184,81 +166,53 @@ public class Game : MonoBehaviour
         }
 
         Point start = tile.boardPosition;
-        Point target = start;
-
-        if (Mathf.Abs(dragDelta.x) > Mathf.Abs(dragDelta.y))
-        {
-            target = dragDelta.x > 0
-                ? Point.add(start, Point.right)
-                : Point.add(start, Point.left);
-        }
-        else
-        {
-            target = dragDelta.y > 0
-                ? Point.add(start, Point.up)
-                : Point.add(start, Point.down);
-        }
+        Point target = Mathf.Abs(dragDelta.x) > Mathf.Abs(dragDelta.y)
+            ? (dragDelta.x > 0 ? Point.add(start, Point.right) : Point.add(start, Point.left))
+            : (dragDelta.y > 0 ? Point.add(start, Point.up) : Point.add(start, Point.down));
 
         ResetPreviewTile();
 
         if (IsInBoard(target))
-        {
             StartCoroutine(PerformSwap(start, target));
-        }
 
         dragStartTile = null;
     }
 
     void ResetPreviewTile()
     {
-        if (previewTile != null)
-        {
-            previewTile.transform.position = GetWorldPosition(previewTile.boardPosition.x, previewTile.boardPosition.y);
-            previewTile = null;
-        }
+        if (previewTile == null) return;
+
+        previewTile.transform.position = GetWorldPosition(previewTile.boardPosition.x, previewTile.boardPosition.y);
+        previewTile = null;
     }
 
     bool IsSwapValid(Point a, Point b)
     {
-        if (gameEnded || isResolving) return false;
-
-        if (!IsInBoard(a) || !IsInBoard(b))
-            return false;
-
-        if (!IsAdjacent(a, b))
+        if (gameEnded || isResolving || !IsInBoard(a) || !IsInBoard(b) || !IsAdjacent(a, b))
             return false;
 
         if (board[a.x, a.y].value <= 0 || board[b.x, b.y].value <= 0)
             return false;
 
         SwapValues(a, b);
-        List<Point> allMatches = FindAllMatches();
-        bool valid = allMatches.Count > 0;
+        bool valid = FindAllMatches().Count > 0;
         SwapValues(a, b);
 
         return valid;
     }
 
-    IEnumerator AnimateTileSwap(
-        TilePiece tileA,
-        TilePiece tileB,
-        Vector3 targetPosA,
-        Vector3 targetPosB,
-        float duration)
+    IEnumerator AnimateTileSwap(TilePiece tileA, TilePiece tileB, Vector3 targetPosA, Vector3 targetPosB, float duration)
     {
         Vector3 startPosA = tileA.transform.position;
         Vector3 startPosB = tileB.transform.position;
 
         float time = 0f;
-
         while (time < duration)
         {
             time += Time.deltaTime;
             float t = time / duration;
-
             tileA.transform.position = Vector3.Lerp(startPosA, targetPosA, t);
             tileB.transform.position = Vector3.Lerp(startPosB, targetPosB, t);
-
             yield return null;
         }
 
@@ -274,22 +228,16 @@ public class Game : MonoBehaviour
 
         TilePiece tileA = tilePieces[a.x, a.y];
         TilePiece tileB = tilePieces[b.x, b.y];
-
         Vector3 posA = GetWorldPosition(a.x, a.y);
         Vector3 posB = GetWorldPosition(b.x, b.y);
 
-        bool valid = IsSwapValid(a, b);
-
-        // IsSwapValid checks isResolving, so temporarily clear it before validation is needed.
-        // Since we're already inside this coroutine, we can safely do this:
         isResolving = false;
-        valid = IsSwapValid(a, b);
+        bool valid = IsSwapValid(a, b);
         isResolving = true;
 
         if (valid)
         {
             yield return StartCoroutine(AnimateTileSwap(tileA, tileB, posB, posA, swapDuration));
-
             SwapValues(a, b);
             UpdateBoardVisuals();
 
@@ -300,7 +248,6 @@ public class Game : MonoBehaviour
         {
             yield return StartCoroutine(AnimateTileSwap(tileA, tileB, posB, posA, swapDuration));
             yield return StartCoroutine(AnimateTileSwap(tileA, tileB, posA, posB, invalidSwapReturnDuration));
-
             UpdateBoardVisuals();
             isResolving = false;
         }
@@ -311,46 +258,40 @@ public class Game : MonoBehaviour
         if (gameEnded) yield break;
 
         isResolving = true;
-
+        bool countedThisMove = false;
         List<Point> matches = FindAllMatches();
-        bool countedThisPlayerMove = false;
 
         while (matches.Count > 0)
         {
-            int progressEarned = GetProgressEarned(matches);
+            int progressEarned = matches.Count >= 4 ? 2 : 1;
 
-            if (!countedThisPlayerMove)
+            if (!countedThisMove)
             {
                 matchesUsed++;
-                countedThisPlayerMove = true;
+                countedThisMove = true;
             }
 
             yield return StartCoroutine(PlayBreakAnimations(matches));
             yield return new WaitForSeconds(0.05f);
+
             boatProgress += progressEarned;
             Camera.main.transform.position += new Vector3(0, 0.05f, 0);
 
             if (boatBuilder != null)
-            {
                 boatBuilder.AddProgress(progressEarned);
-            }
 
             UpdateUI();
-            DebugMatchShapes(matches);
 
             ClearMatches(matches);
             UpdateBoardVisuals();
-
             yield return new WaitForSeconds(0.08f);
 
             CollapseBoard();
             UpdateBoardVisuals();
-
             yield return new WaitForSeconds(0.08f);
 
             RefillBoard();
             UpdateBoardVisuals();
-
             yield return new WaitForSeconds(0.10f);
 
             if (boatProgress >= boatProgressNeeded)
@@ -364,9 +305,7 @@ public class Game : MonoBehaviour
         }
 
         if (matchesUsed >= maxMatchesAllowed && boatProgress < boatProgressNeeded)
-        {
             LoseGame();
-        }
 
         isResolving = false;
     }
@@ -377,25 +316,10 @@ public class Game : MonoBehaviour
         {
             TilePiece tile = tilePieces[p.x, p.y];
             if (tile != null && tile.gameObject.activeSelf)
-            {
                 StartCoroutine(tile.BreakAnimation());
-            }
         }
 
         yield return new WaitForSeconds(0.2f);
-    }
-
-    int GetProgressEarned(List<Point> matches)
-    {
-        int progress = 1;
-
-        if (matches.Count >= 4)
-            progress = 2;
-
-        if (GetBonusForShape(matches) > 0)
-            progress = 2;
-
-        return progress;
     }
 
     void SwapValues(Point a, Point b)
@@ -418,10 +342,7 @@ public class Game : MonoBehaviour
 
     int GetValueAtPoint(Point p)
     {
-        if (!IsInBoard(p))
-            return -999;
-
-        return board[p.x, p.y].value;
+        return IsInBoard(p) ? board[p.x, p.y].value : -999;
     }
 
     int FillPiece()
@@ -429,116 +350,74 @@ public class Game : MonoBehaviour
         return random.Next(1, pieces.Length + 1);
     }
 
-    void AddPoints(ref List<Point> points, List<Point> newPoints)
+    void AddPoints(List<Point> points, List<Point> newPoints)
     {
         foreach (Point p in newPoints)
-        {
             if (!points.Contains(p))
-            {
                 points.Add(p);
-            }
-        }
     }
 
     List<Point> GetHorizontalMatch(Point p)
     {
-        List<Point> result = new List<Point>();
-
-        if (!IsInBoard(p))
-            return result;
+        List<Point> result = new();
+        if (!IsInBoard(p)) return result;
 
         int val = GetValueAtPoint(p);
-
-        if (val <= 0)
-            return result;
+        if (val <= 0) return result;
 
         result.Add(p);
 
-        Point left = Point.add(p, Point.left);
-        while (IsInBoard(left) && GetValueAtPoint(left) == val)
-        {
+        for (Point left = Point.add(p, Point.left); IsInBoard(left) && GetValueAtPoint(left) == val; left = Point.add(left, Point.left))
             result.Add(left);
-            left = Point.add(left, Point.left);
-        }
 
-        Point right = Point.add(p, Point.right);
-        while (IsInBoard(right) && GetValueAtPoint(right) == val)
-        {
+        for (Point right = Point.add(p, Point.right); IsInBoard(right) && GetValueAtPoint(right) == val; right = Point.add(right, Point.right))
             result.Add(right);
-            right = Point.add(right, Point.right);
-        }
 
-        if (result.Count < 3)
-            result.Clear();
-
+        if (result.Count < 3) result.Clear();
         return result;
     }
 
     List<Point> GetVerticalMatch(Point p)
     {
-        List<Point> result = new List<Point>();
-
-        if (!IsInBoard(p))
-            return result;
+        List<Point> result = new();
+        if (!IsInBoard(p)) return result;
 
         int val = GetValueAtPoint(p);
-
-        if (val <= 0)
-            return result;
+        if (val <= 0) return result;
 
         result.Add(p);
 
-        Point up = Point.add(p, Point.up);
-        while (IsInBoard(up) && GetValueAtPoint(up) == val)
-        {
+        for (Point up = Point.add(p, Point.up); IsInBoard(up) && GetValueAtPoint(up) == val; up = Point.add(up, Point.up))
             result.Add(up);
-            up = Point.add(up, Point.up);
-        }
 
-        Point down = Point.add(p, Point.down);
-        while (IsInBoard(down) && GetValueAtPoint(down) == val)
-        {
+        for (Point down = Point.add(p, Point.down); IsInBoard(down) && GetValueAtPoint(down) == val; down = Point.add(down, Point.down))
             result.Add(down);
-            down = Point.add(down, Point.down);
-        }
 
-        if (result.Count < 3)
-            result.Clear();
-
+        if (result.Count < 3) result.Clear();
         return result;
     }
 
     List<Point> GetMatch(Point p)
     {
-        List<Point> combined = new List<Point>();
-
-        List<Point> horizontal = GetHorizontalMatch(p);
-        List<Point> vertical = GetVerticalMatch(p);
-
-        AddPoints(ref combined, horizontal);
-        AddPoints(ref combined, vertical);
-
+        List<Point> combined = new();
+        AddPoints(combined, GetHorizontalMatch(p));
+        AddPoints(combined, GetVerticalMatch(p));
         return combined;
     }
 
     List<Point> FindAllMatches()
     {
-        List<Point> matches = new List<Point>();
+        List<Point> matches = new();
 
         for (int y = 0; y < height; y++)
         {
             for (int x = 0; x < width; x++)
             {
-                if (board[x, y].value <= 0)
-                    continue;
+                if (board[x, y].value <= 0) continue;
 
-                Point p = new Point(x, y);
-                List<Point> match = GetMatch(p);
-
+                List<Point> match = GetMatch(new Point(x, y));
                 if (match.Count >= 3)
-                {
-                    AddPoints(ref matches, match);
-                }
+                    AddPoints(matches, match);
             }
         }
 
@@ -548,36 +427,29 @@ public class Game : MonoBehaviour
     void ClearMatches(List<Point> matches)
     {
         foreach (Point p in matches)
-        {
             if (board[p.x, p.y].value > 0)
-            {
                 board[p.x, p.y].value = 0;
-            }
-        }
     }
 
     void CollapseBoard()
     {
         for (int x = 0; x < width; x++)
-        {
             CollapseColumn(x);
-        }
     }
 
     void CollapseColumn(int x)
     {
         for (int y = 0; y < height; y++)
         {
-            if (board[x, y].value == 0)
+            if (board[x, y].value != 0) continue;
+
+            for (int above = y + 1; above < height; above++)
             {
-                for (int above = y + 1; above < height; above++)
+                if (board[x, above].value > 0)
                 {
-                    if (board[x, above].value > 0)
-                    {
-                        board[x, y].value = board[x, above].value;
-                        board[x, above].value = 0;
-                        break;
-                    }
+                    board[x, y].value = board[x, above].value;
+                    board[x, above].value = 0;
+                    break;
                 }
             }
         }
@@ -586,15 +458,9 @@ public class Game : MonoBehaviour
     void RefillBoard()
     {
         for (int y = 0; y < height; y++)
-        {
             for (int x = 0; x < width; x++)
-            {
                 if (board[x, y].value == 0)
-                {
                     board[x, y].value = FillPiece();
-                }
-            }
-        }
     }
 
     void RemoveStartingMatches()
@@ -604,12 +470,8 @@ public class Game : MonoBehaviour
         while (matches.Count > 0)
         {
             foreach (Point p in matches)
-            {
                 if (board[p.x, p.y].value > 0)
-                {
                     board[p.x, p.y].value = FillPiece();
-                }
-            }
 
             matches = FindAllMatches();
         }
@@ -627,50 +489,75 @@ public class Game : MonoBehaviour
                 tile.transform.position = GetWorldPosition(x, y);
                 tile.transform.localScale = Vector3.one;
                 tile.transform.rotation = Quaternion.identity;
+                tile.gameObject.SetActive(value > 0);
 
                 if (value > 0)
-                {
-                    tile.gameObject.SetActive(true);
                     tile.SetSprite(pieces[value - 1]);
-                }
-                else
-                {
-                    tile.gameObject.SetActive(false);
-                }
             }
         }
     }
 
     void UpdateUI()
     {
-        if (progressBar != null)
-        {
-            progressBar.maxValue = boatProgressNeeded;
-            progressBar.value = boatProgress;
-        }
-
         if (matchesText != null)
-        {
-            matchesText.text = "Matches: " + matchesUsed + " / " + maxMatchesAllowed;
-        }
+            matchesText.text = (maxMatchesAllowed - matchesUsed).ToString();
     }
 
     void WinGame()
     {
+        if (gameEnded) return;
         gameEnded = true;
-        Debug.Log("You built the boat!");
+        StartCoroutine(WinSequence());
+    }
 
-        if (winPanel != null)
-            winPanel.SetActive(true);
+    IEnumerator WinSequence()
+    {
+        SetActive(winPanel, true);
+        SetActive(winText, true);
+        SetActive(setSailText, true);
+
+        if (winTextGroup != null) winTextGroup.alpha = 0f;
+        if (setSailGroup != null) setSailGroup.alpha = 0f;
+        if (fadeOverlay != null) fadeOverlay.alpha = 0f;
+
+        yield return StartCoroutine(FadeCanvasGroup(winTextGroup, 0f, 1f, 0.6f));
+        yield return new WaitForSeconds(holdDuration);
+        yield return StartCoroutine(FadeCanvasGroup(winTextGroup, 1f, 0f, 1f));
+        yield return StartCoroutine(FadeCanvasGroup(setSailGroup, 0f, 1f, 2.5f));
+        yield return new WaitForSeconds(0.4f);
+        yield return StartCoroutine(FadeCanvasGroup(fadeOverlay, 0f, 1f, fadeToBlackDuration));
+        yield return StartCoroutine(FadeCanvasGroup(setSailGroup, 1f, 0f, 2f));
+        yield return new WaitForSeconds(5f);
+
+        SceneManager.LoadScene("MaritimesLevel");
+    }
+
+    IEnumerator FadeCanvasGroup(CanvasGroup group, float from, float to, float duration, bool disableRaycastsAfter = false)
+    {
+        if (group == null) yield break;
+
+        group.alpha = from;
+        group.blocksRaycasts = true;
+
+        float time = 0f;
+        while (time < duration)
+        {
+            time += Time.deltaTime;
+            group.alpha = Mathf.Lerp(from, to, time / duration);
+            yield return null;
+        }
+
+        group.alpha = to;
+
+        if (disableRaycastsAfter && Mathf.Approximately(to, 0f))
+            group.blocksRaycasts = false;
     }
 
     void LoseGame()
     {
+        if (gameEnded) return;
         gameEnded = true;
-        Debug.Log("Game Over");
-
-        if (gameOverPanel != null)
-            gameOverPanel.SetActive(true);
+        SetActive(gameOverPanel, true);
     }
 
     public void RestartGame()
@@ -681,103 +568,26 @@ public class Game : MonoBehaviour
     public void EndGame()
     {
         Application.Quit();
-        Debug.Log("Quit Game");
+    }
+
+    bool CanInteract()
+    {
+        return gameStarted && !showingObjective && !gameEnded && !isResolving;
     }
 
     string GetRandomSeed()
     {
+        const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()";
         string seed = "";
-        string acceptableChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()";
 
         for (int i = 0; i < 20; i++)
-        {
-            seed += acceptableChars[Random.Range(0, acceptableChars.Length)];
-        }
+            seed += chars[Random.Range(0, chars.Length)];
 
         return seed;
     }
 
-    int GetBonusForShape(List<Point> matches)
+    void SetActive(GameObject obj, bool value)
     {
-        foreach (Point p in matches)
-        {
-            MatchShape shape = GetMatchShape(p);
-            if (shape == MatchShape.LShape || shape == MatchShape.TShape)
-                return 1;
-        }
-
-        return 0;
+        if (obj != null) obj.SetActive(value);
     }
-
-    void DebugMatchShapes(List<Point> matches)
-    {
-        foreach (Point p in matches)
-        {
-            MatchShape shape = GetMatchShape(p);
-
-            if (shape == MatchShape.LShape)
-            {
-                Debug.Log("L shape found at: " + p.x + ", " + p.y);
-            }
-            else if (shape == MatchShape.TShape)
-            {
-                Debug.Log("T shape found at: " + p.x + ", " + p.y);
-            }
-        }
-    }
-
-    MatchShape GetMatchShape(Point p)
-    {
-        List<Point> horizontal = GetHorizontalMatch(p);
-        List<Point> vertical = GetVerticalMatch(p);
-
-        bool hasH = horizontal.Count >= 3;
-        bool hasV = vertical.Count >= 3;
-
-        if (!hasH && !hasV)
-            return MatchShape.None;
-
-        if (hasH && hasV)
-        {
-            int val = GetValueAtPoint(p);
-
-            bool left = IsInBoard(Point.add(p, Point.left)) &&
-                        GetValueAtPoint(Point.add(p, Point.left)) == val;
-
-            bool right = IsInBoard(Point.add(p, Point.right)) &&
-                         GetValueAtPoint(Point.add(p, Point.right)) == val;
-
-            bool up = IsInBoard(Point.add(p, Point.up)) &&
-                      GetValueAtPoint(Point.add(p, Point.up)) == val;
-
-            bool down = IsInBoard(Point.add(p, Point.down)) &&
-                        GetValueAtPoint(Point.add(p, Point.down)) == val;
-
-            int horizontalSides = 0;
-            int verticalSides = 0;
-
-            if (left) horizontalSides++;
-            if (right) horizontalSides++;
-            if (up) verticalSides++;
-            if (down) verticalSides++;
-
-            if ((horizontalSides == 2 && verticalSides >= 1) ||
-                (verticalSides == 2 && horizontalSides >= 1))
-            {
-                return MatchShape.TShape;
-            }
-
-            return MatchShape.LShape;
-        }
-
-        return MatchShape.Line;
-    }
-}
-
-public enum MatchShape
-{
-    None,
-    Line,
-    LShape,
-    TShape
 }

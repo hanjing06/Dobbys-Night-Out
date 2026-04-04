@@ -7,9 +7,13 @@ public class PuzzleManager : MonoBehaviour
     public PuzzleSlot[] slots;
     public GameObject puzzle;
     public bool isActive;
+    public GameObject portal;
+    public HealthManager healthManager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        healthManager = GameObject.Find("HealthCanvas").GetComponent<HealthManager>();
+        portal.SetActive(false);
     }
 
     // Update is called once per frame
@@ -28,6 +32,13 @@ public class PuzzleManager : MonoBehaviour
 
         }
 
+        if (isPuzzleComplete())
+        {
+            puzzle.SetActive(false);
+            isActive = false;
+            portal.SetActive(true);
+        }
+
         Exit();
     }
     
@@ -40,6 +51,28 @@ public class PuzzleManager : MonoBehaviour
             slots[i].isSelected = false;
         }
     }
+    
+    //CHECKING WIN CONDITION
+    bool isPuzzleComplete()
+    {
+        int lettersVisible = 0;
+        for (int i = 0; i < slots.Length; i++)
+        {
+            if (slots[i].letterVisible)
+            {
+                lettersVisible++;
+            }
+        }
+        
+        if (lettersVisible == slots.Length)
+        {
+            Debug.Log("You Win");
+            return true;
+        }
+
+        return false;
+    }
+    
     
     //EXITING THE PUZZLE (WARNING YOU LOSE PROGRESS = INCREASED DIFFICULTY)
     void Exit()

@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class HealthManager: MonoBehaviour
 {
@@ -11,6 +13,12 @@ public class HealthManager: MonoBehaviour
     public Sprite health60;
     public Sprite health40;
     public Sprite health20;
+    
+    //handling death depending on level
+    public bool restartOnDeath;
+    public string restartScene = "";
+    public GameObject lossUI;
+    private bool dead = false;
 
     public Image healthBar;
 
@@ -40,10 +48,14 @@ public class HealthManager: MonoBehaviour
     public void TakeDamage(int num)
     {
         health -= num;
-        DisplayHealthBarSprite(health);
         if (health <= 0)
         {
-            Destroy(gameObject);
+            health = 0;
+            DisplayHealthBarSprite(health);
+            HandleDeath();
+        } else
+        {
+            DisplayHealthBarSprite(health);
         }
     }
 
@@ -65,5 +77,41 @@ public class HealthManager: MonoBehaviour
         {
             healthBar.sprite = health20;
         }
+    }
+    
+    //this method determines what happens when the health reaches 0 or below
+    void HandleDeath()
+    {
+        Time.timeScale = 1;
+        if (restartOnDeath)
+        {
+            if (restartScene != "")
+            {
+                StartCoroutine(ShowLossMessage());
+            }
+        }
+        else
+        {
+            //other option if not restarting level (add conditions if you want something different to happen in your level)
+            Destroy(gameObject);
+        }
+    }
+
+    IEnumerator ShowLossMessage()
+    {
+        dead = true;
+        lossUI.SetActive(true);
+        //display the message until the user presses r key
+        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.R));
+
+        if (restartScene != "")
+        {
+            SceneManager.LoadScene(restartScene);
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+        
     }
 }
