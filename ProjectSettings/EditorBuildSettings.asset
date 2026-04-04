@@ -32,5 +32,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IntroScene/IntroVideo3.unity
     guid: 4f055a377f1ce4c0db756cda9fd7a634
+  - enabled: 1
+    path: Assets/Scenes/OceanCutscene.unity
+    guid: 2d636c00525a64cf6b414f5cf74ff54f
+  - enabled: 1
+    path: Assets/Scenes/HogwartsCutScene.unity
+    guid: f3caea9b0b1284709b8f7abba54fe35c
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

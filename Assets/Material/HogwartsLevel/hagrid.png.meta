@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 6fbaed7097d964f1ab51b02e0687978e
+guid: 4e5fbf4f3832c475f88dd83de6bea38f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2226032820023251873
-    second: GameUI_0
-  - first:
-      213: -4810877917589017940
-    second: GameUI_1
+      213: 742440546820591731
+    second: hagrid_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,89 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GameUI_0
+      name: hagrid_0
       rect:
         serializedVersion: 2
-        x: 51
-        y: 1539
-        width: 406
-        height: 234
+        x: 241
+        y: 274
+        width: 429
+        height: 639
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a3d8d74e0574ee10800000000000000
-      internalID: 2226032820023251873
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GameUI_1
-      rect:
-        serializedVersion: 2
-        x: 371
-        y: 639
-        width: 1160
-        height: 788
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: caae558e5045c3db0800000000000000
-      internalID: -4810877917589017940
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GameUI_2
-      rect:
-        serializedVersion: 2
-        x: 373
-        y: 638
-        width: 1156
-        height: 167
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47dbb83167e554269a6cb41f180528a2
-      internalID: -909877018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GameUI_3
-      rect:
-        serializedVersion: 2
-        x: 418
-        y: 657
-        width: 1111
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6230d37eb44f54453b9387234c22e5c5
-      internalID: 1160623854
+      spriteID: 37096146ebdad4a00800000000000000
+      internalID: 742440546820591731
       vertices: []
       indices: 
       edges: []
@@ -207,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9142ec2cc54ea4db48ee89909b1e6545
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -217,10 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GameUI_0: 2226032820023251873
-      GameUI_1: -4810877917589017940
-      GameUI_2: -909877018
-      GameUI_3: 1160623854
+      hagrid_0: 742440546820591731
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -77,9 +77,10 @@ public class PuzzleManager : MonoBehaviour
     //EXITING THE PUZZLE (WARNING YOU LOSE PROGRESS = INCREASED DIFFICULTY)
     void Exit()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) || healthManager.dead)
         {
             isActive = false;
         }
+
     }
 }
