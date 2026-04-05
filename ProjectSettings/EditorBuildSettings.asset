@@ -50,5 +50,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Inventory.unity
     guid: 569e247ebbd90764faf1e0d637e86101
+  - enabled: 1
+    path: Assets/Scenes/Level 4 - Maritime Level/MaritimesLossScreen.unity
+    guid: ff303f1be16db48f5af3e43c696a4e7c
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

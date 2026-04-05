@@ -135,6 +135,6 @@ public class NoiseManager : MonoBehaviour
     private void ReloadScene()
     {
         Scene currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(currentScene.buildIndex);
+        SceneManager.LoadScene("MaritimesLossScreen");
     }
 }
