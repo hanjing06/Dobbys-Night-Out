@@ -14,7 +14,7 @@ namespace Menu
 
             //SceneManager.LoadScene(2); //need to make it the scene to the actual game
 
-            SceneManager.LoadScene(9); //need to make it the scene to the actual game
+            SceneManager.LoadScene("Scenes/Level 1 - Turkey Level/TheClinic/TheClinic"); //need to make it the scene to the actual game
 
 
 

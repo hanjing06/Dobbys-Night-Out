@@ -5,11 +5,10 @@ TagManager:
   serializedVersion: 3
   tags:
   - spider
-  - buyMystery
-  - buyYogurt
   - exit
   - boundary
   - scroll
+  - buyButton
   layers:
   - Default
   - TransparentFX
