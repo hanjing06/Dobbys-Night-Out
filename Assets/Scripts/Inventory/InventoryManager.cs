@@ -14,43 +14,48 @@ public class InventoryManager: MonoBehaviour
 	private bool isActive;
 	public Slot[] slot;
 	public ScriptableItem[]  items;
-	public Sprite test;
-	[TextArea]
-	public string testDescription;
+	public string currentScene;
+
 
 	//for cryptogram puzzle
-	private CryptogramManager cryptManager;
+	private PuzzleManager puzzleManager;
 	
 	public Slot[] space;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
 	    isActive = false;
-	    slot[0].AddItem("Spider", 3, test, testDescription);
-	    cryptManager = GameObject.Find("CryptogramCanvas").GetComponent<CryptogramManager>();
+	    //slot[0].AddItem("Spider", 3, test, testDescription);
+	    puzzleManager = GameObject.Find("PuzzleCanvas").GetComponent<PuzzleManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-	    if (isActive)
-	    {
-		    cryptManager.isActive = false;
-	    }
 		//note: 'Inventory' is a seperately created input asset that toggles the inventory when the 'I' key is pressed
-        if(Input.GetKeyDown(KeyCode.I) && isActive)
+        if(Input.GetKeyDown(KeyCode.I))
         {
-	        Time.timeScale = 1; //game moves at regular speed
-			inventory.SetActive(false); //deactivates inventory
-			isActive = false;
-		} else if(Input.GetKeyDown(KeyCode.I) && !isActive)
-        {
-	        Time.timeScale = 0;  //time is paused during active inventory
-			inventory.SetActive(true); //activates inventory
-			isActive = true;
-		}
-         
-		
+	        if (currentScene == "HogwartsLevel")
+	        {
+		        if (puzzleManager.isActive)
+		        {
+			        return;
+		        }
+	        }
+
+	        if (isActive)
+	        {
+		        Time.timeScale = 1; //game moves at regular speed
+		        inventory.SetActive(false); //deactivates inventory
+		        isActive = false;
+			} else {
+		        Time.timeScale = 0;  //time is paused during active inventory
+		        inventory.SetActive(true); //activates inventory
+		        isActive = true;
+		      
+			}
+	        
+        } 
     }
 
     public void UseItem(string itemName)
@@ -94,14 +99,7 @@ public class InventoryManager: MonoBehaviour
 	    }
     }
     
-    public void DeselectSpaces()
-    {
-	    for (int i = 0; i < space.Length; i++)
-	    {
-		    space[i].shade.SetActive(false);
-		    space[i].isSelected = false;
-	    }
-    }
+    
 
     public ScriptableItem GetItem(string itemName)
     {

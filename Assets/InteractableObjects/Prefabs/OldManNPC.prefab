@@ -80,7 +80,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -909080715
-  m_SortingLayer: 2
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 4723107735738678597, guid: 1611c5d2ae2680148a045411e648ea80, type: 3}
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   dialogueData: {fileID: 11400000, guid: 8a7434e6fc6fcbc4aa402985dbeb54c5, type: 2}
-  dialoguePanel: {fileID: 0}
+  dialoguePanel: {fileID: 3672406405860050972, guid: 0b8e0bb3853d30d4389083baa7ea6ae6, type: 3}
   dialogueText: {fileID: 0}
   nameText: {fileID: 0}
   portraitImage: {fileID: 0}

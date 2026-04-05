@@ -18,6 +18,7 @@ MonoBehaviour:
   dialogueLines:
   - Aw what a cute cat!
   - ew where is your hair!
+  - Shhh! The baby is sleeping. Don't wake it up!
   typingSpeed: 0.05
   voiceSound: {fileID: 8300000, guid: 503a337577d5258468102e38df6b0307, type: 3}
   voicePitch: 1

@@ -1,2 +1,20 @@
 fileFormatVersion: 2
 guid: 2361dea22683b43d08ff6354fea30128
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - noise0: {instanceID: 0}
+  - noise20: {instanceID: 0}
+  - noise40: {instanceID: 0}
+  - noise60: {instanceID: 0}
+  - noise80: {instanceID: 0}
+  - noise100: {instanceID: 0}
+  - noiseBar: {instanceID: 0}
+  - audioSource: {instanceID: 0}
+  - babyCry: {fileID: 8300000, guid: 09dd203ae57234f1c81766281d571ff6, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

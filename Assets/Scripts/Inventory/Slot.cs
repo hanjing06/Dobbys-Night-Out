@@ -13,7 +13,6 @@ public class Slot: MonoBehaviour, IPointerClickHandler
     public int amt;
     public Sprite itemIcon;
     public bool isFull;
-    public bool onInv;
 
     
     //for slot...
@@ -91,14 +90,6 @@ public class Slot: MonoBehaviour, IPointerClickHandler
 
     public void OnLeftClick()
     {
-       // if (onInv)
-       // {
-       //}
-       /*else
-       {
-           invManager.DeselectSpaces();
-           shade.SetActive(true);
-       }*/
         //using the selected item
         if (isSelected)
         {

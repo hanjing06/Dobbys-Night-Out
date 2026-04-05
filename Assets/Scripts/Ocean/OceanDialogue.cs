@@ -10,14 +10,16 @@ public class OceanDialogue : MonoBehaviour
 
     [SerializeField] private GameObject[] d;
     private int current = -1;
- 
     private bool input = false;
+    public string nextScene;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         StartCoroutine(DelayInput());
-        d[0].gameObject.SetActive(false);
-        d[1].gameObject.SetActive(false);
+        for (int i = 0; i < d.Length; i++)
+        {
+            d[i].gameObject.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -73,7 +75,7 @@ public class OceanDialogue : MonoBehaviour
 
     void LoadNextScene()
     {
-        SceneManager.LoadScene("OceanLevel");
+        SceneManager.LoadScene(nextScene);
     }
     
 }
