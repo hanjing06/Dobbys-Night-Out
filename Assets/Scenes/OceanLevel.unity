@@ -330,7 +330,7 @@ MonoBehaviour:
   fadeOverlay: {fileID: 671522260}
   sceneFadeInDuration: 1
   holdDuration: 0.8
-  fadeToBlackDuration: 4
+  fadeToBlackDuration: 2
 --- !u!4 &88977185
 Transform:
   m_ObjectHideFlags: 0
