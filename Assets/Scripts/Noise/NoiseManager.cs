@@ -23,6 +23,9 @@ public class NoiseManager : MonoBehaviour
     public Sprite noise100;
 
     public Image noiseBar;
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip babyCry;
 
     private bool restarting = false;
 
@@ -56,7 +59,20 @@ public class NoiseManager : MonoBehaviour
         {
             currentNoise = maxNoise;
             UpdateNoiseBar();
-            RestartLevel();
+            //here
+            PlayGameOverSound();
+        }
+    }
+    void PlayGameOverSound()
+    {
+        if (audioSource != null && babyCry != null)
+        {
+            audioSource.PlayOneShot(babyCry);
+            Invoke(nameof(RestartLevel), babyCry.length);
+        }
+        else
+        {
+            RestartLevel(); // fallback if something isn't assigned
         }
     }
 

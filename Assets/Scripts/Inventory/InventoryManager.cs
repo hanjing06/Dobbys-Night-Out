@@ -52,7 +52,9 @@ public class InventoryManager: MonoBehaviour
 		        Time.timeScale = 0;  //time is paused during active inventory
 		        inventory.SetActive(true); //activates inventory
 		        isActive = true;
+		      
 			}
+	        
         } 
     }
 

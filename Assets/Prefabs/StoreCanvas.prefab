@@ -510,7 +510,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -363.99997, y: 157.99997}
+  m_AnchoredPosition: {x: -364, y: 157.99994}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3480292702029579045
@@ -2387,8 +2387,8 @@ RectTransform:
   m_LocalScale: {x: 0.4166667, y: 0.4166667, z: 0.4166667}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3735609011500419203}
   - {fileID: 295302286571735176}
+  - {fileID: 3735609011500419203}
   m_Father: {fileID: 8687760711817831782}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2807,6 +2807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::StoreFunctions
   store: {fileID: 1832047445743104154}
   itemIcon: {fileID: 2990146154647488063, guid: e8794072d8f8f494bac3d64169c70b5d, type: 3}
-  price: 0
+  price: 10
   itemDescription: YUM! Dobby loves yogurt. Yougurt gives Dobby energy.
   completeUI: {fileID: 8861294060780250671}
+  UItext: {fileID: 7342962753274253975}
