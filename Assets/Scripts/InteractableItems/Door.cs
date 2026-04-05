@@ -15,10 +15,6 @@ public class Door : MonoBehaviour, IInteractable
     // Update is called once per frame
     void Update()
     {
-        if (PlayerIsAtTheDoor && Input.GetKeyDown(KeyCode.E))
-        {
-            SceneManager.LoadScene(sceneToLoad);
-        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -31,12 +27,13 @@ public class Door : MonoBehaviour, IInteractable
     {
         if (collision.gameObject.tag == "Player")
         {
-            PlayerIsAtTheDoor = true;
+            PlayerIsAtTheDoor = false;
         }
     }
     public void Interact()
     {
-        
+        Debug.Log("Door interacted!");
+        SceneManager.LoadScene(sceneToLoad);
     }
     public bool CanInteract()
     {
