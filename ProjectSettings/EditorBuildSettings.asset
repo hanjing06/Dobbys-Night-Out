@@ -4,6 +4,9 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< HEAD
+  m_Scenes: []
+=======
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/IntroScene/IntroVideo.unity
@@ -47,5 +50,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Inventory.unity
     guid: 569e247ebbd90764faf1e0d637e86101
+>>>>>>> 7769f9a4417fcca072107ac398bdda8e11026c1e
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
