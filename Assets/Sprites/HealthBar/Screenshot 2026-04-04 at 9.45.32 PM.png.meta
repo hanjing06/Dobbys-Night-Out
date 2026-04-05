@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: 46c64956d90414cb3a05d36bef5da6ec
+guid: 74ece564e08ef4155a47a4559bdacdf8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8227546954408941770
-    second: HealthBar_0
-  - first:
-      213: -3178617384780871938
-    second: HealthBar_1
-  - first:
-      213: 5032351099696674128
-    second: HealthBar_2
-  - first:
-      213: 5856585005746452560
-    second: HealthBar_3
-  - first:
-      213: -6503669339106013020
-    second: HealthBar_4
+      213: 3647773474430742151
+    second: "Screenshot 2026-04-04 at 9.45.32\u202FPM_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,111 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SoundBar_0
+      name: "Screenshot 2026-04-04 at 9.45.32\u202FPM_0"
       rect:
         serializedVersion: 2
-        x: 32
-        y: 442
-        width: 393
-        height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2dc8dbc18c1b4fe7aa2e54fbd8f9506
-      internalID: -764937337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SoundBar_1
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 331
-        width: 389
-        height: 113
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20b6c12f271714a9ab408580103735f6
-      internalID: 322412619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SoundBar_2
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 219
-        width: 384
-        height: 112
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c88b0ab24a3f438c9c0d15ed4d7a7dd
-      internalID: -970832883
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SoundBar_3
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 105
-        width: 385
-        height: 113
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85c873cc81c1a40acb0cb91c6db751fd
-      internalID: 1566159226
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SoundBar_4
-      rect:
-        serializedVersion: 2
-        x: 34
+        x: 0
         y: 0
-        width: 382
-        height: 104
+        width: 932
+        height: 248
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a1b6b6c697fcc4e4791a3615eaa962f8
-      internalID: -2019741834
+      spriteID: 78e6984f5ae7f9230800000000000000
+      internalID: 3647773474430742151
       vertices: []
       indices: 
       edges: []
@@ -238,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 567905704deee4df0bbbd7492ef71fa3
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -246,15 +146,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      SoundBar_0: -764937337
-      SoundBar_1: 322412619
-      SoundBar_2: -970832883
-      SoundBar_3: 1566159226
-      SoundBar_4: -2019741834
+      "Screenshot 2026-04-04 at 9.45.32\u202FPM_0": 3647773474430742151
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
