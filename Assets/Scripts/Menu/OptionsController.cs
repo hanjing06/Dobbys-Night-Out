@@ -68,7 +68,7 @@ public class OptionsController : MonoBehaviour
     {
         if (GameState.openedFromMainMenu)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("Menu");
         }
         else
         {

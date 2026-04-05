@@ -32,7 +32,7 @@ public class StoreFunctions: MonoBehaviour, IPointerClickHandler
             completeUI.SetActive(false);
         }
 
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.B))
         {
             if (isActive)
             {

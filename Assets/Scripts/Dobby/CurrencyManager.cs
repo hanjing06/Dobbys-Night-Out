@@ -15,7 +15,7 @@ public class CurrencyManager: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        UpdateCurrency();
     }
 
     public void CollectCurrency(int num)

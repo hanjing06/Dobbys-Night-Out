@@ -42,6 +42,9 @@ public class HealthManager: MonoBehaviour
         {
             health += num;
             DisplayHealthBarSprite(health);
+        } else if (health == 100)
+        {
+            Debug.Log("cannot use item");
         }
     }
 
