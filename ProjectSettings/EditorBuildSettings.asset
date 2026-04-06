@@ -6,6 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/IntroScene/IntroVideo.unity
     guid: fcb3c5513ad6f4a62a86491ae6c9d3ad
   - enabled: 1
@@ -53,5 +54,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 4 - Maritime Level/MaritimesLossScreen.unity
     guid: ff303f1be16db48f5af3e43c696a4e7c
+=======
+    path: Assets/Scenes/Level 4 - Maritime Level/MaritimesLevel.unity
+    guid: 7a235f210087e4a68a099c5bdbd3987f
+>>>>>>> 0650732 (solving merge conflict)
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
