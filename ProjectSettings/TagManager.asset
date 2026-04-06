@@ -9,6 +9,8 @@ TagManager:
   - boundary
   - scroll
   - buyButton
+  - buyYogurt
+  - CurrencyDisplay
   layers:
   - Default
   - TransparentFX

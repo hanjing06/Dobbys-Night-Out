@@ -6,6 +6,7 @@ using System.Collections.Generic;
 
 public class CityCutSceen : MonoBehaviour
 {
+    [SerializeField] private string sceneToLoad;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,6 +22,6 @@ public class CityCutSceen : MonoBehaviour
     IEnumerator NextLevel()
     {
         yield return new WaitForSeconds(22.32f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(sceneToLoad);
     }
 }

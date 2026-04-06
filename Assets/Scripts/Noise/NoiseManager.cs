@@ -51,15 +51,15 @@ public class NoiseManager : MonoBehaviour
         if (noiseDecaysOverTime && currentNoise > 0f)
         {
             currentNoise -= decayRate * Time.deltaTime;
-            currentNoise = Mathf.Max(currentNoise, 0f);
+            currentNoise = Mathf.Clamp(currentNoise, 0f, maxNoise);
             UpdateNoiseBar();
         }
 
         if (currentNoise >= maxNoise && !restarting)
         {
+            restarting = true;   // important: lock this immediately
             currentNoise = maxNoise;
             UpdateNoiseBar();
-            //here
             PlayGameOverSound();
         }
     }
@@ -67,12 +67,13 @@ public class NoiseManager : MonoBehaviour
     {
         if (audioSource != null && babyCry != null)
         {
-            audioSource.PlayOneShot(babyCry);
-            Invoke(nameof(RestartLevel), babyCry.length);
+            audioSource.Stop();
+            audioSource.PlayOneShot(babyCry, 0.3f);
+            Invoke(nameof(ReloadScene), babyCry.length);
         }
         else
         {
-            RestartLevel(); // fallback if something isn't assigned
+            ReloadScene();
         }
     }
 
@@ -134,6 +135,6 @@ public class NoiseManager : MonoBehaviour
     private void ReloadScene()
     {
         Scene currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(currentScene.buildIndex);
+        SceneManager.LoadScene("MaritimesLossScreen");
     }
 }
