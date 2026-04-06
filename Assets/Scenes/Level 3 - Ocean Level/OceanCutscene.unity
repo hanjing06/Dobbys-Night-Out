@@ -1108,7 +1108,7 @@ MonoBehaviour:
   d:
   - {fileID: 1600748561}
   - {fileID: 2003466280}
-  nextScene: 
+  nextScene: OceanLevel
 --- !u!1 &632824785
 GameObject:
   m_ObjectHideFlags: 0

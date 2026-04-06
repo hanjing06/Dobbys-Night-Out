@@ -1766,7 +1766,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 1220a30e063fd46c9ad5c5536a4168e0, type: 3}
     - target: {fileID: 7282267637793409360, guid: 0dc3bfed66d7f4c7db09576f8b902322, type: 3}
       propertyPath: sceneToLoad
-      value: MaritimesCutScene
+      value: OceanCutscene
       objectReference: {fileID: 0}
     - target: {fileID: 7282267637793409360, guid: 0dc3bfed66d7f4c7db09576f8b902322, type: 3}
       propertyPath: unlockPortal

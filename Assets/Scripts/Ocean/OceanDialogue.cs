@@ -12,6 +12,7 @@ public class OceanDialogue : MonoBehaviour
     private int current = -1;
     private bool input = false;
     public string nextScene;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

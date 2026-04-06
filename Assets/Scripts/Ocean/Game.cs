@@ -580,7 +580,7 @@ public class Game : MonoBehaviour
         yield return StartCoroutine(FadeCanvasGroup(fadeOverlay, 0f, 1f, fadeToBlackDuration));
         yield return new WaitForSeconds(1f);
 
-        SceneManager.LoadScene("MaritimesLevel");
+        SceneManager.LoadScene("MarttimesCutScene");
     }
 
     IEnumerator FadeCanvasGroup(CanvasGroup group, float from, float to, float duration, bool disableRaycastsAfter = false)
