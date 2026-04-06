@@ -861,10 +861,14 @@ PrefabInstance:
     - target: {fileID: 8851457875089186448, guid: db49d519fa6c54f369cde3fed0e940b0, type: 3}
       propertyPath: cantUseUI
       value: 
-      objectReference: {fileID: 988456190}
+      objectReference: {fileID: 0}
     - target: {fileID: 8851457875089186448, guid: db49d519fa6c54f369cde3fed0e940b0, type: 3}
       propertyPath: cryptogram
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8851457875089186448, guid: db49d519fa6c54f369cde3fed0e940b0, type: 3}
+      propertyPath: currentScene
+      value: HogwartsLevel
       objectReference: {fileID: 0}
     - target: {fileID: 8851457875089186448, guid: db49d519fa6c54f369cde3fed0e940b0, type: 3}
       propertyPath: space.Array.size
@@ -3579,11 +3583,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 964221263}
   m_CullTransparentMesh: 1
---- !u!1 &988456190 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1539604908390675874, guid: db49d519fa6c54f369cde3fed0e940b0, type: 3}
-  m_PrefabInstance: {fileID: 164424052}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1091116178
 GameObject:
   m_ObjectHideFlags: 0
