@@ -64,7 +64,7 @@ public class PuzzleManager : MonoBehaviour
             }
         }
         
-        if (lettersVisible == slots.Length)
+        if (lettersVisible == slots.Length-3)
         {
             Debug.Log("You Win");
             return true;

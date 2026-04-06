@@ -43,7 +43,7 @@ public class InventoryManager: MonoBehaviour
 		        }
 	        }
 
-	        if (isActive)
+	         if (isActive)
 	        {
 		        Time.timeScale = 1; //game moves at regular speed
 		        inventory.SetActive(false); //deactivates inventory
