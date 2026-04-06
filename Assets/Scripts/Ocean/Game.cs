@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Ocean;
 using TMPro;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -42,6 +43,17 @@ public class Game : MonoBehaviour
     [SerializeField] private CanvasGroup setSailGroup;
     [SerializeField] private CanvasGroup fadeOverlay;
 
+    [Header("Post Match Boardwalk")]
+    [SerializeField] private GameObject boardRoot;
+    [SerializeField] private PlayerController playerController;
+    [SerializeField] private GameObject playerObject;
+    [SerializeField] private Transform boardwalkSpawnPoint;
+    [SerializeField] private Camera mainCamera;
+    [SerializeField] private CinemachineCamera boardwalkCameraPoint;
+    [SerializeField] private float cameraMoveDuration = 1f;
+    [SerializeField] private GameObject match3Cam;
+    [SerializeField] private GameObject boardwalkCam;
+
     [Header("Timing")]
     [SerializeField] private float sceneFadeInDuration = 1f;
     [SerializeField] private float holdDuration = 0.8f;
@@ -61,6 +73,7 @@ public class Game : MonoBehaviour
     private bool isResolving;
     private bool showingObjective = true;
     private bool gameStarted;
+    private bool postMatchPhaseStarted;
 
     void Start()
     {
@@ -70,6 +83,9 @@ public class Game : MonoBehaviour
 
         if (matchesText != null) matchesText.gameObject.SetActive(false);
         if (matchesLeft != null) matchesLeft.gameObject.SetActive(false);
+
+        if (playerController != null)
+            playerController.enabled = false;
 
         StartCoroutine(FadeCanvasGroup(fadeOverlay, 1f, 0f, sceneFadeInDuration, true));
     }
@@ -97,9 +113,16 @@ public class Game : MonoBehaviour
         boatProgress = 0;
         gameEnded = false;
         isResolving = false;
+        postMatchPhaseStarted = false;
 
         SetActive(winPanel, false);
         SetActive(gameOverPanel, false);
+
+        if (playerController != null)
+            playerController.enabled = false;
+
+        if (boardRoot != null)
+            boardRoot.SetActive(true);
 
         InitializeBoard();
         RemoveStartingMatches();
@@ -275,7 +298,6 @@ public class Game : MonoBehaviour
             yield return new WaitForSeconds(0.05f);
 
             boatProgress += progressEarned;
-            Camera.main.transform.position += new Vector3(0, 0.05f, 0);
 
             if (boatBuilder != null)
                 boatBuilder.AddProgress(progressEarned);
@@ -512,22 +534,51 @@ public class Game : MonoBehaviour
 
     IEnumerator WinSequence()
     {
+        postMatchPhaseStarted = true;
+
         SetActive(winPanel, true);
         SetActive(winText, true);
-        SetActive(setSailText, true);
 
         if (winTextGroup != null) winTextGroup.alpha = 0f;
-        if (setSailGroup != null) setSailGroup.alpha = 0f;
         if (fadeOverlay != null) fadeOverlay.alpha = 0f;
 
         yield return StartCoroutine(FadeCanvasGroup(winTextGroup, 0f, 1f, 0.6f));
         yield return new WaitForSeconds(holdDuration);
-        yield return StartCoroutine(FadeCanvasGroup(winTextGroup, 1f, 0f, 1f));
-        yield return StartCoroutine(FadeCanvasGroup(setSailGroup, 0f, 1f, 2.5f));
-        yield return new WaitForSeconds(0.4f);
+        yield return StartCoroutine(FadeCanvasGroup(winTextGroup, 1f, 0f, 0.8f));
+
+        SetActive(winText, false);
+        SetActive(setSailText, false);
+        SetActive(winPanel, false);
+
+        if (matchesText != null) matchesText.gameObject.SetActive(false);
+        if (matchesLeft != null) matchesLeft.gameObject.SetActive(false);
+
+        if (boardRoot != null)
+            boardRoot.SetActive(false);
+
+        if (playerObject != null && boardwalkSpawnPoint != null)
+            playerObject.transform.position = boardwalkSpawnPoint.position;
+
+        if (playerController != null)
+            playerController.enabled = true;
+        
+        if (match3Cam != null) match3Cam.SetActive(false);
+        if (boardwalkCam != null) boardwalkCam.SetActive(true);
+    }
+    public void SailToNextLevel()
+    {
+        if (!postMatchPhaseStarted) return;
+        StartCoroutine(FinalSailSequence());
+    }
+
+    IEnumerator FinalSailSequence()
+    {
+        if (fadeOverlay != null)
+            fadeOverlay.alpha = 0f;
+
+        yield return new WaitForSeconds(0.5f);
         yield return StartCoroutine(FadeCanvasGroup(fadeOverlay, 0f, 1f, fadeToBlackDuration));
-        yield return StartCoroutine(FadeCanvasGroup(setSailGroup, 1f, 0f, 2f));
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(1f);
 
         SceneManager.LoadScene("MaritimesLevel");
     }
