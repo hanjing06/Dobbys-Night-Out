@@ -4,6 +4,75 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Background_1.unity
+    guid: 7ae907d84291b7d45a4524f2124e3cdd
+  - enabled: 1
+    path: Assets/Scenes/demo scene.unity
+    guid: f41c3f2768fd9cd4d99f617aaf4046b3
+  - enabled: 1
+    path: Assets/Scenes/implicationsSample.unity
+    guid: ca6c66567f23a9a4fa5c52fc4c41395c
+  - enabled: 1
+    path: Assets/Scenes/IntroScene/IntroVideo.unity
+    guid: fcb3c5513ad6f4a62a86491ae6c9d3ad
+  - enabled: 1
+    path: Assets/Scenes/IntroScene/IntroVideo2.unity
+    guid: 3fda8e02423bd4bf689342349e5a8b8d
+  - enabled: 1
+    path: Assets/Scenes/IntroScene/IntroVideo3.unity
+    guid: 4f055a377f1ce4c0db756cda9fd7a634
+  - enabled: 1
+    path: Assets/Scenes/Inventory.unity
+    guid: 569e247ebbd90764faf1e0d637e86101
+  - enabled: 1
+    path: Assets/Scenes/Level 1 - Turkey Level/LevelInfo.unity
+    guid: 1fdac60309a7b5d46a378fc218e7adff
+  - enabled: 1
+    path: Assets/Scenes/Level 1 - Turkey Level/TryAgainScreen.unity
+    guid: 07fe6d9602eee7645bbadbd72c88894a
+  - enabled: 1
+    path: Assets/Scenes/Level 1 - Turkey Level/TheCity/Turkey.unity
+    guid: 660e693c6937ecd4eb12d56cf7a95f06
+  - enabled: 1
+    path: Assets/Scenes/Level 1 - Turkey Level/TheClinic/TheClinic.unity
+    guid: c7913029c46bcd549bb582164e7b0328
+  - enabled: 1
+    path: Assets/Scenes/Level 2 - Hogwarts Level/HogwartsCutScene.unity
+    guid: f3caea9b0b1284709b8f7abba54fe35c
+  - enabled: 1
+    path: Assets/Scenes/Level 2 - Hogwarts Level/HogwartsLevel.unity
+    guid: eea7d3c8eb8d2438aa9631290089ba39
+  - enabled: 1
+    path: Assets/Scenes/Level 3 - Ocean Level/OceanCutscene.unity
+    guid: 2d636c00525a64cf6b414f5cf74ff54f
+  - enabled: 1
+    path: Assets/Scenes/Level 3 - Ocean Level/OceanLevel.unity
+    guid: c7bbbd88a310345a093138b92d132b15
+  - enabled: 1
+    path: Assets/Scenes/Level 4 - Maritime Level/MaritimesLevel.unity
+    guid: 7a235f210087e4a68a099c5bdbd3987f
+  - enabled: 1
+    path: Assets/Scenes/Level 4 - Maritime Level/MaritimesLossScreen.unity
+    guid: ff303f1be16db48f5af3e43c696a4e7c
+  - enabled: 1
+    path: Assets/Scenes/Level 4 - Maritime Level/MarttimesCutScene.unity
+    guid: 3f580030f5fd04959b8f0ebdbe22c81b
+  - enabled: 1
+    path: Assets/Scenes/Level 5 - Toronto Level/Toronto.unity
+    guid: b220b2e56ff804bed91df8513df429e8
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: a7699e414056648438d7060c90b8fda0
+  - enabled: 1
+    path: Assets/Scenes/NpcWithUI.unity
+    guid: ab2d08234b3384a4888db6622e05ec76
+  - enabled: 1
+    path: Assets/Scenes/OptionsMenu.unity
+    guid: ac4f3447320bf464a8971bc7e2dce593
+  - enabled: 1
+    path: Assets/Scenes/Store.unity
+    guid: acd52ae758a20411c831d50d0fd0d896
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

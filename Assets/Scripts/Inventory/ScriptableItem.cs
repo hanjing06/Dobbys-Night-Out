@@ -16,7 +16,6 @@ public class ScriptableItem: ScriptableObject
        AddHealth, //items with energy (ex: yogurt)
        TakeDamage, //harmful items in the environment (ex: tinfoil)
        Currency, //the spiders for purchasing from the store
-       Power //power ups obtained from mystery box
     }
 
     public void UseItem()
@@ -35,9 +34,5 @@ public class ScriptableItem: ScriptableObject
             GameObject.Find("HealthCanvas").GetComponent<HealthManager>().TakeDamage(changeAmt);
         }
 
-        if (change == Change.Power)
-        {
-            GameObject.Find("Player").GetComponent<AbilityManager>().EquipPowerUp();
-        }
     }
 }
